@@ -1,0 +1,882 @@
+%%% ====================================================================
+%%%  BibTeX-file{
+%%%     author          = "Gerry Murray",
+%%%     version         = "1.2",
+%%%     date            = "2 April 2012",
+%%%     filename        = "acmtog-sample-bibfile.bib",
+%%%     address         = "ACM, NY",
+%%%     email           = "murray at hq.acm.org",
+%%%     codetable       = "ISO/ASCII",
+%%%     keywords        = "ACM Reference Format, bibliography, citation, references",
+%%%     supported       = "yes",
+%%%     docstring       = "This BibTeX database file contains 'bibdata' entries
+%%%                        that 'match' the examples provided in the Specifications Document
+%%%                        AND, also, 'legacy'-type bibs. It should assist authors in 
+%%%                        choosing the 'correct' at-bibtype and necessary bib-fields
+%%%                        so as to obtain the appropriate ACM Reference Format output. 
+%%%			   It also contains many 'Standard Abbreviations'. "
+%%%  }
+%%% ====================================================================
+
+% Journals
+
+% First the Full Name is given, then the abbreviation used in the AMS Math
+% Reviews, with an indication if it could not be found there.
+% Note the 2nd overwrites the 1st, so swap them if you want the full name.
+
+ %{AMS}
+ @String{AMSTrans = "American Mathematical Society Translations" }
+ @String{AMSTrans = "Amer. Math. Soc. Transl." }
+ @String{BullAMS = "Bulletin of the American Mathematical Society" }
+ @String{BullAMS = "Bull. Amer. Math. Soc." }
+ @String{ProcAMS = "Proceedings of the American Mathematical Society" }
+ @String{ProcAMS = "Proc. Amer. Math. Soc." }
+ @String{TransAMS = "Transactions of the American Mathematical Society" }
+ @String{TransAMS = "Trans. Amer. Math. Soc." }
+
+ %ACM
+ @String{CACM = "Communications of the {ACM}" }
+ @String{CACM = "Commun. {ACM}" }
+ @String{CompServ = "Comput. Surveys" }
+ @String{JACM = "J. ACM" }
+ @String{ACMMathSoft = "{ACM} Transactions on Mathematical Software" }
+ @String{ACMMathSoft = "{ACM} Trans. Math. Software" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newsletter" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newslett." }
+
+ @String{AmerSocio = "American Journal of Sociology" }
+ @String{AmerStatAssoc = "Journal of the American Statistical Association" }
+ @String{AmerStatAssoc = "J. Amer. Statist. Assoc." }
+ @String{ApplMathComp = "Applied Mathematics and Computation" }
+ @String{ApplMathComp = "Appl. Math. Comput." }
+ @String{AmerMathMonthly = "American Mathematical Monthly" }
+ @String{AmerMathMonthly = "Amer. Math. Monthly" }
+ @String{BIT = "{BIT}" }
+ @String{BritStatPsych = "British Journal of Mathematical and Statistical
+          Psychology" }
+ @String{BritStatPsych = "Brit. J. Math. Statist. Psych." }
+ @String{CanMathBull = "Canadian Mathematical Bulletin" }
+ @String{CanMathBull = "Canad. Math. Bull." }
+ @String{CompApplMath = "Journal of Computational and Applied Mathematics" }
+ @String{CompApplMath = "J. Comput. Appl. Math." }
+ @String{CompPhys = "Journal of Computational Physics" }
+ @String{CompPhys = "J. Comput. Phys." }
+ @String{CompStruct = "Computers and Structures" }
+ @String{CompStruct = "Comput. \& Structures" }
+ @String{CompJour = "The Computer Journal" }
+ @String{CompJour = "Comput. J." }
+ @String{CompSysSci = "Journal of Computer and System Sciences" }
+ @String{CompSysSci = "J. Comput. System Sci." }
+ @String{Computing = "Computing" }
+ @String{ContempMath = "Contemporary Mathematics" }
+ @String{ContempMath = "Contemp. Math." }
+ @String{Crelle = "Crelle's Journal" }
+ @String{GiornaleMath = "Giornale di Mathematiche" }
+ @String{GiornaleMath = "Giorn. Mat." } % didn't find in AMS MR., ibid.
+
+ %IEEE
+ @String{Computer = "{IEEE} Computer" }
+ @String{IEEETransComp = "{IEEE} Transactions on Computers" }
+ @String{IEEETransComp = "{IEEE} Trans. Comput." }
+ @String{IEEETransAC = "{IEEE} Transactions on Automatic Control" }
+ @String{IEEETransAC = "{IEEE} Trans. Automat. Control" }
+ @String{IEEESpec = "{IEEE} Spectrum" } % didn't find in AMS MR
+ @String{ProcIEEE = "Proceedings of the {IEEE}" }
+ @String{ProcIEEE = "Proc. {IEEE}" } % didn't find in AMS MR
+ @String{IEEETransAeroElec = "{IEEE} Transactions on Aerospace and Electronic
+     Systems" }
+ @String{IEEETransAeroElec = "{IEEE} Trans. Aerospace Electron. Systems" }
+
+ @String{IMANumerAna = "{IMA} Journal of Numerical Analysis" }
+ @String{IMANumerAna = "{IMA} J. Numer. Anal." }
+ @String{InfProcLet = "Information Processing Letters" }
+ @String{InfProcLet = "Inform. Process. Lett." }
+ @String{InstMathApp = "Journal of the Institute of Mathematics and
+     its Applications" }
+ @String{InstMathApp = "J. Inst. Math. Appl." }
+ @String{IntControl = "International Journal of Control" }
+ @String{IntControl = "Internat. J. Control" }
+ @String{IntNumerEng = "International Journal for Numerical Methods in
+     Engineering" }
+ @String{IntNumerEng = "Internat. J. Numer. Methods Engrg." }
+ @String{IntSuper = "International Journal of Supercomputing Applications" }
+ @String{IntSuper = "Internat. J. Supercomputing Applic." } % didn't find
+%% in AMS MR
+ @String{Kibernetika = "Kibernetika" }
+ @String{JResNatBurStand = "Journal of Research of the National Bureau
+     of Standards" }
+ @String{JResNatBurStand = "J. Res. Nat. Bur. Standards" }
+ @String{LinAlgApp = "Linear Algebra and its Applications" }
+ @String{LinAlgApp = "Linear Algebra Appl." }
+ @String{MathAnaAppl = "Journal of Mathematical Analysis and Applications" }
+ @String{MathAnaAppl = "J. Math. Anal. Appl." }
+ @String{MathAnnalen = "Mathematische Annalen" }
+ @String{MathAnnalen = "Math. Ann." }
+ @String{MathPhys = "Journal of Mathematical Physics" }
+ @String{MathPhys = "J. Math. Phys." }
+ @String{MathComp = "Mathematics of Computation" }
+ @String{MathComp = "Math. Comp." }
+ @String{MathScand = "Mathematica Scandinavica" }
+ @String{MathScand = "Math. Scand." }
+ @String{TablesAidsComp = "Mathematical Tables and Other Aids to Computation" }
+ @String{TablesAidsComp = "Math. Tables Aids Comput." }
+ @String{NumerMath = "Numerische Mathematik" }
+ @String{NumerMath = "Numer. Math." }
+ @String{PacificMath = "Pacific Journal of Mathematics" }
+ @String{PacificMath = "Pacific J. Math." }
+ @String{ParDistComp = "Journal of Parallel and Distributed Computing" }
+ @String{ParDistComp = "J. Parallel and Distrib. Comput." } % didn't find
+%% in AMS MR
+ @String{ParComputing = "Parallel Computing" }
+ @String{ParComputing = "Parallel Comput." }
+ @String{PhilMag = "Philosophical Magazine" }
+ @String{PhilMag = "Philos. Mag." }
+ @String{ProcNAS = "Proceedings of the National Academy of Sciences
+                    of the USA" }
+ @String{ProcNAS = "Proc. Nat. Acad. Sci. U. S. A." }
+ @String{Psychometrika = "Psychometrika" }
+ @String{QuartMath = "Quarterly Journal of Mathematics, Oxford, Series (2)" }
+ @String{QuartMath = "Quart. J. Math. Oxford Ser. (2)" }
+ @String{QuartApplMath = "Quarterly of Applied Mathematics" }
+ @String{QuartApplMath = "Quart. Appl. Math." }
+ @String{RevueInstStat = "Review of the International Statisical Institute" }
+ @String{RevueInstStat = "Rev. Inst. Internat. Statist." }
+
+ %SIAM
+ @String{JSIAM = "Journal of the Society for Industrial and Applied
+     Mathematics" }
+ @String{JSIAM = "J. Soc. Indust. Appl. Math." }
+ @String{JSIAMB = "Journal of the Society for Industrial and Applied
+     Mathematics, Series B, Numerical Analysis" }
+ @String{JSIAMB = "J. Soc. Indust. Appl. Math. Ser. B Numer. Anal." }
+ @String{SIAMAlgMeth = "{SIAM} Journal on Algebraic and Discrete Methods" }
+ @String{SIAMAlgMeth = "{SIAM} J. Algebraic Discrete Methods" }
+ @String{SIAMAppMath = "{SIAM} Journal on Applied Mathematics" }
+ @String{SIAMAppMath = "{SIAM} J. Appl. Math." }
+ @String{SIAMComp = "{SIAM} Journal on Computing" }
+ @String{SIAMComp = "{SIAM} J. Comput." }
+ @String{SIAMMatrix = "{SIAM} Journal on Matrix Analysis and Applications" }
+ @String{SIAMMatrix = "{SIAM} J. Matrix Anal. Appl." }
+ @String{SIAMNumAnal = "{SIAM} Journal on Numerical Analysis" }
+ @String{SIAMNumAnal = "{SIAM} J. Numer. Anal." }
+ @String{SIAMReview = "{SIAM} Review" }
+ @String{SIAMReview = "{SIAM} Rev." }
+ @String{SIAMSciStat = "{SIAM} Journal on Scientific and Statistical
+     Computing" }
+ @String{SIAMSciStat = "{SIAM} J. Sci. Statist. Comput." }
+
+ @String{SoftPracExp = "Software Practice and Experience" }
+ @String{SoftPracExp = "Software Prac. Experience" } % didn't find in AMS MR
+ @String{StatScience = "Statistical Science" }
+ @String{StatScience = "Statist. Sci." }
+ @String{Techno = "Technometrics" }
+ @String{USSRCompMathPhys = "{USSR} Computational Mathematics and Mathematical
+     Physics" }
+ @String{USSRCompMathPhys = "{U. S. S. R.} Comput. Math. and Math. Phys." }
+ @String{VLSICompSys = "Journal of {VLSI} and Computer Systems" }
+ @String{VLSICompSys = "J. {VLSI} Comput. Syst." }
+ @String{ZAngewMathMech = "Zeitschrift fur Angewandte Mathematik und
+     Mechanik" }
+ @String{ZAngewMathMech = "Z. Angew. Math. Mech." }
+ @String{ZAngewMathPhys = "Zeitschrift fur Angewandte Mathematik und Physik" }
+ @String{ZAngewMathPhys = "Z. Angew. Math. Phys." }
+
+% Publishers % ================================================= |
+
+ @String{Academic = "Academic Press" }
+ @String{ACMPress = "{ACM} Press" }
+ @String{AdamHilger = "Adam Hilger" }
+ @String{AddisonWesley = "Addison-Wesley" }
+ @String{AllynBacon = "Allyn and Bacon" }
+ @String{AMS = "American Mathematical Society" }
+ @String{Birkhauser = "Birkha{\"u}ser" }
+ @String{CambridgePress = "Cambridge University Press" }
+ @String{Chelsea = "Chelsea" }
+ @String{ClaredonPress = "Claredon Press" }
+ @String{DoverPub = "Dover Publications" }
+ @String{Eyolles = "Eyolles" }
+ @String{HoltRinehartWinston = "Holt, Rinehart and Winston" }
+ @String{Interscience = "Interscience" }
+ @String{JohnsHopkinsPress = "The Johns Hopkins University Press" }
+ @String{JohnWileySons = "John Wiley and Sons" }
+ @String{Macmillan = "Macmillan" }
+ @String{MathWorks = "The Math Works Inc." }
+ @String{McGrawHill = "McGraw-Hill" }
+ @String{NatBurStd = "National Bureau of Standards" }
+ @String{NorthHolland = "North-Holland" }
+ @String{OxfordPress = "Oxford University Press" }  %address Oxford or London?
+ @String{PergamonPress = "Pergamon Press" }
+ @String{PlenumPress = "Plenum Press" }
+ @String{PrenticeHall = "Prentice-Hall" }
+ @String{SIAMPub = "{SIAM} Publications" }
+ @String{Springer = "Springer-Verlag" }
+ @String{TexasPress = "University of Texas Press" }
+ @String{VanNostrand = "Van Nostrand" }
+ @String{WHFreeman = "W. H. Freeman and Co." }
+
+%Entries
+
+@article{szegedy2013intriguing,
+  title={Intriguing properties of neural networks},
+  author={Szegedy, Christian and Zaremba, Wojciech and Sutskever, Ilya and Bruna, Joan and Erhan, Dumitru and Goodfellow, Ian and Fergus, Rob},
+  journal={arXiv preprint arXiv:1312.6199},
+  year={2013}
+}
+
+@article{goodfellow2014explaining,
+  title={Explaining and harnessing adversarial examples},
+  author={Goodfellow, Ian J and Shlens, Jonathon and Szegedy, Christian},
+  journal={arXiv preprint arXiv:1412.6572},
+  year={2014}
+}
+
+@article{mcdaniel2016machine,
+  title={Machine learning in adversarial settings},
+  author={McDaniel, Patrick and Papernot, Nicolas and Celik, Z Berkay},
+  journal={IEEE Security \& Privacy},
+  volume={14},
+  number={3},
+  pages={68--72},
+  year={2016},
+  publisher={IEEE}
+}
+
+@article{kurakin2016adversarial,
+  title={Adversarial examples in the physical world},
+  author={Kurakin, Alexey and Goodfellow, Ian and Bengio, Samy},
+  journal={arXiv preprint arXiv:1607.02533},
+  year={2016}
+}
+
+@inproceedings{sharif2016accessorize,
+  title={Accessorize to a crime: Real and stealthy attacks on state-of-the-art face recognition},
+  author={Sharif, Mahmood and Bhagavatula, Sruti and Bauer, Lujo and Reiter, Michael K},
+  booktitle={Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security},
+  pages={1528--1540},
+  year={2016},
+  organization={ACM}
+}
+
+@article{huang2017adversarial,
+  title={Adversarial attacks on neural network policies},
+  author={Huang, Sandy and Papernot, Nicolas and Goodfellow, Ian and Duan, Yan and Abbeel, Pieter},
+  journal={arXiv preprint arXiv:1702.02284},
+  year={2017}
+}
+
+@article{behzadan2017vulnerability,
+  title={Vulnerability of Deep Reinforcement Learning to Policy Induction Attacks},
+  author={Behzadan, Vahid and Munir, Arslan},
+  journal={arXiv preprint arXiv:1701.04143},
+  year={2017}
+}
+
+@inproceedings{papernot2016crafting,
+  title={Crafting adversarial input sequences for recurrent neural networks},
+  author={Papernot, Nicolas and McDaniel, Patrick and Swami, Ananthram and Harang, Richard},
+  booktitle={Military Communications Conference, MILCOM 2016-2016 IEEE},
+  pages={49--54},
+  year={2016},
+  organization={IEEE}
+}
+
+@article{lin2017tactics,
+  title={Tactics of Adversarial Attack on Deep Reinforcement Learning Agents},
+  author={Lin, Yen-Chen and Hong, Zhang-Wei and Liao, Yuan-Hong and Shih, Meng-Li and Liu, Ming-Yu and Sun, Min},
+  journal={arXiv preprint arXiv:1703.06748},
+  year={2017}
+}
+
+@article{kos2017delving,
+  title={Delving into adversarial attacks on deep policies},
+  author={Kos, Jernej and Song, Dawn},
+  journal={arXiv preprint arXiv:1705.06452},
+  year={2017}
+}
+
+@article{xie2017adversarial,
+  title={Adversarial Examples for Semantic Segmentation and Object Detection},
+  author={Xie, Cihang and Wang, Jianyu and Zhang, Zhishuai and Zhou, Yuyin and Xie, Lingxi and Yuille, Alan},
+  journal={arXiv preprint arXiv:1703.08603},
+  year={2017}
+}
+
+@article{kos2017adversarial,
+  title={Adversarial examples for generative models},
+  author={Kos, Jernej and Fischer, Ian and Song, Dawn},
+  journal={arXiv preprint arXiv:1702.06832},
+  year={2017}
+}
+
+@inproceedings{nguyen2015deep,
+  title={Deep neural networks are easily fooled: High confidence predictions for unrecognizable images},
+  author={Nguyen, Anh and Yosinski, Jason and Clune, Jeff},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={427--436},
+  year={2015}
+}
+
+@inproceedings{carlini2017towards,
+  title={Towards evaluating the robustness of neural networks},
+  author={Carlini, Nicholas and Wagner, David},
+  booktitle={Security and Privacy (SP), 2017 IEEE Symposium on},
+  pages={39--57},
+  year={2017},
+  organization={IEEE}
+}
+
+@article{papernot2016practical,
+  title={Practical black-box attacks against deep learning systems using adversarial examples},
+  author={Papernot, Nicolas and McDaniel, Patrick and Goodfellow, Ian and Jha, Somesh and Celik, Z Berkay and Swami, Ananthram},
+  journal={arXiv preprint arXiv:1602.02697},
+  year={2016}
+}
+
+@inproceedings{papernot2016limitations,
+  title={The limitations of deep learning in adversarial settings},
+  author={Papernot, Nicolas and McDaniel, Patrick and Jha, Somesh and Fredrikson, Matt and Celik, Z Berkay and Swami, Ananthram},
+  booktitle={Security and Privacy (EuroS\&P), 2016 IEEE European Symposium on},
+  pages={372--387},
+  year={2016},
+  organization={IEEE}
+}
+
+@article{su2017one,
+  title={One pixel attack for fooling deep neural networks},
+  author={Su, Jiawei and Vargas, Danilo Vasconcellos and Kouichi, Sakurai},
+  journal={arXiv preprint arXiv:1710.08864},
+  year={2017}
+}
+
+@article{tramer2017space,
+  title={The Space of Transferable Adversarial Examples},
+  author={Tram{\`e}r, Florian and Papernot, Nicolas and Goodfellow, Ian and Boneh, Dan and McDaniel, Patrick},
+  journal={arXiv preprint arXiv:1704.03453},
+  year={2017}
+}
+
+@inproceedings{moosavi2016deepfool,
+  title={Deepfool: a simple and accurate method to fool deep neural networks},
+  author={Moosavi-Dezfooli, Seyed-Mohsen and Fawzi, Alhussein and Frossard, Pascal},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={2574--2582},
+  year={2016}
+}
+
+
+@inproceedings{rozsa2016adversarial,
+  title={Adversarial diversity and hard positive generation},
+  author={Rozsa, Andras and Rudd, Ethan M and Boult, Terrance E},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops},
+  pages={25--32},
+  year={2016}
+}
+
+@article{huang2015learning,
+  title={Learning with a strong adversary},
+  author={Huang, Ruitong and Xu, Bing and Schuurmans, Dale and Szepesv{\'a}ri, Csaba},
+  journal={arXiv preprint arXiv:1511.03034},
+  year={2015}
+}
+
+@article{baluja2017adversarial,
+  title={Adversarial Transformation Networks: Learning to Generate Adversarial Examples},
+  author={Baluja, Shumeet and Fischer, Ian},
+  journal={arXiv preprint arXiv:1703.09387},
+  year={2017}
+}
+
+@article{tramer2017ensemble,
+  title={Ensemble Adversarial Training: Attacks and Defenses},
+  author={Tram{\`e}r, Florian and Kurakin, Alexey and Papernot, Nicolas and Boneh, Dan and McDaniel, Patrick},
+  journal={arXiv preprint arXiv:1705.07204},
+  year={2017}
+}
+
+@inproceedings{papernot2016distillation,
+  title={Distillation as a defense to adversarial perturbations against deep neural networks},
+  author={Papernot, Nicolas and McDaniel, Patrick and Wu, Xi and Jha, Somesh and Swami, Ananthram},
+  booktitle={Security and Privacy (SP), 2016 IEEE Symposium on},
+  pages={582--597},
+  year={2016},
+  organization={IEEE}
+}
+
+@article{gu2014towards,
+  title={Towards deep neural network architectures robust to adversarial examples},
+  author={Gu, Shixiang and Rigazio, Luca},
+  journal={arXiv preprint arXiv:1412.5068},
+  year={2014}
+}
+
+@article{miyato2015distributional,
+  title={Distributional smoothing with virtual adversarial training},
+  author={Miyato, Takeru and Maeda, Shin-ichi and Koyama, Masanori and Nakae, Ken and Ishii, Shin},
+  journal={arXiv preprint arXiv:1507.00677},
+  year={2015}
+}
+
+@article{lu2017safetynet,
+  title={Safetynet: Detecting and rejecting adversarial examples robustly},
+  author={Lu, Jiajun and Issaranon, Theerasit and Forsyth, David},
+  journal={arXiv preprint arXiv:1704.00103},
+  year={2017}
+}
+
+@article{meng2017magnet,
+  title={MagNet: a Two-Pronged Defense against Adversarial Examples},
+  author={Meng, Dongyu and Chen, Hao},
+  journal={arXiv preprint arXiv:1705.09064},
+  year={2017}
+}
+
+@article{lee2017generative,
+  title={Generative Adversarial Trainer: Defense to Adversarial Perturbations with GAN},
+  author={Lee, Hyeungill and Han, Sungyeob and Lee, Jungwoo},
+  journal={arXiv preprint arXiv:1705.03387},
+  year={2017}
+}
+
+@article{hamm2017machine,
+  title={Machine vs Machine: Defending Classifiers Against Learning-based Adversarial Attacks},
+  author={Hamm, Jihun},
+  journal={arXiv preprint arXiv:1711.04368},
+  year={2017}
+}
+
+@article{papernot2016integrity,
+  title={On The Integrity Of Deep Learning Systems In Adversarial Settings},
+  author={Papernot, Nicolas},
+  year={2016}
+}
+
+@article{papernot2017extending,
+  title={Extending Defensive Distillation},
+  author={Papernot, Nicolas and McDaniel, Patrick},
+  journal={arXiv preprint arXiv:1705.05264},
+  year={2017}
+}
+
+@article{papernot2016transferability,
+  title={Transferability in machine learning: from phenomena to black-box attacks using adversarial samples},
+  author={Papernot, Nicolas and McDaniel, Patrick and Goodfellow, Ian},
+  journal={arXiv preprint arXiv:1605.07277},
+  year={2016}
+}
+
+@article{papernot2016towards,
+  title={Towards the science of security and privacy in machine learning},
+  author={Papernot, Nicolas and McDaniel, Patrick and Sinha, Arunesh and Wellman, Michael},
+  journal={arXiv preprint arXiv:1611.03814},
+  year={2016}
+}
+
+@article{chen2017ead,
+  title={EAD: Elastic-Net Attacks to Deep Neural Networks via Adversarial Examples},
+  author={Chen, Pin-Yu and Sharma, Yash and Zhang, Huan and Yi, Jinfeng and Hsieh, Cho-Jui},
+  journal={arXiv preprint arXiv:1709.04114},
+  year={2017}
+}
+
+@article{liu2016delving,
+  title={Delving into transferable adversarial examples and black-box attacks},
+  author={Liu, Yanpei and Chen, Xinyun and Liu, Chang and Song, Dawn},
+  journal={arXiv preprint arXiv:1611.02770},
+  year={2016}
+}
+
+@article{moosavi2016universal,
+  title={Universal adversarial perturbations},
+  author={Moosavi-Dezfooli, Seyed-Mohsen and Fawzi, Alhussein and Fawzi, Omar and Frossard, Pascal},
+  journal={arXiv preprint arXiv:1610.08401},
+  year={2016}
+}
+
+@article{kurakin2016adversarial,
+  title={Adversarial machine learning at scale},
+  author={Kurakin, Alexey and Goodfellow, Ian and Bengio, Samy},
+  journal={arXiv preprint arXiv:1611.01236},
+  year={2016}
+}
+
+@article{carlini2016defensive,
+  title={Defensive distillation is not robust to adversarial examples},
+  author={Carlini, Nicholas and Wagner, David},
+  journal={arXiv preprint arXiv:1607.04311},
+  year={2016}
+}
+
+@inproceedings{graese2016assessing,
+  title={Assessing threat of adversarial examples on deep neural networks},
+  author={Graese, Abigail and Roza, Andras and Boult, Terrance E},
+  booktitle={Machine Learning and Applications (ICMLA), 2016 15th IEEE International Conference on},
+  pages={69--74},
+  year={2016},
+  organization={IEEE}
+}
+
+@article{guo2017countering,
+  title={Countering Adversarial Images using Input Transformations},
+  author={Guo, Chuan and Rana, Mayank and Cisse, Moustapha and van der Maaten, Laurens},
+  journal={arXiv preprint arXiv:1711.00117},
+  year={2017}
+}
+
+@article{luo2015foveation,
+  title={Foveation-based mechanisms alleviate adversarial examples},
+  author={Luo, Yan and Boix, Xavier and Roig, Gemma and Poggio, Tomaso and Zhao, Qi},
+  journal={arXiv preprint arXiv:1511.06292},
+  year={2015}
+}
+
+@article{li2016adversarial,
+  title={Adversarial examples detection in deep networks with convolutional filter statistics},
+  author={Li, Xin and Li, Fuxin},
+  journal={arXiv preprint arXiv:1612.07767},
+  year={2016}
+}
+
+@article{metzen2017detecting,
+  title={On detecting adversarial perturbations},
+  author={Metzen, Jan Hendrik and Genewein, Tim and Fischer, Volker and Bischoff, Bastian},
+  journal={arXiv preprint arXiv:1702.04267},
+  year={2017}
+}
+
+@article{gao2017deepcloak,
+  title={DeepCloak: Masking Deep Neural Network Models for Robustness Against Adversarial Samples},
+  author={Gao, Ji and Wang, Beilun and Lin, Zeming and Xu, Weilin and Qi, Yanjun},
+  year={2017}
+}
+
+@article{kilcher2017best,
+  title={The best defense is a good offense: Countering black box attacks by predicting slightly wrong labels},
+  author={Kilcher, Yannic and Hofmann, Thomas},
+  journal={arXiv preprint arXiv:1711.05475},
+  year={2017}
+}
+
+@article{zantedeschi2017efficient,
+  title={Efficient defenses against adversarial attacks},
+  author={Zantedeschi, Valentina and Nicolae, Maria-Irina and Rawat, Ambrish},
+  journal={arXiv preprint arXiv:1707.06728},
+  year={2017}
+}
+
+@article{feinman2017detecting,
+  title={Detecting Adversarial Samples from Artifacts},
+  author={Feinman, Reuben and Curtin, Ryan R and Shintre, Saurabh and Gardner, Andrew B},
+  journal={arXiv preprint arXiv:1703.00410},
+  year={2017}
+}
+
+@article{hendrycks2017early,
+  title={Early Methods for Detecting Adversarial Images},
+  author={Hendrycks, Dan and Gimpel, Kevin},
+  year={2017}
+}
+
+@article{grosse2017statistical,
+  title={On the (statistical) detection of adversarial examples},
+  author={Grosse, Kathrin and Manoharan, Praveen and Papernot, Nicolas and Backes, Michael and McDaniel, Patrick},
+  journal={arXiv preprint arXiv:1702.06280},
+  year={2017}
+}
+
+@article{liang2017detecting,
+  title={Detecting Adversarial Examples in Deep Networks with Adaptive Noise Reduction},
+  author={Liang, Bin and Li, Hongcheng and Su, Miaoqiang and Li, Xirong and Shi, Wenchang and Wang, Xiaofeng},
+  journal={arXiv preprint arXiv:1705.08378},
+  year={2017}
+}
+
+@article{carlini2017adversarial,
+  title={Adversarial Examples Are Not Easily Detected: Bypassing Ten Detection Methods},
+  author={Carlini, Nicholas and Wagner, David},
+  journal={arXiv preprint arXiv:1705.07263},
+  year={2017}
+}
+
+@article{grosse2016adversarial,
+  title={Adversarial perturbations against deep neural networks for malware classification},
+  author={Grosse, Kathrin and Papernot, Nicolas and Manoharan, Praveen and Backes, Michael and McDaniel, Patrick},
+  journal={arXiv preprint arXiv:1606.04435},
+  year={2016}
+}
+
+@article{miller2017adversarial,
+  title={Adversarial Learning: A Critical Review and Active Learning Study},
+  author={Miller, David J and Hu, Xinyi and Qiu, Zhicong and Kesidis, George},
+  journal={arXiv preprint arXiv:1705.09823},
+  year={2017}
+}
+
+@book{nelson2010behavior,
+  title={Behavior of Machine Learning Algorithms in Adversarial Environments},
+  author={Nelson, Blaine Alan},
+  year={2010},
+  publisher={University of California, Berkeley}
+}
+
+
+@article{biggio2012poisoning,
+  title={Poisoning attacks against support vector machines},
+  author={Biggio, Battista and Nelson, Blaine and Laskov, Pavel},
+  journal={arXiv preprint arXiv:1206.6389},
+  year={2012}
+}
+
+@inproceedings{biggio2013evasion,
+  title={Evasion attacks against machine learning at test time},
+  author={Biggio, Battista and Corona, Igino and Maiorca, Davide and Nelson, Blaine and {\v{S}}rndi{\'c}, Nedim and Laskov, Pavel and Giacinto, Giorgio and Roli, Fabio},
+  booktitle={Joint European Conference on Machine Learning and Knowledge Discovery in Databases},
+  pages={387--402},
+  year={2013},
+  organization={Springer}
+}
+
+@article{chang2017one,
+  title={One Network to Solve Them All---Solving Linear Inverse Problems using Deep Projection Models},
+  author={Chang, JH and Li, Chun-Liang and P{\'o}czos, Barnab{\'a}s and Kumar, BVK and Sankaranarayanan, Aswin C},
+  journal={arXiv preprint arXiv:1703.09912},
+  year={2017}
+}
+
+@inproceedings{goodfellow2014generative,
+  title={Generative adversarial nets},
+  author={Goodfellow, Ian and Pouget-Abadie, Jean and Mirza, Mehdi and Xu, Bing and Warde-Farley, David and Ozair, Sherjil and Courville, Aaron and Bengio, Yoshua},
+  booktitle={Advances in neural information processing systems},
+  pages={2672--2680},
+  year={2014}
+}
+
+@article{dritsoula2016game,
+  title={A Game-Theoretic Analysis of Adversarial Classification},
+  author={Dritsoula, Lemonia and Loiseau, Patrick and Musacchio, John},
+  journal={arXiv preprint arXiv:1610.04972},
+  year={2016}
+}
+
+@article{hinton2015distilling,
+  title={Distilling the knowledge in a neural network},
+  author={Hinton, Geoffrey and Vinyals, Oriol and Dean, Jeff},
+  journal={arXiv preprint arXiv:1503.02531},
+  year={2015}
+}
+
+@article{el2007noniterative,
+  title={Noniterative algorithms for sensitivity analysis attacks},
+  author={El Choubassi, Maha and Moulin, Pierre},
+  journal={IEEE Transactions on Information Forensics and Security},
+  volume={2},
+  number={2},
+  pages={113--126},
+  year={2007},
+  publisher={IEEE}
+}
+
+@article{hosseini2017deceiving,
+  title={Deceiving Google's Cloud Video Intelligence API Built for Summarizing Videos},
+  author={Hosseini, Hossein and Xiao, Baicen and Poovendran, Radha},
+  journal={arXiv preprint arXiv:1703.09793},
+  year={2017}
+}
+
+@inproceedings{abadi2017protection,
+  title={On the Protection of Private Information in Machine Learning Systems: Two Recent Approches},
+  author={Abadi, Mart{\'\i}n and Erlingsson, Ulfar and Goodfellow, Ian and McMahan, H Brendan and Mironov, Ilya and Papernot, Nicolas and Talwar, Kunal and Zhang, Li},
+  booktitle={Computer Security Foundations Symposium (CSF), 2017 IEEE 30th},
+  pages={1--6},
+  year={2017},
+  organization={IEEE}
+}
+
+@article{wang2017adversarial,
+  title={Adversarial Cross-Modal Retrieval},
+  author={Wang, Bokun and Yang, Yang and Xu, Xing and Hanjalic, Alan and Shen, Heng Tao},
+  year={2017}
+}
+
+@article{miyato2016adversarial,
+  title={Adversarial Training Methods for Semi-Supervised Text Classification},
+  author={Miyato, Takeru and Dai, Andrew M and Goodfellow, Ian},
+  journal={arXiv preprint arXiv:1605.07725},
+  year={2016}
+}
+
+@article{laskov2010machine,
+  title={Machine learning in adversarial environments},
+  author={Laskov, Pavel and Lippmann, Richard},
+  journal={Machine learning},
+  volume={81},
+  number={2},
+  pages={115--119},
+  year={2010},
+  publisher={Springer}
+}
+
+@article{el2009reliability,
+  title={On reliability and security of randomized detectors against sensitivity analysis attacks},
+  author={El Choubassi, Maha and Moulin, Pierre},
+  journal={IEEE Transactions on Information Forensics and Security},
+  volume={4},
+  number={3},
+  pages={273--283},
+  year={2009},
+  publisher={IEEE}
+}
+
+@article{heravi2015analyzing,
+  title={Analyzing Stability of Convolutional Neural Networks in the Frequency Domain},
+  author={Heravi, Elnaz J and Aghdam, Hamed H and Puig, Domenec},
+  journal={arXiv preprint arXiv:1511.03042},
+  year={2015}
+}
+
+@inproceedings{ioffe2015batch,
+  title={Batch normalization: Accelerating deep network training by reducing internal covariate shift},
+  author={Ioffe, Sergey and Szegedy, Christian},
+  booktitle={International Conference on Machine Learning},
+  pages={448--456},
+  year={2015}
+}
+
+@article{kearns1993learning,
+  title={Learning in the presence of malicious errors},
+  author={Kearns, Michael and Li, Ming},
+  journal={SIAM Journal on Computing},
+  volume={22},
+  number={4},
+  pages={807--837},
+  year={1993},
+  publisher={SIAM}
+}
+
+@article{makhzani2015adversarial,
+  title={Adversarial autoencoders},
+  author={Makhzani, Alireza and Shlens, Jonathon and Jaitly, Navdeep and Goodfellow, Ian and Frey, Brendan},
+  journal={arXiv preprint arXiv:1511.05644},
+  year={2015}
+}
+
+@inproceedings{dalvi2004adversarial,
+  title={Adversarial classification},
+  author={Dalvi, Nilesh and Domingos, Pedro and Sanghai, Sumit and Verma, Deepak and others},
+  booktitle={Proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining},
+  pages={99--108},
+  year={2004},
+  organization={ACM}
+}
+
+@article{lu2017standard,
+  title={Standard detectors aren't (currently) fooled by physical adversarial stop signs},
+  author={Lu, Jiajun and Sibai, Hussein and Fabry, Evan and Forsyth, David},
+  journal={arXiv preprint arXiv:1710.03337},
+  year={2017}
+}
+
+@article{papernot2016semi,
+  title={Semi-supervised knowledge transfer for deep learning from private training data},
+  author={Papernot, Nicolas and Abadi, Mart{\'\i}n and Erlingsson, {\'U}lfar and Goodfellow, Ian and Talwar, Kunal},
+  journal={arXiv preprint arXiv:1610.05755},
+  year={2016}
+}
+
+@inproceedings{papernot2015enforcing,
+  title={Enforcing agile access control policies in relational databases using views},
+  author={Papernot, Nicolas and McDaniel, Patrick and Walls, Robert J},
+  booktitle={Military Communications Conference, MILCOM 2015-2015 IEEE},
+  pages={7--12},
+  year={2015},
+  organization={IEEE}
+}
+
+@inproceedings{mcdaniel2014security,
+  title={Security and science of agility},
+  author={McDaniel, Patrick and Jaeger, Trent and La Porta, Thomas F and Papernot, Nicolas and Walls, Robert J and Kott, Alexander and Marvel, Lisa and Swami, Ananthram and Mohapatra, Prasant and Krishnamurthy, Srikanth V and others},
+  booktitle={Proceedings of the First ACM Workshop on Moving Target Defense},
+  pages={13--19},
+  year={2014},
+  organization={ACM}
+}
+
+@article{lu2017no,
+  title={No need to worry about adversarial examples in object detection in autonomous vehicles},
+  author={Lu, Jiajun and Sibai, Hussein and Fabry, Evan and Forsyth, David},
+  journal={arXiv preprint arXiv:1707.03501},
+  year={2017}
+}
+
+@inproceedings{rozsa2016accuracy,
+  title={Are accuracy and robustness correlated},
+  author={Rozsa, Andras and G{\"u}nther, Manuel and Boult, Terrance E},
+  booktitle={Machine Learning and Applications (ICMLA), 2016 15th IEEE International Conference on},
+  pages={227--232},
+  year={2016},
+  organization={IEEE}
+}
+
+@article{madry2017towards,
+  title={Towards deep learning models resistant to adversarial attacks},
+  author={Madry, Aleksander and Makelov, Aleksandar and Schmidt, Ludwig and Tsipras, Dimitris and Vladu, Adrian},
+  journal={arXiv preprint arXiv:1706.06083},
+  year={2017}
+}
+
+@article{fong2017interpretable,
+  title={Interpretable Explanations of Black Boxes by Meaningful Perturbation},
+  author={Fong, Ruth and Vedaldi, Andrea},
+  journal={arXiv preprint arXiv:1704.03296},
+  year={2017}
+}
+
+@article{oh2017whitening,
+  title={Whitening Black-Box Neural Networks},
+  author={Oh, Seong Joon and Augustin, Max and Schiele, Bernt and Fritz, Mario},
+  journal={arXiv preprint arXiv:1711.01768},
+  year={2017}
+}
+
+@article{carlini2017ground,
+  title={Ground-Truth Adversarial Examples},
+  author={Carlini, Nicholas and Katz, Guy and Barrett, Clark and Dill, David L},
+  journal={arXiv preprint arXiv:1709.10207},
+  year={2017}
+}
+
+@article{wang2017analyzing,
+  title={Analyzing the Robustness of Nearest Neighbors to Adversarial Examples},
+  author={Wang, Yizhen and Jha, Somesh and Chaudhuri, Kamalika},
+  journal={arXiv preprint arXiv:1706.03922},
+  year={2017}
+}
+
+@article{gong2017adversarial,
+  title={Adversarial and Clean Data Are Not Twins},
+  author={Gong, Zhitao and Wang, Wenlu and Ku, Wei-Shinn},
+  journal={arXiv preprint arXiv:1704.04960},
+  year={2017}
+}
+
+@article{xu2017feature,
+  title={Feature Squeezing Mitigates and Detects Carlini/Wagner Adversarial Examples},
+  author={Xu, Weilin and Evans, David and Qi, Yanjun},
+  journal={arXiv preprint arXiv:1705.10686},
+  year={2017}
+}
+
+@inproceedings{lowd2005adversarial,
+  title={Adversarial learning},
+  author={Lowd, Daniel and Meek, Christopher},
+  booktitle={Proceedings of the eleventh ACM SIGKDD international conference on Knowledge discovery in data mining},
+  pages={641--647},
+  year={2005},
+  organization={ACM}
+}
+
+
+
+
+%%%%%%%%%%%%%% additional bibs
+
+
