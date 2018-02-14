@@ -2,6 +2,10 @@
 
 Paper sharing in adversary related works
 
+## Blog
+
+[Hanwei DeepLearningInAdversarialContext](https://rgtjf.github.io/Adversarial-Reading/DeepLearningInAdversarialContext.html
+
 ## Paper Reading
 
 a). Relatedness: related extent to our topic
