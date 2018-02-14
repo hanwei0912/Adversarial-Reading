@@ -4,7 +4,8 @@ Paper sharing in adversary related works
 
 ## Blog
 
-(Hanwei DeepLearningInAdversarialContext)[https://rgtjf.github.io/Adversarial-Reading/DeepLearningInAdversarialContext.html]
+
+Hanwei, [DeepLearning In Adversarial Context](https://rgtjf.github.io/Adversarial-Reading/DeepLearningInAdversarialContext.html)
 
 ## Paper Reading
 
