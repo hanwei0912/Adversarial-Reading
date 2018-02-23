@@ -1,38 +1,54 @@
 Links --> github of the defense method:
 Ensemble Adversarial Training: Attacks and Defenses:
 https://github.com/ftramer/ensemble-adv-training
+
 Explaining and Harnessing Adversarial Examples:
 https://github.com/abhibhav14/adversarial-machine-learning
+
 MagNet: MagNet: a Two-Pronged Defense against Adversarial Examples
 https://github.com/Trevillie/MagNet
+
 Defensive Distillation is Not Robust to Adversarial examples
 https://github.com/carlini/breaking_defensive_distillation
+
 Extending Defensive Distillation
 https://github.com/timctho/artificial-idiot
+
 Distributional Smoothing with Virtual Adversarial Training
 https://github.com/takerum/vat
 https://github.com/takerum/vat_tf
 https://github.com/takerum/vat_chainer
 https://github.com/musyoku/vat
+
 Adversarial Autoencoders
 https://github.com/takerum/adversarial_autoencoder
+
 APE-GAN: Adversarial Perturbation Elimination with GAN
 https://github.com/carlini/APE-GAN
+
 Adversarial Examples are not Easily Detected
 https://github.com/carlini/nn_breaking_detection
+
 Obfuscated Gradients Give a False Sense of Security: Circumventing Defenses to Adversarial Examples
 https://github.com/anishathalye/obfuscated-gradients
+
 DeepCloak: Masking Deep Neural Network Models for Robustness Against Adversarial Samples
 https://github.com/QData/DeepCloak
+
 Code to reproduce and break the "Efficient Defenses" paper
 https://github.com/carlini/breaking_efficient_defenses
+
 Defense against Adversarial Attacks Using High-Level Representation Guided Denoiser
 https://github.com/lfz/Guided-Denoise
+
 Reluplex: An Efficient SMT Solver for Verifying Deep Neural Networks
 https://github.com/guykatzz/ReluplexCav2017
+
 Detecting Adversarial Samples from Artifacts
 https://github.com/rfeinman/detecting-adversarial-samples
+
 Early Methods for Detecting Adversarial Images
 https://github.com/hendrycks/fooling
+
 Detecting Adversarial Examples in Deep Networks with Adaptive Noise Reduction
 https://github.com/OwenSec/DeepDetector
