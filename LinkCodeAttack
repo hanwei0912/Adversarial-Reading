@@ -1,0 +1,36 @@
+Links --> github of the attack method:
+
+
+Towards Evaluating the Robustness of Neural Networks
+https://github.com/carlini/nn_robust_attacks
+
+Towards Deep Learning Models Resistant to Adversarial Attacks 
+https://github.com/MadryLab/mnist_challenge
+
+CleverHans (latest release: v2.0.0)
+https://github.com/tensorflow/cleverhans
+
+Boosting Adversarial Attacks with Momentum
+https://github.com/dongyp13/Targeted-Adversarial-Attack
+
+Deep Neural Networks are Easily Fooled: High Confidence Predictions for Unrecognizable Images
+Explaining and Harnessing Adversarial Examples
+https://github.com/utkuozbulak/pytorch-cnn-adversarial-attacks
+
+Foolbox
+https://github.com/bethgelab/foolbox
+
+pytorch-nips2017-attack-example
+https://github.com/rwightman/pytorch-nips2017-attack-example
+
+Craft Image Adversarial Samples with Tensorflow
+https://github.com/gongzhitaao/tensorflow-adversarial
+
+A simple and accurate method to fool deep neural networks
+https://github.com/LTS4/DeepFool
+
+Adversarial Attack with Chainer
+https://github.com/naoto0804/chainer-adversarial-examples
+
+Adversarial-Examples-in-PyTorch
+https://github.com/akshaychawla/Adversarial-Examples-in-PyTorch
