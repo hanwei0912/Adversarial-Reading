@@ -233,3 +233,6 @@ the multi-scale version of RDIM, to generate multi-scale gradients. After
 the first two steps we transform value fitting into region fitting across
 iterations. RDIM and region fitting do not require extra running time
 and these three steps can be well integrated into other attacks
+
+_____
+#### [Ensemble deep learning: A review](https://arxiv.org/pdf/2104.02395.pdf)
