@@ -1,3 +1,22 @@
+### [Improving the Adversarial Robustness and Interpretability of Deep Neural Networks by Regularizing Their Input Gradients](https://ojs.aaai.org/index.php/AAAI/article/view/11504)
+
+__Abstract__:
+In this work, we evaluate the effectiveness of defenses
+that differentiably penalize the degree to which small
+changes in inputs can alter model predictions. Across multiple
+attacks, architectures, defenses, and datasets, we find
+that neural networks trained with this input gradient regularization
+exhibit robustness to transferred adversarial examples
+generated to fool all of the other models. We also find that
+adversarial examples generated to fool gradient-regularized
+models fool all other models equally well, and actually lead
+to more “legitimate,” interpretable misclassifications as rated
+by people (which we confirm in a human subject experiment).
+Finally, we demonstrate that regularizing input gradients
+makes them more naturally interpretable as rationales for
+model predictions.
+
+
 ### [Gradient Adversarial Training of Neural Networks](https://arxiv.org/pdf/1806.08028.pdf)
 
 __Method__:
