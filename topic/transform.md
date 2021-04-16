@@ -45,7 +45,9 @@ inference.
 deep networks via manipulations based on basis function representations of images. Specifically, we experiment with low-pass filtering, PCA, JPEG compression, low resolution wavelet
 approximation, and soft-thresholding. We evaluate these defense techniques using three types
 of popular attacks in black, gray and white-box settings
-
+![daf](figures/defendAbasicfunction.png)
+![daf](figures/defendAbasicfunction1.png)
+![daf](figures/defendAbasicfunction2.png)
 
 ## [Encryption inspired adversarial defense for visual classification](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9190904&casa_token=Z1Iyo_hyV_QAAAAA:0UdK0p2dbvxrtukVhPI81PLJ6YuWkTOAQEWZ7Lu30-PjYfBU8Zn239IxIBVx-eVODokbHEAI7w)
 - abstract: In this paper, we
@@ -53,5 +55,44 @@ propose a new adversarial defense which is a defensive transform for both traini
 image encryption methods. The proposed method utilizes a
 block-wise pixel shuffling method with a secret key.
 
+![enc](figures/encryption.png)
+
+## [Barrage of Random Transforms for Adversarially Robust Defense](https://openaccess.thecvf.com/content_CVPR_2019/papers/Raff_Barrage_of_Random_Transforms_for_Adversarially_Robust_Defense_CVPR_2019_paper.pdf)
+- abstract： In this paper, we explore the idea of stochastically combining a large number of individually weak defenses into
+a single barrage of randomized transformations to build
+a strong defense against adversarial attacks. We show
+that, even after accounting for obfuscated gradients, the
+Barrage of Random Transforms (BaRT) is a resilient
+defense against even the most difficult attacks, such as
+PGD.
+
+![enc](figures/barrage.png)
+
+## [Structure-Preserving Progressive Low-rank Image Completion for Defending Adversarial Attacks](https://arxiv.org/pdf/2103.02781.pdf)
+- abstract：In this work, we propose to develop a structure-preserving
+progressive low-rank image completion (SPLIC) method to remove unneeded texture details from the
+input images and shift the bias of deep neural networks towards global object structures and semantic cues. We formulate the problem into a low-rank matrix completion problem with progressively
+smoothed rank functions to avoid local minimums during the optimization process
+
+![str](figures/structure.png)
+
+## [Diminishing the Effect of Adversarial Perturbations via Refining Feature Representation](https://arxiv.org/pdf/1907.01023.pdf)
+- abstract:  In this work, we analytically
+investigate each layer’s representation of non-perturbed and perturbed images and
+show the effect of perturbations on each of these representations. Accordingly, a
+method based on whitening coloring transform is proposed in order to diminish the
+misrepresentation of any desirable layer caused by adversaries. Our method can be
+applied to any layer of any arbitrary model without the need of any modification or
+additional training. 
+
+![dim](figures/dimining.png)
+![dim](figures/dimining1.png)
+![dim](figures/dimining2.png)
+
+## [Ensemble Generative Cleaning With Feedback Loops for Defending Adversarial Attacks](https://openaccess.thecvf.com/content_CVPR_2020/html/Yuan_Ensemble_Generative_Cleaning_With_Feedback_Loops_for_Defending_Adversarial_Attacks_CVPR_2020_paper.html)
+- abstract: In this paper, we develop a new method called ensemble generative cleaning with feedback loops (EGC-FL) for effective defense of deep neural networks. The proposed EGC-FL method is based on two central ideas. First, we introduce a transformed deadzone layer into the defense network, which consists of an orthonormal transform and a deadzone-based activation function, to destroy the sophisticated noise pattern of adversarial attacks. Second, by constructing a generative cleaning network with a feedback loop, we are able to generate an ensemble of diverse estimations of the original clean image. We then learn a network to fuse this set of diverse estimations together to restore the original image. 
+![ens](figures/ensemble.png)
+![ens](figures/ensemble1.png)
+
 ### []()
-- abstract
+- abstract: 
