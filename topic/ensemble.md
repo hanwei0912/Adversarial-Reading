@@ -169,6 +169,14 @@ against transfer attacks comparing to previous ensemble methods, and enables the
 improved robustness when more sub-models are added to the ensemble. 
 - [code](https://github.com/zjysteven/DVERGE)
 
+#### [Learning Transferable Adversarial Examples via Ghost Networks](https://ojs.aaai.org/index.php/AAAI/article/view/6810)
+- abstract: In this paper, we propose Ghost Networks to improve the
+transferability of adversarial examples. The critical principle
+of ghost networks is to apply feature-level perturbations to
+an existing model to potentially create a huge set of diverse
+models. After that, models are subsequently fused by longitudinal
+ensemble.
+
 #### [Delving into Diversity in Substitute Ensembles and Transferability of Adversarial Examples](https://link.springer.com/chapter/10.1007/978-3-030-04182-3_16)
 - abstract: In this paper, two types of ensemble-based black-box attack strategies, iterative cascade ensemble strategy and stack parallel ensemble strategy, are proposed to explore the vulnerability of DL system and potential factors that contribute to the high-efficiency attacks are examined. Moreover, two pairwise and non-pairwise diversity measures are adopted to explore the relationship between the diversity in substitutes ensembles and transferability of crafted adversarial examples.
 
@@ -195,6 +203,15 @@ methods. Second, we show that adopting multiple color spaces in the same
 model can help us to fight these adversarial attacks further as each color space
 detects certain features explicit to itself. Finally, the feature maps generated
 are enlarged and sent back as an input to obtain even smaller features
+
+## [Ensembles of Locally Independent Prediction Models](https://ojs.aaai.org/index.php/AAAI/article/view/6004)
+- abstrat:In this paper, however,
+we demonstrate the diversity of predictions on the training
+set does not necessarily imply diversity under mild covariate
+shift, which can harm generalization in practical settings.
+To address this issue, we introduce a new diversity metric
+and associated method of training ensembles of models
+that extrapolate differently on local patches of the data manifold.
 
 #### [Evaluation of Algorithm Selection and Ensemble Methods for Causal Discovery](https://www.cmu.edu/dietrich/causality/CameraReadys-accepted%20papers/28%5CCameraReady%5CEvaluating_Causal_Ensembles_NeurIPS_CR.pdf)
 - abstract: To address
