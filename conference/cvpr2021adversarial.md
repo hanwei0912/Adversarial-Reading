@@ -45,6 +45,11 @@ ___________
 
 
 
+Adversarial Attack in the Context of Self-driving
+Meaningful Adversarial Stickers for Face Recognition in Physical World
+Adversarial Heart Attack: Neural Networks Fooled to Segment Heart Symbols in Chest X-Ray Images
+Backdoor Attack in the Physical World
+
 ## Defense
 
 ### Detection
@@ -95,4 +100,50 @@ AdvCAM is an attribution map of an image that is manipulated to increase the cla
 #### [Can audio-visual integration strengthen robustness under multimodal attacks?](https://arxiv.org/abs/2104.02000)
 
  we propose to make a systematic study on machines multisensory perception under attacks. We use the audio-visual event recognition task against multimodal adversarial attacks as a proxy to investigate the robustness of audio-visual learning. We attack audio, visual, and both modalities to explore whether audio-visual integration still strengthens perception and how different fusion mechanisms affect the robustness of audio-visual models. For interpreting the multimodal interactions under attacks, we learn a weakly-supervised sound source visual localization model to localize sounding regions in videos. To mitigate multimodal attacks, we propose an audio-visual defense approach based on an audio-visual dissimilarity constraint and external feature memory banks.
+ 
+ _____
+## Defense
+Defending Against Image Corruptions Through Adversarial Augmentations
+Domain Invariant Adversarial Learning
+Universal Adversarial Training with Class-Wise Perturbations 
 
+## Robust
+[Towards Evaluating and Training Verifiably Robust Neural Networks](https://arxiv.org/pdf/2104.00447.pdf)
+Adaptive Clustering of Robust Semantic Representations for Adversarial Image Purification
+On the Robustness of Vision Transformers to Adversarial Examples
+Adversarial Robustness under Long-Tailed Distribution
+Adaptive Clustering of Robust Semantic Representations for Adversarial Image Purification
+Robust Self-Ensembling Network for Hyperspectral Image Classification
+Robust Differentiable SVD
+Robust Classification from Noisy Labels: Integrating Additional Knowledge for Chest Radiography Abnormality Assessment
+Rethinking and Improving the Robustness of Image Style Transfer
+Learning Robust Visual-semantic Mapping for Zero-shot Learning
+Learning Multi-modal Information for Robust Light Field Depth Estimation
+How Are Learned Perception-Based Controllers Impacted by the Limits of Robust Control?
+Misclassification-Aware Gaussian Smoothing improves Robustness against Domain Shifts
+Distributional Robustness Loss for Long-tail Learning
+Robust Semantic Interpretability: Revisiting Concept Activation Vectors
+
+## Other
+Linear Semantics in Generative Adversarial Networks
+Domain-Adversarial Training of Self-Attention Based Networks for Land Cover Classification using Multi-temporal Sentinel-2 Satellite Imagery
+Few-Cost Salient Object Detection with Adversarial-Paced Learning
+Teacher-Student Adversarial Depth Hallucination to Improve Face Recognition
+An Empirical Study of the Effects of Sample-Mixing Methods for Efficient Training of Generative Adversarial Networks
+Re-designing cities with conditional adversarial networks
+Physically-Consistent Generative Adversarial Networks for Coastal Flood Visualization
+Integrating Information Theory and Adversarial Learning for Cross-modal Retrieval
+Dual Discriminator Adversarial Distillation for Data-free Model Compression
+Adversarial Open Domain Adaption for Sketch-to-Photo Synthesis
+Federated Few-Shot Learning with Adversarial Learning
+Regularizing Generative Adversarial Networks under Limited Data
+Relating Adversarially Robust Generalization to Flat Minima
+MR-Contrast-Aware Image-to-Image Translations with Generative Adversarial Networks
+FocusNetv2: Imbalanced Large and Small Organ Segmentation with Adversarial Shape Constraint for Head and Neck CT Images
+Toward Generating Synthetic CT Volumes using a 3D-Conditional Generative Adversarial Network
+FACESEC: A Fine-grained Robustness Evaluation Framework for Face Recognition Systems
+SI-Score: An image dataset for fine-grained analysis of robustness to object location, rotation and size
+CFNet: Cascade and Fused Cost Volume for Robust Stereo Matching
+Improving the Efficiency and Robustness of Deepfakes Detection through Precise Geometric Features
+USACv20: robust essential, fundamental and homography matrix estimation
+Robust Egocentric Photo-realistic Facial Expression Transfer for Virtual Reality
