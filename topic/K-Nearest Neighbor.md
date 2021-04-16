@@ -32,9 +32,9 @@ Two Settings:
 7. [Rotation Prediction](https://arxiv.org/abs/1803.07728)
 
 
-## [EXPLOITING CNN LAYER ACTIVATIONS TO IMPROVE ADVERSARIAL IMAGE CLASSIFICATION](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8803776&tag=1)
+#### [EXPLOITING CNN LAYER ACTIVATIONS TO IMPROVE ADVERSARIAL IMAGE CLASSIFICATION](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8803776&tag=1)
 
-## [Adversarial image detection in deep neural networks](http://www.nmis.isti.cnr.it/falchi/Draft/2018-MTAP-adv.pdf)
+#### [Adversarial image detection in deep neural networks](http://www.nmis.isti.cnr.it/falchi/Draft/2018-MTAP-adv.pdf)
 
 ## [Deep k-Nearest Neighbors: Towards Confident, Interpretable and Robust Deep Learning](https://arxiv.org/pdf/1803.04765.pdf)
 - abstract: In this work, we exploit the structure
