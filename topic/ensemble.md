@@ -1,11 +1,42 @@
 ### ensembles
 
 #### [Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles](https://arxiv.org/abs/1612.01474)
+- abstract:
+They propose an alternative to *Bayesian NNs* that
+is simple to implement, readily parallelizable, requires very little hyperparameter
+tuning, and yields high quality predictive uncertainty estimates.
+
 #### [Adversarially Robust Generalization Requires More Data](https://arxiv.org/abs/1804.11285)
+- abstract: To understand adversarial phenomenon, they show that already in a simple natural data model, the sample complexity of robust learning can be significantly
+larger than that of “standard” learning. This gap is information theoretic and holds irrespective
+of the training algorithm or the model family. 
+
 #### [Towards Robust Neural Networks via Random Self-ensemble](https://openaccess.thecvf.com/content_ECCV_2018/html/Xuanqing_Liu_Towards_Robust_Neural_ECCV_2018_paper.html)
+- abstract: They proposed a new defense algorithm called Random SelfEnsemble (RSE) by combining two important concepts: randomness
+and ensemble. To protect a targeted model, RSE adds random noise
+layers to the neural network to prevent the strong gradient-based attacks,
+and ensembles the prediction over random noises to stabilize the performance.
+
 #### [Improving Adversarial Robustness via Promoting Ensemble Diversity](http://proceedings.mlr.press/v97/pang19a)
+- abstract: This paper presents a new method that explores the interaction among individual networks to improve robustness for ensemble models. Technically, we define a new notion of ensemble diversity in the adversarial setting as the diversity among non-maximal predictions of individual members, and present an adaptive diversity promoting (ADP) regularizer to encourage the diversity, which leads to globally better robustness for the ensemble by making adversarial examples difficult to transfer among individual members. Our method is computationally efficient and compatible with the defense methods acting on individual networks.
+- *Training Strategies for ensemle models*
+- *Ensamble diversity*: Inspired by the theory of
+the determinant point process (DPP) (Kulesza et al., 2012),
+we define the ensemble diversity as ED = det(M^T_{\y}M_{\y})
+ 
 #### [Ensemble Methods as a Defense to Adversarial Perturbations Against Deep Neural Networks](https://arxiv.org/pdf/1709.03423.pdf)
+- abstract: We propose to use ensemble methods as a defense strategy
+against adversarial perturbations. We find that an attack leading one model to misclassify does not
+imply the same for other networks performing the same task. This makes ensemble methods an
+attractive defense strategy against adversarial attacks.
+1. some network architecture but random initial weights
+2. different but similar network architectures
+3. bagging
+4. add small Gaussian noise
+
 #### [Prediction of landslide displacement with an ensemble-based extreme learning machine and copula models](https://link.springer.com/article/10.1007/s10346-018-1020-2)
+- abstract:
+
 #### [Improving Adversarial Robustness of Ensembles with Diversity Training](https://arxiv.org/pdf/1901.09981.pdf)
 #### [Deep Neural Network Ensembles Against Deception: Ensemble Diversity, Accuracy and Robustness](https://ieeexplore.ieee.org/document/9077380)
 #### [Diverse Ensemble Evolution: Curriculum Data-Model Marriage](https://www.semanticscholar.org/paper/Diverse-Ensemble-Evolution%3A-Curriculum-Data-Model-Zhou-Wang/ebbac18c556ba9ac2b68854a0124ff1c93055023?p2df)
