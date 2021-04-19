@@ -6,3 +6,4 @@ Adversarial Language Games for Advanced Natural Language Intelligence
 
 What Machines See Is Not What They Get: Fooling Scene Text Recognition Models With Adversarial Text Images
 
+Beyond Perturbations: Learning Guarantees with Arbitrary Adversarial Test Examples
