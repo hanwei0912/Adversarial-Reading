@@ -249,5 +249,8 @@ defend against the attacks.
 
 ![key](figures/keybased.png)
 
+#### [Improving Ensemble Robustness by Collaboratively Promoting and Demoting Adversarial Robustness](https://arxiv.org/abs/2009.09612)
+- abstract: We propose in this work a simple yet effective strategy to collaborate among committee models of an ensemble model. This is achieved via the secure and insecure sets defined for each model member on a given sample, hence help us to quantify and regularize the transferability. Consequently, our proposed framework provides the flexibility to reduce the adversarial transferability as well as to promote the diversity of ensemble members, which are two crucial factors for better robustness in our ensemble approach. 
+
 _____
 #### [Ensemble deep learning: A review](https://arxiv.org/pdf/2104.02395.pdf)
