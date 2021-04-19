@@ -1,3 +1,17 @@
+## [One Man's Trash Is Another Man's Treasure: Resisting Adversarial Examples by Adversarial Examples](https://openaccess.thecvf.com/content_CVPR_2020/papers/Xiao_One_Mans_Trash_Is_Another_Mans_Treasure_Resisting_Adversarial_Examples_CVPR_2020_paper.pdf)
+To defend
+against adversarial examples, a plausible idea is to obfuscate the network’s gradient with respect to the input image.
+This general idea has inspired a long line of defense methods.
+Yet, almost all of them have proven vulnerable.
+We revisit this seemingly flawed idea from a radically
+different perspective. We embrace the omnipresence of adversarial examples and the numerical procedure of crafting
+them, and turn this harmful attacking process into a useful
+defense mechanism. Our defense method is conceptually
+simple: before feeding an input image for classification,
+transform it by finding an adversarial example on a pretrained external model.
+
+![trash](figures/trashTreasure.png)
+
 ### [Robustness of saak transform against adversarial attacks](https://ieeexplore.ieee.org/iel7/8791230/8799366/08803240.pdf?casa_token=snoJp85EcsUAAAAA:ZiMzwd3S6Ba24HfdEaF9KUAW9YgZabNuj3bftLR812-ZeSalviMaILfXsW79UMcY4Z7S7CPlpQ)
 - abstract: This work investigates the robustness of Saak transform
 against adversarial attacks towards high performance image
