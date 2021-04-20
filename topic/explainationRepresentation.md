@@ -31,10 +31,37 @@ networks and beyond
 -A Disentangling Invertible Interpretation Network for Explaining
 Latent Representations (3 papers from the same guys)
 
-# Randomly Reading
+# Seminar by Prof. Cynthia Rudin
 
+#### [This Looks Like That: Deep Learning for Interpretable Image Recognition](https://arxiv.org/pdf/1806.10574.pdf)
+- abstract: In this work, we introduce a deep network architecture –
+prototypical part network (ProtoPNet), that reasons in a similar way: the network
+dissects the image by finding prototypical parts, and combines evidence from the
+prototypes to make a final classification. The model thus reasons in a way that is
+qualitatively similar to the way ornithologists, physicians, and others would explain
+to people on how to solve challenging image classification tasks. The network uses
+only image-level labels for training without any annotations for parts of images.
 
+[code](https://github.com/cfchen-duke/ProtoPNet)
 
+![proto](figures/protoNet.png)
+![proto](figures/protoNet1.png)
+![proto](figures/protoNet2.png)
+
+**Improving the idea of salience map for interpretable**
+
+#### [Concept Whitening for Interpretable Image Recognition](https://arxiv.org/pdf/2002.01650.pdf)
+- abstract: In this
+work, rather than attempting to analyze a neural network posthoc, we introduce a mechanism,
+called concept whitening (CW), to alter a given
+layer of the network to allow us to better understand the computation leading up to that layer.
+When a concept whitening module is added to a
+CNN, the axes of the latent space are aligned with
+known concepts of interest.
+
+**Improving the idea of the representation/feature**
+
+# Adversarial ralated
 
 #### Not Just A Black Box: Learning Important Features Through Propagating Activation Differences
 #### [Attack to Explain Deep Representation](https://openaccess.thecvf.com/content_CVPR_2020/html/Jalwana_Attack_to_Explain_Deep_Representation_CVPR_2020_paper.html)
