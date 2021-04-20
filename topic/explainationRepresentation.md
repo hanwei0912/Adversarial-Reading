@@ -15,23 +15,12 @@
 #### [LIME: "Why Should I Trust You?": Explaining the Predictions of Any Classifier](https://arxiv.org/pdf/1602.04938.pdf)
 
 
--SHAP: A Unified Approach to Interpreting Model Predictions
--Interpretable Explanations of Black Boxes by Meaningful Perturbation
--How Can I Explain This to You? An Empirical Study of Deep Neural
-Network Explanation Methods
+#### [SHAP: A Unified Approach to Interpreting Model Predictions](https://arxiv.org/pdf/1705.07874.pdf)
+
+#### [Interpretable Explanations of Black Boxes by Meaningful Perturbation](https://arxiv.org/abs/1704.03296)
+#### [How Can I Explain This to You? An Empirical Study of Deep Neural Network Explanation Methods](https://proceedings.neurips.cc/paper/2020/file/2c29d89cc56cdb191c60db2f0bae796b-Paper.pdf)
 
 ## Part based
--This Looks Like That: Deep Learning for Interpretable Image
-Recognition
-
-## Recent
-
--Toward interpretable machine learning: Transparent deep neural
-networks and beyond
--A Disentangling Invertible Interpretation Network for Explaining
-Latent Representations (3 papers from the same guys)
-
-# Seminar by Prof. Cynthia Rudin
 
 #### [This Looks Like That: Deep Learning for Interpretable Image Recognition](https://arxiv.org/pdf/1806.10574.pdf)
 - abstract: In this work, we introduce a deep network architecture –
@@ -49,6 +38,15 @@ only image-level labels for training without any annotations for parts of images
 ![proto](figures/protoNet2.png)
 
 **Improving the idea of salience map for interpretable**
+
+## Recent
+
+#### [Toward interpretable machine learning: Transparent deep neural networks and beyond](https://arxiv.org/abs/2003.07631v1?utm_campaign=AI%20Scholar%20Weekly%20&utm_medium=email&utm_source=Revue%20newsletter)
+#### [A Disentangling Invertible Interpretation Network for Explaining Latent Representations](https://arxiv.org/pdf/2004.13166.pdf)
+(3 papers from the same guys)
+
+
+
 
 #### [Concept Whitening for Interpretable Image Recognition](https://arxiv.org/pdf/2002.01650.pdf)
 - abstract: In this
