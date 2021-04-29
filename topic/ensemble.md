@@ -23,6 +23,11 @@ and ensembles the prediction over random noises to stabilize the performance.
 - *Ensamble diversity*: Inspired by the theory of
 the determinant point process (DPP) (Kulesza et al., 2012),
 we define the ensemble diversity as ED = det(M^T_{\y}M_{\y})
+![ece](figures/ece.png)
+![ece](figures/ece1.png)
+![ece](figures/ece2.png)
+![ece](figures/ece3.png)
+![ece](figures/ece4.png)
  
 ## [Ensemble Methods as a Defense to Adversarial Perturbations Against Deep Neural Networks](https://arxiv.org/pdf/1709.03423.pdf)
 - abstract: We propose to use ensemble methods as a defense strategy
@@ -47,6 +52,9 @@ multiple models in the ensemble if their loss functions do not increase in a cor
 this end, we propose Diversity Training, a novel
 method to train an ensemble of models with uncorrelated loss functions.
 - *Gradient Alignment Loss*: LogSumExp of cosine similarity between gradient of two models.
+![adv-ss](figures/adv-ss.png)
+![adv-ss](figures/adv-ss1.png)
+![adv-ss](figures/adv-ss2.png)
 
 ## [Deep Neural Network Ensembles Against Deception: Ensemble Diversity, Accuracy and Robustness](https://ieeexplore.ieee.org/document/9077380)
 - abstract: In this paper we first give an overview of the concept of ensemble diversity and examine the three types of ensemble diversity in the context of DNN classifiers. We then describe a set of ensemble diversity measures, a suite of algorithms for creating diversity ensembles and for performing ensemble consensus (voted or learned) for generating high accuracy ensemble output by strategically combining outputs of individual members.
