@@ -1,5 +1,9 @@
 ### ensembles
 
+## [Ensemble Adversarial Training: Attacks and Defenses](https://arxiv.org/abs/1705.07204)
+
+[code](https://github.com/ftramer/ensemble-adv-training)
+
 #### [Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles](https://arxiv.org/abs/1612.01474)
 - abstract:
 They propose an alternative to *Bayesian NNs* that
@@ -28,6 +32,7 @@ we define the ensemble diversity as ED = det(M^T_{\y}M_{\y})
 ![ece](figures/ece2.png)
 ![ece](figures/ece3.png)
 ![ece](figures/ece4.png)
+[code](https://github.com/P2333/Adaptive-Diversity-Promoting)
  
 ## [Ensemble Methods as a Defense to Adversarial Perturbations Against Deep Neural Networks](https://arxiv.org/pdf/1709.03423.pdf)
 - abstract: We propose to use ensemble methods as a defense strategy
