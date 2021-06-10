@@ -26,3 +26,11 @@ Beyond Perturbations: Learning Guarantees with Arbitrary Adversarial Test Exampl
 ### [Towards crafting text adversarial samples](https://arxiv.org/pdf/1707.02812)
 
 ### [Universal adversarial attacks on text classifiers](https://ieeexplore.ieee.org/iel7/8671773/8682151/08682430.pdf?casa_token=LYJDzEnl-sMAAAAA:xGUqxjfIY6vs5cKx5_KFORG_HrbBnPdliTNMzmvzThev-uV3kkmF_qJo2LI-Ff3VltiiQbd3fA)
+
+### [Bert-attack: Adversarial attack against bert using bert](https://arxiv.org/pdf/2004.09984)
+
+### [Generating adversarial text samples](https://link.springer.com/chapter/10.1007/978-3-319-76941-7_71)
+
+### [Word-level textual adversarial attacking as combinatorial optimization](https://arxiv.org/pdf/1910.12196)
+
+### [Generating natural language adversarial examples](https://arxiv.org/pdf/1804.07998.pdf?source=post_page---------------------------)
