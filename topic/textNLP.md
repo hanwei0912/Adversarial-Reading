@@ -31,6 +31,29 @@ Beyond Perturbations: Learning Guarantees with Arbitrary Adversarial Test Exampl
 
 ### [Generating adversarial text samples](https://link.springer.com/chapter/10.1007/978-3-319-76941-7_71)
 
+
 ### [Word-level textual adversarial attacking as combinatorial optimization](https://arxiv.org/pdf/1910.12196)
 
 ### [Generating natural language adversarial examples](https://arxiv.org/pdf/1804.07998.pdf?source=post_page---------------------------)
+
+Universal Adversarial Triggers for Attacking and Analyzing NLP
+
+Concealed Data Poisoning Attacks on NLP Models
+
+Hotflip: White-box adversarial examples for text classification
+
+Generating Natural Language Adversarial Examples through Probability Weighted Word Saliency
+
+BAE: BERT-based Adversarial Examples for Text Classification
+
+Weight Poisoning Attacks on Pre-trained Models
+
+Explain2Attack: Text Adversarial Attacks via Cross-Domain Interpretability
+
+Improved and Efficient Text Adversarial Attacks using Target Information
+
+BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain
+
+Crafting adversarial input sequences for recurrent neural networks
+
+Beyond Accuracy: Behavioral Testing of NLP models with CheckList
