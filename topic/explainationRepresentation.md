@@ -61,6 +61,7 @@ our approach on a multitude of models and datasets.
 
 #### [The mythos of model interpretability](https://arxiv.org/pdf/1606.03490.pdf)
 
+
 #### [LIME: "Why Should I Trust You?": Explaining the Predictions of Any Classifier](https://arxiv.org/pdf/1602.04938.pdf)
 
 
@@ -119,6 +120,13 @@ known concepts of interest.
 #### Adaptive Clustering of Robust Semantic Representations for Adversarial Image Purification
 #### FIMAP: Feature Importance by Minimal Adversarial Perturbation
 #### Adversarial Training and Provable Robustness: A Tale of Two Objectives
+
+#### [Explaining Classifier Using Adversarial Perturbations on the Perceptual Ball](https://openaccess.thecvf.com/content/CVPR2021/papers/Elliott_Explaining_Classifiers_Using_Adversarial_Perturbations_on_the_Perceptual_Ball_CVPR_2021_paper.pdf)
+
+Generate adversarial perturbation and regard it as saliency map. The loss function to generate adversarial perturbation has three items:
+1) minimize the ground truth probability score
+2) minimize the distortion between adversarial example and original image in the middle layers
+3) minimize the distortion
 
 Adversarial Robustness through Disentangled Representations
 
