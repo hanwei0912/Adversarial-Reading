@@ -7,3 +7,13 @@
 #### [Convolutional Dynamic Alignment Networks for Interpretable Classifications](https://arxiv.org/abs/2104.00032)
 
 #### [Neural Prototype Trees for Interpretable Fine-grained Image Recognition](https://arxiv.org/abs/2012.02046)
+
+#### [Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks](https://arxiv.org/abs/1910.01279)
+
+#### [Ablation-cam: Visual explanations for deep convolutional network via gradient-free localization](https://ieeexplore.ieee.org/abstract/document/9093360/)
+
+#### [Axiom-based Grad-CAM: Towards Accurate Visualization and Explanation of CNNs](https://arxiv.org/abs/2008.02312)
+
+#### [Eigen-CAM: Class Activation Map using Principal Components](https://arxiv.org/abs/2008.00299)
+
+#### [LayerCAM: Exploring Hierarchical Class Activation Maps for Localization](http://mftp.mmcheng.net/Papers/21TIP_LayerCAM.pdf)
