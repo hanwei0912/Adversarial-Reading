@@ -1,3 +1,6 @@
+### [Other people's list for small object detection](https://github.com/ispc-lab/SmallObjectDetectionList)
+
+
 ### [Augmentation for small object detection](https://arxiv.org/pdf/1902.07296.pdf)
 
 We analyze the current state-of-the-art model, Mask-RCNN, on a challenging dataset, MS COCO. We show that the overlap between small
@@ -12,3 +15,5 @@ images by copy-pasting small objects many times.
 
 The proposed method uses additional features from different layers as context by concatenating multi-scale features. We also propose object detection with attention mechanism which can focus on the object in image, and it can include contextual information
 from target layer.
+
+
