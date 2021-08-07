@@ -1,5 +1,7 @@
 ### [Other people's list for small object detection](https://github.com/ispc-lab/SmallObjectDetectionList)
 
+### [Awesome tiny object detection](https://github.com/knhngchn/awesome-tiny-object-detection)
+
 
 ### [Augmentation for small object detection](https://arxiv.org/pdf/1902.07296.pdf)
 
