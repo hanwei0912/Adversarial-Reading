@@ -1,3 +1,9 @@
+Question:
+
+Why we are not happy with the current saliency map?
+
+What is a satisfied saliency map?
+
 ### [On Relating Explanations and Adversarial Examples](https://proceedings.neurips.cc/paper/2019/file/7392ea4ca76ad2fb4c9c3b6a5c6e31e3-Paper.pdf)
 
 The paper proposes the dual concept of counterexample, the notion of breaking an explanation or a
@@ -13,3 +19,8 @@ between explanations and counterexamples (and adversarial examples)
 A feature cannot be counterexample and explanation. It seems indicated that we should distangle/select the feature????
 
 [code](https://github.com/alexeyignatiev/xpce-duality/blob/master/compile.py)
+
+### [THE (UN)RELIABILITY OF SALIENCY METHODS](https://arxiv.org/pdf/1711.00867.pdf)
+
+In order to guarantee reliability, we posit that methods should fulfill input invariance, the requirement that a saliency method mirror the sensitivity of the model
+with respect to transformations of the input.
