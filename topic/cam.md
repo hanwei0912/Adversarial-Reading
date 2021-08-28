@@ -1,3 +1,5 @@
+### CAM based methods
+
 - **CAM** established one approach towards interpretability, class activation maps. Interpretability as saliency for discriminative regions (2015)
 - **Grad-CAM** generalization of CAM. Use gradient to obtain weight importance and no need of training (2016)
 - **Smooth Grad** improving stand gradient by adding noise and make the average (2017)
@@ -8,3 +10,33 @@
 - **IS-CAM** score CAM + integrated grad (2020) 
 - **SS-CAM** smooth grad + score CAM(2020)
 - **LagerCAM** grad CAM variant leveraging pixel-wise contribution to gradient to the activation(2020)
+
+
+### Evaluation protocol
+
+#### Grad-CAM++: object recoginition and localization
+- objective evaluation for object recognition: explanation map : Ec = Lc * I
+- Average Drop(AD): \sum max(0, yi-pi)/pi. yi: prob age, pi: prob explaination
+- increase in confidence(IC): \sum 1_(yi<pi)/N
+- win: \sum (1_(di_GC++ < di_GC))/N
+- Harnessing explanation for object localization: modification of E(\delta) -> min-max norm and \delta thresholding
+- implementation of IOU, IOC for a threshold \delta and a class c: LOC(\delta) = Area (internal pixels)/(Area(bbox)+Area(internal pixels))
+#### Score-CAM
+- pointing game
+- make bbox 1, empty for else. hamard product with saliency: prportion = \sum L(i,j) \in bbox / (\sum L(i,j) \in bbox + \sum L(i,j) \in bbox)
+- random select images from val, remove those with objects >= 50% of whole image. 
+#### Integrated Grad
+- object recognition: Ii = Il * (1-Mi) + \mu Mi. Mi: heatmap mask
+- choose only top 20% pixels, as in average drop Pc(I), prob orig Pc(\hat(I)) = 1/N \sum ((Pc(I)-Pc(\hat(I)))/Pc(I))
+- sensitivity: 
+- conservation
+#### IS-CAM
+- localization experimetns: average drop, 
+- insertion&deletion 
+- Object evaluation: AD IC
+#### SS-CAM
+- average drop, increase in confidence, win %
+- poiting game, insertion&delection
+#### Larger CAM
+- weakly supervised approach loc1,loc5
+- image occlusion experiments, accuracy
