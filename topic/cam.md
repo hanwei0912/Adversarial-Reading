@@ -10,6 +10,9 @@
 - **IS-CAM** score CAM + integrated grad (2020) 
 - **SS-CAM** smooth grad + score CAM(2020)
 - **LagerCAM** grad CAM variant leveraging pixel-wise contribution to gradient to the activation(2020)
+- **[AblationCAM](https://openaccess.thecvf.com/content_WACV_2020/papers/Desai_Ablation-CAM_Visual_Explanations_for_Deep_Convolutional_Network_via_Gradient-free_Localization_WACV_2020_paper.pdf)** (2020)
+- **[XGrad-GAM](https://arxiv.org/pdf/2008.02312.pdf)** (2021)
+- **[Norm Grad](https://arxiv.org/abs/2004.02866)** (2020)
 
 
 ### Evaluation protocol
