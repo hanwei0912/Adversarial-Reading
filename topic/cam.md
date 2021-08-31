@@ -1,7 +1,11 @@
 ### CAM based methods
 
 - **CAM** established one approach towards interpretability, class activation maps. Interpretability as saliency for discriminative regions (2015)
+![cam](figures/cam.png)
+![cam](figures/cam2.png)
+![cam](figures/cam3.png)
 - **Grad-CAM** generalization of CAM. Use gradient to obtain weight importance and no need of training (2016)
+![cam](figures/gradCam.png)
 - **Smooth Grad** improving stand gradient by adding noise and make the average (2017)
 - **Grad-CAM++** improving Grad-CAM by soveling the issues that there are multiple accurrences of same object with slightly different orientations or views. It takes a weighted average of pixel-wise gradients (2018)
 - **Smooth Grad-CAM++** smooth grad + grad-CAM++; takes interest in grad-CAM++'s apprach for getting fradient weights by adding the denoising in the partial derivatives (2019)
@@ -11,7 +15,9 @@
 - **SS-CAM** smooth grad + score CAM(2020)
 - **LagerCAM** grad CAM variant leveraging pixel-wise contribution to gradient to the activation(2020)
 - **[AblationCAM](https://openaccess.thecvf.com/content_WACV_2020/papers/Desai_Ablation-CAM_Visual_Explanations_for_Deep_Convolutional_Network_via_Gradient-free_Localization_WACV_2020_paper.pdf)** use DE, i.e. (y - y_k)/||A_k|| instead of the gradient from y to A_k (2020)
+![cam](figures/AblationCAM.png)
 - **[XGrad-GAM](https://arxiv.org/pdf/2008.02312.pdf)** start with the axiom of sensitivity and conservation, the score define as the normalized grad cam(2021)
+![cam](figures/XgradCam.png)
 - **[Norm Grad](https://arxiv.org/abs/2004.02866)** (2020)
 
 
