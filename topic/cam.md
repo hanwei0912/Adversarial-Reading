@@ -18,8 +18,8 @@
 ![cam](figures/AblationCAM.png)
 - **[XGrad-GAM](https://arxiv.org/pdf/2008.02312.pdf)** start with the axiom of sensitivity and conservation, the score define as the normalized grad cam(2021)
 ![cam](figures/XgradCam.png)
-- **[Norm Grad](https://arxiv.org/abs/2004.02866)** (2020)
-![cam](figures/normgrad.png）
+- **[Norm Grad](https://arxiv.org/abs/2004.02866)** Redifine the framework of cam, divided it into two phrases, one is to extract gradients or weights of network, another is to aggragate and get the saliency map(2020)
+![norm](figures/normgrad.png)
 
 
 ### Evaluation protocol
