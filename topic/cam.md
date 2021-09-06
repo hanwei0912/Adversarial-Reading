@@ -20,6 +20,8 @@
 ![cam](figures/XgradCam.png)
 - **[Norm Grad](https://arxiv.org/abs/2004.02866)** Redifine the framework of cam, divided it into two phrases, one is to extract gradients or weights of network, another is to aggragate and get the saliency map(2020)
 ![norm](figures/normgrad.png)
+－ **[Eigen-CAM](https://arxiv.org/abs/2008.00299)** Uses the principla component of the learned representation from CNN to create the visual explanation (2021)
+- **[]**
 
 
 ### Evaluation protocol
