@@ -53,3 +53,18 @@ the image.
 - train a explaination model to generate saliency map
 
 ![rise](figures/agnostic.png)
+
+
+### [Iterative augmentation of visual evidence for weakly-supervised lesion localization in deep interpretability frameworks: application to color fundus images](https://arxiv.org/abs/1910.07373)
+
+- iterative version of CAM
+![rise](figures/iteratvieVisualEvidence.png)
+
+### [ECS-Net: Improving Weakly Supervised Semantic Segmentation by Using Connections Between Class Activation Maps](https://openaccess.thecvf.com/content/ICCV2021/papers/Sun_ECS-Net_Improving_Weakly_Supervised_Semantic_Segmentation_by_Using_Connections_Between_ICCV_2021_paper.pdf)
+
+- apply these features, learned from erased images, as segmentation supervision, driving network to study robust representation
+- mapping heat map to [0,1] by max-min normalization
+- take the maximum as score map
+- get erased image
+
+![rise](figures/ecs-net.png)
