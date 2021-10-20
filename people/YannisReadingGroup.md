@@ -13,3 +13,5 @@ pairs, whereas negative samples are randomly drawn from
 the entire distribution
 - put similar samples together not only for the data from different modality but also for the same modality
 - considering the negtive pairs may share some similarity and ignore then from negtive pairs when calculate the loss
+
+comment: Since the experimental part only do the fine-turning, it might totally failed if the model is trained from scratch.
