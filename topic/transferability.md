@@ -48,3 +48,33 @@ Wp is a special uniform project kernel, it is to reuse the cut noise to alleviat
 
 **comments**
 - make since to use the gradient variance to make it more stable but why L1 norm???
+
+## Augmenting Image Data
+
+### [Improving Transferability of Adversarial Examples with Input Diversity](https://arxiv.org/abs/1803.06978)
+
+- [DI-2-FGSM](https://github.com/cihangxie/DI-2-FGSM)
+- apply random transformations to the input images at each iteration, they found random resizing and padding yields adversarial examples with the best transferability.
+
+### [Evading Defenses to Transferable Adversarial Examples by Translation-Invariant Attacks](https://arxiv.org/abs/1904.02884)
+
+- translation-invariant attack-- optimizing a perturbation over an ensemble of translated images
+- [TI-FGSM](https://github.com/dongyp13/Translation-Invariant-Attacks)
+![1](figures/TIA.png)
+![1](figures/WTIA.png)
+![1](figures/ti-fgsm.png)
+- they consider three different choices for W: uniform kernal;linear kernel;Gaussian kernel
+
+**comments**
+- It seems the kernels makes the perturbation more "patch-wise"
+
+### [Admix: Enhancing the Transferability of Adversarial Attacks](https://arxiv.org/abs/2102.00436)
+
+- [Admix](https://github.com/JHL-HUST/Admix)
+- input images + a set of images randomly samples from other categories; Admix calculates the gradient on the input image admixed with a small portion of each add-in image while using the original label of the input to craft more transferable adversaries
+
+![1](figures/admix.png)
+![1](figures/mixupVSadmix.png)
+![1](figures/admix-eq.png)
+
+### [Nesterov Accelerated Gradient and Scale Invariance for Adversarial Attacks](https://arxiv.org/abs/1908.06281)
