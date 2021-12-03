@@ -78,3 +78,15 @@ Wp is a special uniform project kernel, it is to reuse the cut noise to alleviat
 ![1](figures/admix-eq.png)
 
 ### [Nesterov Accelerated Gradient and Scale Invariance for Adversarial Attacks](https://arxiv.org/abs/1908.06281)
+
+![1](figures/sim.png)
+![1](figures/si-ni-fgsm.png)
+
+## New loss functions
+
+### [Feature space perturbations yield more transferable adversarial examples](https://openaccess.thecvf.com/content_CVPR_2019/papers/Inkawhich_Feature_Space_Perturbations_Yield_More_Transferable_Adversarial_Examples_CVPR_2019_paper.pdf)
+
+- The attack is explicitly designed for transferability and drives feature space representation of a source image at layer L towards the representation of a target image at L.
+![1](figures/fsp.png)
+- loss function is built based on L２ norm difference of feature of layer 
+- attacｋ is ＴＭI－FSGM based
