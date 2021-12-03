@@ -120,3 +120,17 @@ Wp is a special uniform project kernel, it is to reuse the cut noise to alleviat
 ### [Towards Transferable Targeted Attack](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Towards_Transferable_Targeted_Attack_CVPR_2020_paper.pdf)
 
 - poincare distance
+-  two defects that lead to the difficulty in generating transferable examples: (1) the magnitude of gradient is decreasing during iterative attack, causing excessive consistency between two successive noises in accumulation of momentum, which is termed as noise curing; (2) it is not enough for targeted adversarial examples to just get close to target class without moving away from true class
+-  triplet loss: compare the distance to the positive example and the negtive example
+![1](figures/triplet.png)
+
+### [On Success and Simplicity: A Second Look at Transferable Targeted Attacks](https://arxiv.org/abs/2012.11207)
+
+- [targeted-transfer](https://github.com/ZhengyuZhao/Targeted-Tansfer)
+- logit loss, largely surpass the commonly adopted 
+![1](figures/sl.png)
+
+### [Transferable adversarial perturbations](https://openaccess.thecvf.com/content_ECCV_2018/papers/Bruce_Hou_Transferable_Adversarial_Perturbations_ECCV_2018_paper.pdf)
+
+### [Boosting the Transferability of AdversarialSamples via Attention](https://openaccess.thecvf.com/content_CVPR_2020/html/Wu_Boosting_the_Transferability_of_Adversarial_Samples_via_Attention_CVPR_2020_paper.html)
+
