@@ -89,4 +89,34 @@ Wp is a special uniform project kernel, it is to reuse the cut noise to alleviat
 - The attack is explicitly designed for transferability and drives feature space representation of a source image at layer L towards the representation of a target image at L.
 ![1](figures/fsp.png)
 - loss function is built based on L２ norm difference of feature of layer 
-- attacｋ is ＴＭI－FSGM based
+- attack is ＴＭI－FSGM based
+
+**comments**
+- it needs a specific target image, which influence the results.
+- which layer to choose is also need to discuss
+- the discussion of the layer is interesting
+
+### [Enhancing Adversarial Example Transferability with an Intermediate Level Attack](https://arxiv.org/abs/1907.10823)
+
+- [ILA](https://github.com/CUAI/Intermediate-Level-Attack)
+- attempt to fine-tune an existing adversarial example for greater balck-box transferability by increasing its perturbation on apre-specified layer of the source model
+![1](figures/ILA.png)
+![1](figures/ilap.png)
+![1](figures/ilaf.png)
+
+**conmments**
+- it seems only encourage to have larger perturbation....
+
+### [Feature Importance-aware Transferable Adversarial Attacks](https://arxiv.org/abs/2107.14185)
+
+- [FIA](https://github.com/hcguoO0/FIA)
+- obtain feature importance by aggregate gradient -- (similar idea to RISE)
+![1](figures/FIA.png)
+
+### [Towards evaluating the robustness of neural networks](https://arxiv.org/abs/1608.04644)
+
+- large margin, i.e. high-confidence, provides high transferability
+
+### [Towards Transferable Targeted Attack](https://openaccess.thecvf.com/content_CVPR_2020/papers/Li_Towards_Transferable_Targeted_Attack_CVPR_2020_paper.pdf)
+
+- poincare distance
