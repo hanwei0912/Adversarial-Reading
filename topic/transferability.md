@@ -129,8 +129,22 @@ Wp is a special uniform project kernel, it is to reuse the cut noise to alleviat
 - [targeted-transfer](https://github.com/ZhengyuZhao/Targeted-Tansfer)
 - logit loss, largely surpass the commonly adopted 
 ![1](figures/sl.png)
+- three transfer scenarios: (1) ensemble transfer scenario with little model similarity, (2)a worse-case scenario with low-ranked target classes, (3)a real-world attack on the Google Cloud Vision API.
+- existing transfer methods with more iterations yield good results
 
 ### [Transferable adversarial perturbations](https://openaccess.thecvf.com/content_ECCV_2018/papers/Bruce_Hou_Transferable_Adversarial_Perturbations_ECCV_2018_paper.pdf)
+- introduce two terms into cost function to guide the search directions of perturbations: (1) maximize the distances between natural images and their adversarial examples in the intermediate feature maps which can address vanishing gradients for adversarial perturbations generation. (2) introduce a regularization term into cost function to remove the high-frequency perturbations, which enables black-box transfer with high error rates.
+- Maximizing distance: intermediate loss (intermediate feature maps)
+![1](figures/md1.png)
+![1](figures/md2.png)
+- Regularization: 
+![1](figures/gl.png)
+- optimization: IFGSM
 
 ### [Boosting the Transferability of AdversarialSamples via Attention](https://openaccess.thecvf.com/content_CVPR_2020/html/Wu_Boosting_the_Transferability_of_Adversarial_Samples_via_Attention_CVPR_2020_paper.html)
-
+- they propose a movel mechanism to alleviate the overfitting issue
+![1](figures/criticalF.png)
+![1](figures/CFD.png)
+![1](figures/attentionV.png)
+![1](figures/attentionW.png)
+![1](figures/ATA.png)
