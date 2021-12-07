@@ -148,3 +148,18 @@ Wp is a special uniform project kernel, it is to reuse the cut noise to alleviat
 ![1](figures/attentionV.png)
 ![1](figures/attentionW.png)
 ![1](figures/ATA.png)
+
+## Devising Surrogate Models
+
+### [Delving into transferable adversarial examples and black-box attacks](https://openreview.net/pdf?id=Sys6GJqxl)
+
+- first to conduct an extensive study of the transferability over large models and a large scale dataset; first to study the transferability of targeted adversarail examples with their target labels
+- ensemble-based approaches to generating transferable adversarial examples
+- geometric properties: gradient directions of different models are orthogonal to each other; decision boundaries of different models align well with each other
+![1](figures/ensemble.png)
+
+### [Learning Transferable Adversarial Examples via Ghost Networks](https://arxiv.org/pdf/1812.03413.pdf)
+
+- Ghost Networks: apply feature-level perturbations to an existing model to potential create a huge set of diverse models; models are subsequently fused by longitudinal ensemble
+- customized fusion method + logitudinal ensemble
+- Dropout Erosion: densely apply dropout to every block throughout the base network
