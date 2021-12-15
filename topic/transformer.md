@@ -9,3 +9,8 @@ REVIEW - ZhaiTalbottSrivastavaHGS_2021 - An Attention Free Transformer
 TolstikhinHoulsbyKolesnikovBZUYSKULD_2021 - MLP-Mixer- An all-MLP Architecture for Vision
 WangLiKhabsaFM_2020 - Linformer- Self-Attention with Linear Complexity
 ZhaiTalbottSrivastavaHGZS_2021 - An Attention Free Transformer
+(linear attention)
+
+HeoYunHanCCO_tech2021 - Rethinking Spatial Dimensions of Vision Transformers
+WuXiaoCodellaLDYZ_tech2021 - CvT- Introducing Convolutions to Vision Transformers
+(spatial pooling)
