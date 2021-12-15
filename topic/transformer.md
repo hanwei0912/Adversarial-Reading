@@ -14,3 +14,6 @@ ZhaiTalbottSrivastavaHGZS_2021 - An Attention Free Transformer
 HeoYunHanCCO_tech2021 - Rethinking Spatial Dimensions of Vision Transformers
 WuXiaoCodellaLDYZ_tech2021 - CvT- Introducing Convolutions to Vision Transformers
 (spatial pooling)
+
+
+ResNet strikes back: An improved training procedure in timm 
