@@ -1,4 +1,4 @@
-ChenKalantidisLiYF_2018 - $A^2$-Nets: Double Attention Networks
+ChenKalantidisLiYF_2018 - [$A^2$-Nets: Double Attention Networks](https://arxiv.org/pdf/1810.11579.pdf)
 
 ShenZhangZhaoYL_2018 - Efficient Attention- Attention with Linear Complexities
 
