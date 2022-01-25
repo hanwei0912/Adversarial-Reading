@@ -1,6 +1,12 @@
-ChenKalantidisLiYF_2018 - [$A^2$-Nets: Double Attention Networks](https://arxiv.org/pdf/1810.11579.pdf)
+### ChenKalantidisLiYF_2018 - [$A^2$-Nets: Double Attention Networks](https://arxiv.org/pdf/1810.11579.pdf)
 
-ShenZhangZhaoYL_2018 - Efficient Attention- Attention with Linear Complexities
+- basic idea: learn the global features and local feature, then weight local features according to the similarity to global features, so that local features share information with global features.
+- conv backbone + transformer
+
+
+### ShenZhangZhaoYL_2018 - [Efficient Attention- Attention with Linear Complexities](https://arxiv.org/pdf/1812.01243.pdf)
+
+- basic idea: show when change the order of matrix muliplication, the results is equivalent but the complexity reduce. Provide a new explanation of attention, which is exactly the same to A^2-Net 
 
 YueSunYuanZDX_2018 - Compact Generalized Non-local Network
 
