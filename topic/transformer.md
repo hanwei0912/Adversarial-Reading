@@ -8,9 +8,11 @@
 
 - basic idea: show when change the order of matrix muliplication, the results is equivalent but the complexity reduce. Provide a new explanation of attention, which is exactly the same to A^2-Net 
 
-YueSunYuanZDX_2018 - Compact Generalized Non-local Network
+### YueSunYuanZDX_2018 - [Compact Generalized Non-local Network](https://arxiv.org/pdf/1810.13125.pdf)
 
-ChoromanskiLikhosherstovDohanSGSHDBCW_2020 - Rethinking Attention with Performers
+- basic idea: They vectorlized the feature, then use kernel to mapping the feature in the high demension space, then aggregate the info. They claim when they learn the mapping vector to aggeragate each order, they considering the infor from different channels. 
+
+### ChoromanskiLikhosherstovDohanSGSHDBCW_2020 - [Rethinking Attention with Performers](https://arxiv.org/pdf/2009.14794.pdf)
 
 El-NoubyTouvronCaronBDJLNSVJ_2021 - XCiT- Cross-Covariance Image Transformers
 
