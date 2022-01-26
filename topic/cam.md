@@ -52,3 +52,6 @@
 #### Larger CAM
 - weakly supervised approach loc1,loc5
 - image occlusion experiments, accuracy
+
+### [LFI-CAM](https://openaccess.thecvf.com/content/ICCV2021/papers/Lee_LFI-CAM_Learning_Feature_Importance_for_Better_Visual_Explanation_ICCV_2021_paper.pdf)
+- feature importance network: learn to focus on more important features.
