@@ -24,3 +24,10 @@ A feature cannot be counterexample and explanation. It seems indicated that we s
 
 In order to guarantee reliability, we posit that methods should fulfill input invariance, the requirement that a saliency method mirror the sensitivity of the model
 with respect to transformations of the input.
+
+
+![notes](figures/i-Page1.png)
+![notes](figures/i-Page2.png)
+![notes](figures/i-Page3.png)
+![notes](figures/i-Page4.png)
+![notes](figures/i-Page5.png)
