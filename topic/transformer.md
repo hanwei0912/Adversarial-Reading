@@ -1,3 +1,18 @@
+![notes](figures/Page1.jpg)
+![notes](figures/Page2.jpg)
+![notes](figures/Page3.jpg)
+![notes](figures/Page4.jpg)
+![notes](figures/Page5.jpg)
+![notes](figures/Page6.jpg)
+![notes](figures/Page7.jpg)
+![notes](figures/Page8.jpg)
+![notes](figures/Page9.jpg)
+![notes](figures/Page10.jpg)
+![notes](figures/Page11.jpg)
+![notes](figures/Page12.jpg)
+![notes](figures/Page13.jpg)
+
+
 ### ChenKalantidisLiYF_2018 - [$A^2$-Nets: Double Attention Networks](https://arxiv.org/pdf/1810.11579.pdf)
 
 - basic idea: learn the global features and local feature, then weight local features according to the similarity to global features, so that local features share information with global features.
