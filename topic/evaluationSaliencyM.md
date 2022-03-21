@@ -94,6 +94,10 @@ remarks about the metrics studied in this paper and discuss how to evaluate them
 
 **why interesting** newest work to evaluation saliency map
 
+![notes](figures/NMR-Page1.png)
+![notes](figures/NMR-Page2.png)
+![notes](figures/NMR-Page3.png)
+
 ## Discussion & analysis paper
 
 ### [Explanations can be manipulated and geometry is to blame](https://proceedings.neurips.cc/paper/2019/file/bb836c01cdc9120a9c984c525e4b1a4a-Paper.pdf)
