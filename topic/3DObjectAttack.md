@@ -1,9 +1,15 @@
 ## Self-driving attack
 
+### [Remote attacks on automated vehicles sensors: Experiments on camera and lidar](https://www.blackhat.com/docs/eu-15/materials/eu-15-Petit-Self-Driving-And-Connected-Cars-Fooling-Sensors-And-Tracking-Drivers-wp1.pdf)
+- 2015 Black Hat Europe
+
 ### [Deepxplore: Automated Whitebox Testing of Deep Learning Systems](https://arxiv.org/abs/1705.06640)
 -2017 SOSP
 
-### [“Deeptest: Automated Testing of Deep-Neural-Network-Driven Autonomous Cars](https://arxiv.org/abs/1708.08559)
+### [Illusion and dazzle: Adversarial optical channel exploits against lidars for automotive applications](https://link.springer.com/chapter/10.1007/978-3-319-66787-4_22)
+- 2017 ICCHES
+
+### [Deeptest: Automated Testing of Deep-Neural-Network-Driven Autonomous Cars](https://arxiv.org/abs/1708.08559)
 - 2018 ICSE 
 
 ### [DARTS: Deceiving Autonomous Cars with Toxic Signs](https://arxiv.org/pdf/1802.06430)
@@ -11,6 +17,7 @@
 - [code](https://github.com/inspire-group/advml-traffic-sign)
 
 ### [Adversarial objects against lidar-based autonomous driving systems](https://arxiv.org/abs/1907.05418)
+-2019
 
 ### [Adversarial Camera Stickers: A Physical Camera-based Attack on Deep Learning Systems](https://arxiv.org/abs/1904.00759)
 - 2019 ICML
@@ -20,7 +27,7 @@
 - 2019 CVPR
 
 ### [Adversarial sensor attack on lidar-based perception in autonomous driving](https://arxiv.org/pdf/1907.06826.pdf)
-- 2019 ACM SIGSAC
+- 2019 ACM SIGSAC CCS
 
 ### [CAMOU: Learning A Vehicle Camouflage For Physical Adversarial Attack On Object Detections In The Wild](https://www.semanticscholar.org/paper/CAMOU%3A-Learning-Physical-Vehicle-Camouflages-to-in-Zhang-Foroosh/2ee77a5fa75717118b62833f4cf111cfd0293aec)
 - 2019 ICLR
@@ -65,6 +72,9 @@
 ### [Adversarial attack and defense on point sets](https://arxiv.org/abs/1902.10899)
 - 2019
 
+### [Extending adversarial attacks and defenses to deep 3d point cloud classifiers](https://arxiv.org/abs/1901.03006)
+- 2019 ICIP
+
 ### [PointCloud Saliency Maps](https://arxiv.org/abs/1812.01687)
 - 2019 ICCV
 - [code](https://github.com/tianzheng4/PointCloud-Saliency-Maps)
@@ -100,8 +110,6 @@
 ### [Adversarial Example Attacks in the Physical World](https://link.springer.com/chapter/10.1007/978-3-030-62460-6_51)
 - 2020 ICMCS
 
-
-
 ### [Efficient Joint Gradient Based Attack Against SOR Defense for 3D Point Cloud Classification](https://dl.acm.org/doi/10.1145/3394171.3413875)
 - 2020 ACM MM
 - [code](https://github.com/machengcheng2016/JGBA-pointcloud-attack)
@@ -124,6 +132,9 @@
 ### [Generating Adversarial Point Clouds on Multi-modal Fusion Based 3D Object Detection Model](https://link.springer.com/chapter/10.1007/978-3-030-86890-1_11)
 - 2021 ICICS
 
+### [Shadow-catcher: Looking into shadows to detect ghost objects in autonomous vehicle 3d sensing](https://arxiv.org/abs/2008.12008)
+- 2021
+
 ## Real world attack
 
 ### [Adversarial Patches](https://arxiv.org/abs/1712.09665)
@@ -132,8 +143,17 @@
 ### [Synthesizing Robust Adversarial Examples](https://arxiv.org/abs/1707.07397)
 - 2018 ICML
 
+### [Shapeshifter:Robust Physical Adversarial Attack on Faster R-CNN Object Detector](https://link.springer.com/chapter/10.1007/978-3-030-10925-7_4)
+- 2018 ECML-PKDD
+- [code](https://github.com/shangtse/robust-physical-attack)
+
 ### [Seeing isn’t Believing: Practical Adversarial Attack Against Object Detectors](https://arxiv.org/abs/1812.10217)
 - 2019 ACM SIGSAC
 
+## Security of Autonomous Systems
 
-### [“Shapeshifter:Robust Physical Adversarial Attack on Faster R-CNN Object Detector]()
+### [Security of Autonomous Systems Employing Embedded Computing and Sensors](http://ieeexplore.ieee.org/document/6504448/)
+- 2013 IEEE Micro
+
+### [The Security of Autonomous Driving: Threats, Defenses, and Future Directions](https://ieeexplore.ieee.org/document/8890622)
+- 2019 IEEE
