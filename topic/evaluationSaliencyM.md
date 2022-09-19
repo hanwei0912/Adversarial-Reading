@@ -1,5 +1,65 @@
 ## New Metrics and Benchmark
 
+### [Which Explanation Should I Choose? A Function Approximation Perspective toCharacterizing Post hoc Explanations](https://arxiv.org/pdf/2206.01254.pdf)
+
+**year** 2022 
+
+**abstract** In this work, we bridge these gaps and address a fundamental question: Which explanation method should one use in a given situation?
+To this end, we adopt a function approximation perspective and formalize the
+local function approximation (LFA) framework. We show that popular explanation
+methods are instances of this framework, performing function approximations of
+the underlying model in different neighborhoods using different loss functions. We
+introduce a no free lunch theorem for explanation methods which demonstrates
+that no single method can perform optimally across all neighbourhoods and calls
+for choosing among methods. To choose among methods, we set forth a guiding
+principle based on the function approximation perspective, considering a method
+to be effective if it recovers the underlying model when the model is a member
+of the explanation function class. Then, we analyze the conditions under which
+popular explanation methods are effective and provide recommendations for choosing among explanation methods and creating new ones. Lastly, we empirically
+validate our theoretical results using various real world datasets, model classes,
+and prediction tasks. By providing a principled mathematical framework which
+unifies diverse explanation methods, our work characterizes the behaviour of these
+methods and their relation to one another, guides the choice of explanation methods,
+and paves the way for the creation of new ones.
+
+**why interesting** provide mathmatical analysis
+
+### [Towards Better Understanding Attribution Methods](https://openaccess.thecvf.com/content/CVPR2022/papers/Rao_Towards_Better_Understanding_Attribution_Methods_CVPR_2022_paper.pdf)
+
+**year** 2022
+
+**abstract**  To address faithfulness, we propose
+a novel evaluation setting (DiFull) in which we carefully
+control which parts of the input can influence the output in
+order to distinguish possible from impossible attributions.
+To address fairness, we note that different methods are applied at different layers, which skews any comparison, and
+so evaluate all methods on the same layers (ML-Att) and
+discuss how this impacts their performance on quantitative metrics. For more systematic visualizations, we propose a scheme (AggAtt) to qualitatively evaluate the methods on complete datasets. We use these evaluation schemes
+to study strengths and shortcomings of some widely used
+attribution methods. Finally, we propose a post-processing
+smoothing step that significantly improves the performance
+of some attribution methods, and discuss its applicability.
+
+**why interesting** new evaluation from different perspective
+
+### [Do Explanations Explain? Model Knows Best](https://openaccess.thecvf.com/content/CVPR2022/papers/Khakzar_Do_Explanations_Explain_Model_Knows_Best_CVPR_2022_paper.pdf)
+
+**year** 2022
+
+**abstract**  We propose a framework for evaluating
+the explanations using the neural network model itself. The
+framework leverages the network to generate input features
+that impose a particular behavior on the output. Using the
+generated features, we devise controlled experimental setups to evaluate whether an explanation method conforms
+to an axiom. Thus we propose an empirical framework for
+axiomatic evaluation of explanation methods. We evaluate
+well-known and promising explanation solutions using the
+proposed framework. The framework provides a toolset to
+reveal properties and drawbacks within existing and future
+explanation solutions
+
+**why interesting** construct special patches as ground truth and use them to evaluate the saliency maps
+
 ### [A Benchmark for Interpretability Methods in Deep Neural Networks](https://proceedings.neurips.cc/paper/2019/file/fe4b8556000d0f0cae99daa5c5c5a410-Paper.pdf)
 
 **year** 2019
