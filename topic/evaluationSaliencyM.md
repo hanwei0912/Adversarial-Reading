@@ -4,6 +4,15 @@
 
 ## New Metrics and Benchmark
 
+### [CLEVR-XAI: A benchmark dataset for the ground truth evaluation of neural network explanations](https://www.sciencedirect.com/science/article/pii/S1566253521002335)
+[code](https://github.com/ahmedmagdiosman/clevr-xai)
+**year** 2022
+
+**abstract** CLEVR-XAI aims to provide a benchmark dataset for the quantitative evaluation of XAI explanations (aka heatmaps) in computer vision.
+The CLEVR-XAI dataset consists of 39,761 simple questions (CLEVR-XAI-simple) and 100,000 complex questions (CLEVR-XAI-complex), which are based on the same underlying set of 10,000 images (i.e., there are approx. 4 simple questions and 10 complex questions per image).
+
+
+
 ### [Which Explanation Should I Choose? A Function Approximation Perspective toCharacterizing Post hoc Explanations](https://arxiv.org/pdf/2206.01254.pdf)
 
 **year** 2022 
