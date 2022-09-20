@@ -138,6 +138,10 @@
 ### [Shadow-catcher: Looking into shadows to detect ghost objects in autonomous vehicle 3d sensing](https://arxiv.org/abs/2008.12008)
 - 2021
 
+### [Shape-invariant 3D Adversarial Point Clouds](https://arxiv.org/abs/2203.04041)
+- 2022 CVPR
+- [code](https://github.com/shikiw/SI-Adv)
+
 ## Real world attack
 
 ### [Adversarial Patches](https://arxiv.org/abs/1712.09665)
