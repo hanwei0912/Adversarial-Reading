@@ -92,7 +92,7 @@
 ### [Geometry-Aware Generation of Adversarial Point Clouds](https://arxiv.org/abs/1912.11171)
 － 2020 IEEE TPARI
 － [code](https://github.com/Yuxin-Wen/GeoA3)
-[figure](figures/Geo+A3.png)
+![figure](figures/Geo+A3.png)
 
 ### [Transferable adversarial perturbations on 3D point clouds](https://arxiv.org/abs/1912.00461)
 - 2020 ECCV
