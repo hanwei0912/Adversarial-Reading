@@ -4,7 +4,7 @@
 - 2015 Black Hat Europe
 
 ### [Deepxplore: Automated Whitebox Testing of Deep Learning Systems](https://arxiv.org/abs/1705.06640)
--2017 SOSP
+- 2017 SOSP
 
 ### [Illusion and dazzle: Adversarial optical channel exploits against lidars for automotive applications](https://link.springer.com/chapter/10.1007/978-3-319-66787-4_22)
 - 2017 ICCHES
@@ -92,6 +92,7 @@
 ### [Geometry-Aware Generation of Adversarial Point Clouds](https://arxiv.org/abs/1912.11171)
 － 2020 IEEE TPARI
 － [code](https://github.com/Yuxin-Wen/GeoA3)
+[figure](figures/Geo+A3.png)
 
 ### [Transferable adversarial perturbations on 3D point clouds](https://arxiv.org/abs/1912.00461)
 - 2020 ECCV
