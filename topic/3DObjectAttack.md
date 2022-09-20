@@ -88,6 +88,7 @@
 ### [Generating 3d adversarial point clouds](https://arxiv.org/abs/1809.07016)
 - 2019 CVPR
 - [code](https://github.com/xiangchong1/3d-adv-pc)
+![figure](figures/G3.png)
 
 ### [Geometry-Aware Generation of Adversarial Point Clouds](https://arxiv.org/abs/1912.11171)
 － 2020 IEEE TPARI
