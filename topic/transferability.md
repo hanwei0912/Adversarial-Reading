@@ -163,3 +163,5 @@ Wp is a special uniform project kernel, it is to reuse the cut noise to alleviat
 - Ghost Networks: apply feature-level perturbations to an existing model to potential create a huge set of diverse models; models are subsequently fused by longitudinal ensemble
 - customized fusion method + logitudinal ensemble
 - Dropout Erosion: densely apply dropout to every block throughout the base network
+
+### [Boosting the Adversarial Transferability of Surrogate Model with Dark Knowledge](https://arxiv.org/pdf/2206.08316.pdf)
