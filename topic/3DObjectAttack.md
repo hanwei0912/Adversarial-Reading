@@ -104,7 +104,7 @@
 
 ### [adversarial shape perturbations on 3d point clouds](https://dl.acm.org/doi/abs/10.1007/978-3-030-66415-2_6)
 - [code](https://github.com/Daniel-Liu-c0deb0t/Adversarial-point-perturbations-on-3D-objects)
-- ![figure](figures/.png)
+- ![figure](figures/shapeAttack.png)
 
 ### [Lg-gan: Label guided adversarial network for flexible targeted attack of point cloud based deep networks](https://arxiv.org/pdf/2104.12146.pdf)
 - 2020 CVPR
