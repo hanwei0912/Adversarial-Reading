@@ -1,6 +1,9 @@
 ### [Reevaluating adversarial examples in Nature Language]()
 EMNLP 2020
 
+### [Evaluating and enhancing the robustness of neural network-based dependency parsing models with adversarial examples]()
+dependency parsing
+
 Adversarial Training with Fast Gradient Projection Method against Synonym Substitution Based Text Attacks
 
 Token-Aware Virtual Adversarial Training in Natural Language Understanding
