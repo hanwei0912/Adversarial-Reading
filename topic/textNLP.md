@@ -1,3 +1,6 @@
+Counter-fitting word Vectors to Linguistic Constraints
+2016, word substitution by knn or epsilon-ball in counter fitted glove embedding space
+
 ### [Reevaluating adversarial examples in Nature Language]()
 EMNLP 2020
 
