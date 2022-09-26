@@ -6,6 +6,8 @@
 2. We add Guassion noises to input image x0 util pure Guassion noise xT, then the DDPM model reconstruct xT to the input image.
 3. Reparameterization trick
 4. Any xt can be represented with x0 and \beta
+5. Forward and backward could be fully formulized, but in backward, only unknown variable is noise z
+6. use model to estimate z,and get the label by the forward process 
 
 ### [High-Resolution Image Synthesis with Latent Diffusion Models](https://arxiv.org/pdf/2112.10752.pdf)
 
