@@ -42,6 +42,8 @@
 ### [3D adversarial object against msf-based perception in autonomous driving](https://me.ningfei.org/paper/MLsys_demo.pdf)
 - 2020 CMLS
 
+![figure](figures/demonstration.png)
+
 ### [Invisible for both Camera and LiDAR: Security of Multi-Sensor Fusion based Perception in Autonomous Driving Under Physical-World Attacks](https://arxiv.org/abs/2106.09249)
 - 2021 IEEE SP
 
@@ -63,6 +65,7 @@
 ### [Evaluating Adversarial Attacks on Driving Safety in Vision-Based Autonomous Vehicles](https://arxiv.org/abs/2108.02940)
 - 2022 IEEE ITJ
 - [code](https://github.com/DexterJZ/eval_driving_safety)
+
 
 ## 3D object attack
 
