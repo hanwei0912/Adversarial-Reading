@@ -155,6 +155,8 @@
 
 ### [MeshAdv: Adversarial Meshes for Visual Recognition]
 
+### [Strike (With) a Pose: Neural Networks Are Easily Fooled by Strange Poses of Familiar Objects]
+
 ## Real world attack
 
 ### [Adversarial Patches](https://arxiv.org/abs/1712.09665)
