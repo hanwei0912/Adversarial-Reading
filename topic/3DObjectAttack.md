@@ -149,6 +149,12 @@
 - [code](https://github.com/shikiw/SI-Adv)
 ![figure](figures/IShapeAttack.png)
 
+### [Adversarial Attacks Beyond the Image Space]
+
+### [Realistic Adversarial Examples in 3D Meshes]
+
+### [MeshAdv: Adversarial Meshes for Visual Recognition]
+
 ## Real world attack
 
 ### [Adversarial Patches](https://arxiv.org/abs/1712.09665)
