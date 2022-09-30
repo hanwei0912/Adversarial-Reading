@@ -31,3 +31,7 @@ with respect to transformations of the input.
 ![notes](figures/i-Page3.png)
 ![notes](figures/i-Page4.png)
 ![notes](figures/i-Page5.png)
+
+
+### [Keep CALM and Improve Visual Feature Attribution](https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_Keep_CALM_and_Improve_Visual_Feature_Attribution_ICCV_2021_paper.pdf)
+
