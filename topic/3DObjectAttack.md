@@ -39,6 +39,9 @@
 ### [Towards Robust LiDAR-based Perception in Autonomous Driving: General Black-box Adversarial Sensor Attack and Countermeasures](https://www.usenix.org/system/files/sec20-sun.pdf)
 - 2020 Usenix Security
 
+### [Counteracting adversarial attacks in autonomous driving](https://dl.acm.org/doi/pdf/10.1145/3400302.3415758?casa_token=aG42HApfp_sAAAAA:2gBYrj3yX7gxV4ZCGzfIhrGyLXxd2dAHJ5C8sNZ7MSeI2jfoS3MwxqRKQxGujFbaUyEy4HvFDshx)
+- 2020
+
 ### [3D adversarial object against msf-based perception in autonomous driving](https://me.ningfei.org/paper/MLsys_demo.pdf)
 - 2020 CMLS
 
