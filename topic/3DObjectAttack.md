@@ -159,6 +159,10 @@
 
 ### [Strike (With) a Pose: Neural Networks Are Easily Fooled by Strange Poses of Familiar Objects]
 
+### [Optical Adversarial Attack](https://openaccess.thecvf.com/content/ICCV2021W/AROW/html/Gnanasambandam_Optical_Adversarial_Attack_ICCVW_2021_paper.html)
+
+- 2021 ICCV
+
 ## Real world attack
 
 ### [Adversarial Patches](https://arxiv.org/abs/1712.09665)
