@@ -154,6 +154,8 @@
 ### [Realistic Adversarial Examples in 3D Meshes]
 
 ### [MeshAdv: Adversarial Meshes for Visual Recognition](https://arxiv.org/abs/1810.05206)
+- 2019 CVPR
+![figure](figures/meshAdv.png)
 
 ### [Strike (With) a Pose: Neural Networks Are Easily Fooled by Strange Poses of Familiar Objects]
 
