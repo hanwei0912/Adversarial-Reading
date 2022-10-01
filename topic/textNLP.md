@@ -1,7 +1,7 @@
 Counter-fitting word Vectors to Linguistic Constraints
 2016, word substitution by knn or epsilon-ball in counter fitted glove embedding space
 
-### [Reevaluating adversarial examples in Nature Language]()
+### [Reevaluating adversarial examples in Nature Language](https://arxiv.org/abs/2004.14174)
 EMNLP 2020
 
 ### [Evaluating and enhancing the robustness of neural network-based dependency parsing models with adversarial examples]()
