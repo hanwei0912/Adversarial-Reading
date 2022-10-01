@@ -166,8 +166,20 @@
 ### [Strike (With) a Pose: Neural Networks Are Easily Fooled by Strange Poses of Familiar Objects]
 
 ### [Optical Adversarial Attack](https://openaccess.thecvf.com/content/ICCV2021W/AROW/html/Gnanasambandam_Optical_Adversarial_Attack_ICCVW_2021_paper.html)
-
 - 2021 ICCV
+
+
+### [Boosting 3D Adversarial Attacks with Attacking On Frequency](https://www.researchgate.net/publication/358142659_Boosting_3D_Adversarial_Attacks_with_Attacking_On_Frequency)
+- 2022
+
+### [Local Aggressive Adversarial Attacks on 3D Point Cloud](https://proceedings.mlr.press/v157/sun21a/sun21a.pdf)
+- 2021 ACML
+
+### [Minimal Adversarial Examples for Deep Learning on 3D Point Clouds](https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_Minimal_Adversarial_Examples_for_Deep_Learning_on_3D_Point_Clouds_ICCV_2021_paper.pdf)
+- 2021 ICCV
+
+### [Camdar‐adv: Generating adversarial patcheson 3D object](https://onlinelibrary.wiley.com/doi/epdf/10.1002/int.22349)
+- 2020 
 
 ## Real world attack
 
@@ -191,3 +203,6 @@
 
 ### [The Security of Autonomous Driving: Threats, Defenses, and Future Directions](https://ieeexplore.ieee.org/document/8890622)
 - 2019 IEEE
+
+### [Making an Invisibility Cloak: Real World Adversarial Attacks on Object Detectors](https://arxiv.org/pdf/1910.14667.pdf)
+- 2020
