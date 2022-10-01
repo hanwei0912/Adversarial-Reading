@@ -66,6 +66,12 @@
 - 2022 IEEE ITJ
 - [code](https://github.com/DexterJZ/eval_driving_safety)
 
+### [Adversarial point cloud perturbations against 3D object detection in autonomous driving systems](https://www.sciencedirect.com/science/article/abs/pii/S0925231221013850)
+- 2021 Neurocomputing
+
+### [Adversarial Attacks Beyond the Image Space](https://openaccess.thecvf.com/content_CVPR_2019/html/Zeng_Adversarial_Attacks_Beyond_the_Image_Space_CVPR_2019_paper.html)
+- 2019 CVPR
+
 
 ## 3D object attack
 
