@@ -52,6 +52,7 @@
 
 ### [Adversarial Attacks on Camera-LiDAR Models for 3D Car Detection](https://arxiv.org/abs/2103.09448)
 - 2021
+![figure](figures/demonstration.png)
 
 ### [Crafting Adversarial Examples on 3D Object Detection Sensor Fusion Models](https://arxiv.org/pdf/2109.06363.pdf)
 - 2021
