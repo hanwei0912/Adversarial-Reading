@@ -37,3 +37,5 @@ with respect to transformations of the input.
 
 
 ### [Neural Response Interpretation through the Lens of Critical Pathways](https://openaccess.thecvf.com/content/CVPR2021/papers/Khakzar_Neural_Response_Interpretation_Through_the_Lens_of_Critical_Pathways_CVPR_2021_paper.pdf)
+
+![figures](figures/PathwayGradient.png)
