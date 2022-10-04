@@ -70,6 +70,8 @@
 - 2022 IEEE ITJ
 - [code](https://github.com/DexterJZ/eval_driving_safety)
 
+![figure](figures/EvaluationSDC.png)
+
 ### [Adversarial point cloud perturbations against 3D object detection in autonomous driving systems](https://www.sciencedirect.com/science/article/abs/pii/S0925231221013850)
 - 2021 Neurocomputing
 
