@@ -199,6 +199,7 @@
 - 2018 ECML-PKDD
 - [code](https://github.com/shangtse/robust-physical-attack)
 
+
 ### [Seeing isn’t Believing: Practical Adversarial Attack Against Object Detectors](https://arxiv.org/abs/1812.10217)
 - 2019 ACM SIGSAC
 
@@ -212,3 +213,10 @@
 
 ### [Making an Invisibility Cloak: Real World Adversarial Attacks on Object Detectors](https://arxiv.org/pdf/1910.14667.pdf)
 - 2020
+
+
+## NeRF attack
+
+### [Aug-NeRF: Training Stronger Neural Radiance Fields with Triple-Level Physically-Grounded Augmentations](https://arxiv.org/abs/2207.01164)
+- CVPR 2022
+- [code](https://github.com/vita-group/aug-nerf)
