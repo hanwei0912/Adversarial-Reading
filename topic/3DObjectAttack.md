@@ -65,6 +65,8 @@
 
 ### [Multi-view Correlation based Black-box Adversarial Attack for 3D Object Detection](https://dl.acm.org/doi/abs/10.1145/3447548.3467432?casa_token=25USgCzKRjMAAAAA:6wMaImk3bPoj5fD9hTUZ7BsmiKT_q8BMI25EUjUTZctjXJBAHGn3ZBis2B8qGjn4vAKJs0X_izDRjA)
 - 2021 ACM SIGKDD
+![figure](figures/mcbaa1.png)
+![figure](figures/mcbaa2.png)
 
 ### [Evaluating Adversarial Attacks on Driving Safety in Vision-Based Autonomous Vehicles](https://arxiv.org/abs/2108.02940)
 - 2022 IEEE ITJ
