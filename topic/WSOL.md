@@ -110,17 +110,44 @@ extent by learning mutually exclusive visual patterns, explicitly. Deep networks
 referred to as DANets, diverge and fuse discrepant yet discriminative features for image classification and object localization in an end-to-end manner
 
 
-PaS: Rethinking class activation mapping for weakly supervised object localization
-IVR: Normalization matters in weakly supervised object localization
+### [PaS: Rethinking class activation mapping for weakly supervised object localization](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600613.pdf)
+- ECCV 2020
+- CAM approach suffers
+from three fundamental issues: (i) the bias of GAP that assigns a higher
+weight to a channel with a small activation area, (ii) negatively weighted
+activations inside the object regions and (iii) instability from the use
+of the maximum value of a class activation map as a thresholding reference.
+- We propose three simple
+but robust techniques that alleviate the problems, including thresholded
+average pooling, negative weight clamping, and percentile as a standard
+for thresholding.
+
+### [IVR: Normalization matters in weakly supervised object localization](https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_Normalization_Matters_in_Weakly_Supervised_Object_Localization_ICCV_2021_paper.pdf)
+- ICCV 2021
+- In spite
+of many WSOL methods proposing novel strategies, there
+has not been any de facto standard about how to normalize the class activation map (CAM). Consequently, many
+WSOL methods have failed to fully exploit their own capacity because of the misuse of a normalization method. In this
+paper, we review many existing normalization methods and
+point out that they should be used according to the property
+of the given dataset. Additionally, we propose a new normalization method which substantially enhances the performance of any CAM-based WSOL methods. Using the proposed normalization method, we provide a comprehensive
+evaluation over three datasets (CUB, ImageNet and OpenImages) on three different architectures and observe significant performance gains over the conventional min-max normalization method in all the evaluated cases
+
 GC-Net: Geometry constrained weakly supervised object localization
+
 FAM: Foreground activation maps for weakly supervised object localization
+
 ORNet: Online refinement of low-level feature based activation map for weakly supervised object localization
+
 PSOL: Rethinking the route towards weakly supervised object localization
+
 SLT-Net: Strengthen learning tolerance for weakly supervised object localization
+
 SPOL: Shallow feature matters for weakly supervised object localization
 
 ### [Bridging the Gap between Classification and Localization for Weakly Supervised Object Localization](https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_Bridging_the_Gap_Between_Classification_and_Localization_for_Weakly_Supervised_CVPR_2022_paper.pdf)
 
 ## Evaluation
 Evaluation for weakly supervised object localization: Protocol, metrics, and datasets
+
 Evaluating weakly supervised object localization methods right
