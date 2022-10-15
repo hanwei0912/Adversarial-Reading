@@ -35,6 +35,7 @@
 ### [Physically Realizable Adversarial Examples for LiDAR Object Detection](https://openaccess.thecvf.com/content_CVPR_2020/html/Tu_Physically_Realizable_Adversarial_Examples_for_LiDAR_Object_Detection_CVPR_2020_paper.html)
 - 2020 CVPR
 - [code](https://github.com/cuge1995/awesome-3D-point-cloud-attacks)
+![figure](figures/LidarMesh.png)
 
 ### [Towards Robust LiDAR-based Perception in Autonomous Driving: General Black-box Adversarial Sensor Attack and Countermeasures](https://www.usenix.org/system/files/sec20-sun.pdf)
 - 2020 Usenix Security
