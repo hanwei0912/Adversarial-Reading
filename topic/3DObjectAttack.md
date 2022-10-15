@@ -57,6 +57,7 @@
 
 ### [Crafting Adversarial Examples on 3D Object Detection Sensor Fusion Models](https://arxiv.org/pdf/2109.06363.pdf)
 - 2021
+![figure](figures/advC-L3DCar.png)
 
 ### [Robust Roadside Physical Adversarial Attack Against Deep Learning in Lidar Perception Modules](https://dl.acm.org/doi/abs/10.1145/3433210.3453106?casa_token=IT8ydN-V2j8AAAAA:qrp8t4lcnvl9ErVB1qK8dswYqcUMBJWW1Q2vl61yeWJynuwM287VDZ19Nx9RBoqKw7qO-9PbOodYAQ)
 - 2021 ACM ACCCS
