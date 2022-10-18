@@ -50,3 +50,6 @@ with respect to transformations of the input.
 - 2019
 - bineary mask
 - mask is defined by a discrete lattice, and smooth the region with smooth function (Gaussian blur, convolution operator, max-convolution operator)
+
+
+### [NBDT: NEURAL-BACKED DECISION TREE](https://arxiv.org/pdf/2004.00221.pdf)
