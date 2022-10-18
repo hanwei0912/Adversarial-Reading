@@ -147,6 +147,18 @@ SPOL: Shallow feature matters for weakly supervised object localization
 
 ### [Bridging the Gap between Classification and Localization for Weakly Supervised Object Localization](https://openaccess.thecvf.com/content/CVPR2022/papers/Kim_Bridging_the_Gap_Between_Classification_and_Localization_for_Weakly_Supervised_CVPR_2022_paper.pdf)
 
+### [EVALUATING WEAKLY SUPERVISED OBJECT LOCALIZATION METHODS RIGHT? A STUDY ON HEATMAPBASED XAI AND NEURAL BACKED DECISION TREE](https://openreview.net/pdf?id=X55dLasnEcC)
+- ICLR 2023 under review
+- They addressed the ill-posed nature of
+the problem and showed that WSOL has not significantly improved beyond the
+baseline method class activation mapping (CAM).  (1) we perform WSOL
+using heatmap-based eXplanaible AI (XAI) methods (2) our model is not class
+agnostic since we are interested in the XAI aspect as well. Under similar protocol,
+we find that XAI methods perform WSOL with very sub-standard MaxBoxAcc
+scores. The experiment is then repeated for the same model trained with Neural
+Backed Decision Tree (NBDT) and we found that vanilla CAM yields significantly
+better WSOL performance after NBDT training.
+
 ## Evaluation
 Evaluation for weakly supervised object localization: Protocol, metrics, and datasets
 
