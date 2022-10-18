@@ -173,7 +173,7 @@
 - 2019 CVPR
 ![figure](figures/meshAdv.png)
 
-### [Strike (With) a Pose: Neural Networks Are Easily Fooled by Strange Poses of Familiar Objects]
+### [Strike (With) a Pose: Neural Networks Are Easily Fooled by Strange Poses of Familiar Objects]（https://arxiv.org/abs/1811.11553）
 
 ### [Optical Adversarial Attack](https://openaccess.thecvf.com/content/ICCV2021W/AROW/html/Gnanasambandam_Optical_Adversarial_Attack_ICCVW_2021_paper.html)
 - 2021 ICCV
@@ -184,6 +184,8 @@
 
 ### [Local Aggressive Adversarial Attacks on 3D Point Cloud](https://proceedings.mlr.press/v157/sun21a/sun21a.pdf)
 - 2021 ACML
+- [code](https://github.com/Chenfeng1271/L3A)
+![figure](figures/LAAattack3D.png)
 
 ### [Minimal Adversarial Examples for Deep Learning on 3D Point Clouds](https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_Minimal_Adversarial_Examples_for_Deep_Learning_on_3D_Point_Clouds_ICCV_2021_paper.pdf)
 - 2021 ICCV
