@@ -159,6 +159,10 @@ scores. The experiment is then repeated for the same model trained with Neural
 Backed Decision Tree (NBDT) and we found that vanilla CAM yields significantly
 better WSOL performance after NBDT training.
 
+### [StarNet: towards Weakly Supervised Few-Shot Object Detection](https://ojs.aaai.org/index.php/AAAI/article/download/16268/16075)
+- AAAI 2021
+- StarNet - a few-shot model featuring an end-to-end differentiable non-parametric star-model detec- tion and classification head. Through this head, the backbone is meta-trained using only image-level labels to produce good features for jointly localizing and classifying previously un- seen categories of few-shot test tasks using a star-model that geometrically matches between the query and support images (to find corresponding object instances). Being a few-shot de- tector, StarNet does not require any bounding box annota- tions, neither during pre-training, nor for novel classes adap- tation. It can thus be applied to the previously unexplored and challenging task of Weakly Supervised Few-Shot Object Detection (WS-FSOD), where it attains significant improve- ments over the baselines. In addition, StarNet shows signifi- cant gains on few-shot classification benchmarks that are less cropped around the objects (where object localization is key).
+
 ## Evaluation
 Evaluation for weakly supervised object localization: Protocol, metrics, and datasets
 
