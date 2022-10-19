@@ -226,3 +226,6 @@
 ### [Aug-NeRF: Training Stronger Neural Radiance Fields with Triple-Level Physically-Grounded Augmentations](https://arxiv.org/abs/2207.01164)
 - CVPR 2022
 - [code](https://github.com/vita-group/aug-nerf)
+
+
+### [ViewFool: Evaluating the Robustness of Visual Recognition to Adversarial Viewpoints](https://arxiv.org/pdf/2210.03895.pdf)
