@@ -193,6 +193,12 @@
 ### [Camdar‐adv: Generating adversarial patcheson 3D object](https://onlinelibrary.wiley.com/doi/epdf/10.1002/int.22349)
 - 2020 
 
+### [Exploring the Devil in Graph Spectral Domain for 3D Point Cloud Attacks](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/4378_ECCV_2022_paper.php)
+- ECCV 2022
+- Graph Spectral Domain Attack (GSDA)
+- [code](https://github.com/WoodwindHu/GSD)
+![figure](figures/GSDA3D.png)
+
 ## Real world attack
 
 ### [Adversarial Patches](https://arxiv.org/abs/1712.09665)
