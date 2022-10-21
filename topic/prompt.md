@@ -31,6 +31,8 @@ For instance, to classify the sensitive label of the sentence [X] "I love this m
 
 The algorithm to find Prompt shares similarity to adversarial attacks.
 
+### [Are Sample-Efficient NLP Models More Robust?](https://arxiv.org/pdf/2210.06456.pdf)
+
 ## Visual
 
 ### [Visual Prompting for Adversarial Robustness](https://arxiv.org/pdf/2210.06284.pdf)
