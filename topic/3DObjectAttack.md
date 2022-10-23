@@ -229,7 +229,7 @@
 
 ### [Shape Matters: Deformable Patch Attack](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136640522.pdf)
 - 2022 ECCV
-![figures](figures/shapePatch.png）
+![figure](figures/shapePatch.png)
 
 ## NeRF attack
 
