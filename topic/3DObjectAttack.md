@@ -126,7 +126,7 @@
 - [code](https://github.com/Daniel-Liu-c0deb0t/Adversarial-point-perturbations-on-3D-objects)
 ![figure](figures/shapeAttack.png)
 
-### [Lg-gan: Label guided adversarial network for flexible targeted attack of point cloud based deep networks](https://arxiv.org/pdf/2104.12146.pdf)
+### [Lg-gan: Label guided adversarial network for flexible targeted attack of point cloud based deep networks](https://arxiv.org/abs/2011.00566)
 - 2020 CVPR
 - [code](https://github.com/RyanHangZhou/tensorflow-LG-GAN)
 
@@ -149,6 +149,9 @@
 - 2021
 - [code](https://github.com/cuge1995/Mesh-Attack)
 ![figure](figures/MeshAttack.png)
+
+### [Explainability-Aware One Point Attack for Point Cloud Neural Networks](https://arxiv.org/pdf/2110.04158)
+- 2021
 
 ### [Object removal attacks on lidar-based 3d object detectors](https://arxiv.org/abs/2102.03722)
 - 2021
