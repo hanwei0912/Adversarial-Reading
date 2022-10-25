@@ -148,6 +148,7 @@
 ### [3D Adversarial Attacks Beyond Point Cloud](https://arxiv.org/pdf/2104.12146.pdf)
 - 2021
 - [code](https://github.com/cuge1995/Mesh-Attack)
+![figure](figures/IShapeAttack.png)
 
 ### [Object removal attacks on lidar-based 3d object detectors](https://arxiv.org/abs/2102.03722)
 - 2021
