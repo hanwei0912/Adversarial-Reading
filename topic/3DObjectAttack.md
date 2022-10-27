@@ -157,7 +157,8 @@
 - 2021
 
 ### [Fooling lidar perception via adversarial trajectory perturbation](https://arxiv.org/abs/2103.15326)
-- 2021
+- 2021 ICCV
+![figure](figures/trajectory.png)
 
 ### [Generating Adversarial Point Clouds on Multi-modal Fusion Based 3D Object Detection Model](https://link.springer.com/chapter/10.1007/978-3-030-86890-1_11)
 - 2021 ICICS
