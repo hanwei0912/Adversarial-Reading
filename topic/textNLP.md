@@ -63,6 +63,8 @@ Improved and Efficient Text Adversarial Attacks using Target Information
 
 BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain
 
+### [AllenNLP Interpret: A Framework for Explaining Predictions of NLP Models](https://arxiv.org/pdf/1909.09251.pdf)
+
 Crafting adversarial input sequences for recurrent neural networks
 
 Beyond Accuracy: Behavioral Testing of NLP models with CheckList
