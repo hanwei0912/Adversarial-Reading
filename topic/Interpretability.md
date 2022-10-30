@@ -53,3 +53,6 @@ with respect to transformations of the input.
 
 
 ### [NBDT: NEURAL-BACKED DECISION TREE](https://arxiv.org/pdf/2004.00221.pdf)
+
+### [Optimizing Relevance Maps of Vision Transformers Improves Robustness](https://arxiv.org/pdf/2206.01161.pdf)
+![figures](figures/ORMVTIR.png)
