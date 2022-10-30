@@ -129,6 +129,7 @@
 ### [Lg-gan: Label guided adversarial network for flexible targeted attack of point cloud based deep networks](https://arxiv.org/abs/2011.00566)
 - 2020 CVPR
 - [code](https://github.com/RyanHangZhou/tensorflow-LG-GAN)
+![figure](figures/LG-GAN.png)
 
 ### [Adversarial point cloud perturbations to attack deep object detection models](https://ieeexplore.ieee.org/abstract/document/9407842/)
 - 2020 IEEE DSS
