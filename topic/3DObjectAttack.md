@@ -185,6 +185,9 @@
 ### [Optical Adversarial Attack](https://openaccess.thecvf.com/content/ICCV2021W/AROW/html/Gnanasambandam_Optical_Adversarial_Attack_ICCVW_2021_paper.html)
 - 2021 ICCV
 
+### [Isometric 3D Adversarial Examples in the Physical World](https://deepai.org/publication/isometric-3d-adversarial-examples-in-the-physical-world)
+- 2022
+![figure](figures/e-isometric.png)
 
 ### [Boosting 3D Adversarial Attacks with Attacking On Frequency](https://www.researchgate.net/publication/358142659_Boosting_3D_Adversarial_Attacks_with_Attacking_On_Frequency)
 - 2022
