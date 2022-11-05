@@ -211,6 +211,15 @@
 - [code](https://github.com/WoodwindHu/GSD)
 ![figure](figures/GSDA3D.png)
 
+## Backdoor 3D point Cloud attack
+
+### [A backdoor attack against 3D point cloud classifiers](https://openaccess.thecvf.com/content/ICCV2021/papers/Xiang_A_Backdoor_Attack_Against_3D_Point_Cloud_Classifiers_ICCV_2021_paper.pdf)
+- ICCV 2021
+
+### [PointBA: Towards Backdoor Attacks in 3D Point Cloud](https://openaccess.thecvf.com/content/ICCV2021/papers/Li_PointBA_Towards_Backdoor_Attacks_in_3D_Point_Cloud_ICCV_2021_paper.pdf)
+- ICCV 2021
+![PointBA](figures/PointBA.png)
+
 ## Real world attack
 
 ### [Adversarial Patches](https://arxiv.org/abs/1712.09665)
