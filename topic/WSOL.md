@@ -133,7 +133,17 @@ point out that they should be used according to the property
 of the given dataset. Additionally, we propose a new normalization method which substantially enhances the performance of any CAM-based WSOL methods. Using the proposed normalization method, we provide a comprehensive
 evaluation over three datasets (CUB, ImageNet and OpenImages) on three different architectures and observe significant performance gains over the conventional min-max normalization method in all the evaluated cases
 
-GC-Net: Geometry constrained weakly supervised object localization
+### [GC-Net: Geometry constrained weakly supervised object localization](https://arxiv.org/pdf/2007.09727.pdf)
+- 2020
+We propose a geometry constrained network, termed GCNet, for weakly supervised object localization (WSOL). GC-Net consists
+of three modules: a detector, a generator and a classifier. The detector
+predicts the object location defined by a set of coefficients describing a
+geometric shape (i.e. ellipse or rectangle), which is geometrically constrained by the mask produced by the generator. The classifier takes the
+resulting masked images as input and performs two complementary classification tasks for the object and background. To make the mask more
+compact and more complete, we propose a novel multi-task loss function
+that takes into account area of the geometric shape, the categorical crossentropy and the negative entropy. In contrast to previous approaches,
+GC-Net is trained end-to-end and predict object location without any
+post-processing (e.g. thresholding) that may require additional tuning
 
 FAM: Foreground activation maps for weakly supervised object localization
 
