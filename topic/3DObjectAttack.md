@@ -220,6 +220,8 @@
 - ICCV 2021
 ![PointBA](figures/PointBA.png)
 
+### [Imperceptible and Robust Backdoor Attack in 3D Point Cloud](https://arxiv.org/pdf/2208.08052.pdf)
+
 ## Real world attack
 
 ### [Adversarial Patches](https://arxiv.org/abs/1712.09665)
