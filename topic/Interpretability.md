@@ -86,3 +86,18 @@ with respect to transformations of the input.
 
 #### [Anchors: High-Precision Model-Agnostic Explanations]()
 
+
+## CAM-based
+
+#### [HIGH-RESOLUTION CLASS ACTIVATION MAPPING](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8803474&casa_token=jnDXtwnOKMEAAAAA:73sXA8Yv6_XnG6-96BC3gZasnbbhONxe626HfVVq6Gle1-0UGu0ZTzLvAGL-yCjC-9oxK7B4ue_4&tag=1)
+
+#### [Towards Rich Feature Discovery with Class Activation Maps Augmentation for Person Re-Identification](https://openaccess.thecvf.com/content_CVPR_2019/papers/Yang_Towards_Rich_Feature_Discovery_With_Class_Activation_Maps_Augmentation_for_CVPR_2019_paper.pdf)
+
+
+#### [Mask-GradCAM: Object Identification and Localization of Visual Presentation for Deep Convolutional Network](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9358569&casa_token=4u6j5jXu5qUAAAAA:sLMhSM308rEjO7BHG9AyRitNje8tDUiWAjYC2FsG7nxR7epDGlw9cVNROzEEaqgcN5nkGtAY4BZT)
+
+
+#### [Towards Better Explanations of Class Activation Mapping](https://openaccess.thecvf.com/content/ICCV2021/papers/Jung_Towards_Better_Explanations_of_Class_Activation_Mapping_ICCV_2021_paper.pdf)
+
+
+#### [F-CAM: Full Resolution Class Activation Maps via Guided Parametric Upscaling](https://openaccess.thecvf.com/content/WACV2022/papers/Belharbi_F-CAM_Full_Resolution_Class_Activation_Maps_via_Guided_Parametric_Upscaling_WACV_2022_paper.pdf)
