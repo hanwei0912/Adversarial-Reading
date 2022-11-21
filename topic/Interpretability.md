@@ -56,3 +56,33 @@ with respect to transformations of the input.
 
 ### [Optimizing Relevance Maps of Vision Transformers Improves Robustness](https://arxiv.org/pdf/2206.01161.pdf)
 ![figures](figures/ORMVTIR.png)
+
+
+## Formal explainability of DNNs
+
+#### [Don’t Lie to Me! Robust and Efficient Explainability with Verified Perturbation Analysis]()
+
+#### [Towards Trustable Explainable AI]()
+
+#### [Abduction-Based Explanations for Machine Learning Models]()
+
+#### [From Contrastive to Abductive Explanations and Back Again]()
+
+#### [Efficient Explanations with Relevant Sets]()
+
+#### [Reluplex:AnEfficient SMT Solver for Verifying Deep Neural Networks]()
+
+#### [On Tractable Representations of Binary Neural Networks]()
+
+#### [The Computational Complexity of Understanding Binary Classifier Decisions]()
+
+
+## Heuristic XAI
+
+#### [A Unified Approach to Interpreting Model Predic- tions]()
+
+
+#### [“Why should I Trust You?” Explaining the Predictions of any Classifier]()
+
+#### [Anchors: High-Precision Model-Agnostic Explanations]()
+
