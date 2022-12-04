@@ -1,11 +1,11 @@
 ### [STC: A Simple to Complex Framework for Weakly-Supervised Semantic Segmentation](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7775087&casa_token=GVpLKpj5ph0AAAAA:v60Oe6aI3TbLmlvv3BvYG2LSTQ15Co823UC2pszc_6_I7fkbzHHzUALlzkl8jX_hccaAAj60i3OTkQ&tag=1)
 - 2017 IEEE TPAMI
-![figure](STC.png)
+![figure](figures/STC.png)
 
 ### [Learning Pixel-level Semantic Affinity with Image-level Supervision for Weakly Supervised Semantic Segmentation](https://openaccess.thecvf.com/content_cvpr_2018/papers/Ahn_Learning_Pixel-Level_Semantic_CVPR_2018_paper.pdf)
 - 2018 CVPR
 - AffinityNet
-
+![figure](figures/affinityNet.png)
 
 
 ### [Transformer based multiple instance learning for weakly supervised histopathology image segmentation](https://arxiv.org/pdf/2205.08878.pdf)
