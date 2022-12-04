@@ -80,9 +80,51 @@
 - SEAM
 - Saliency
 
+### [Self-supervised difference detection for weakly-supervised semantic segmentation](https://openaccess.thecvf.com/content_ICCV_2019/papers/Shimoda_Self-Supervised_Difference_Detection_for_Weakly-Supervised_Semantic_Segmentation_ICCV_2019_paper.pdf)
+- ICCV 2019
+- SSDD
 
+### [Mining cross-image semantics for weakly supervised semantic segmentation](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123470341.pdf)
+- ECCV 2020 
 
+### [Weaklysupervised semantic segmentation via sub-category exploration](https://openaccess.thecvf.com/content_CVPR_2020/papers/Chang_Weakly-Supervised_Semantic_Segmentation_via_Sub-Category_Exploration_CVPR_2020_paper.pdf)
+- CVPR 2020
 
+### [Causal intervention for weakly-supervised semantic segmentation](https://proceedings.neurips.cc/paper/2020/file/07211688a0869d995947a8fb11b215d6-Paper.pdf)
+- NIPS 2020
+
+### [Non-salient region object mining for weakly supervised semantic segmentation](https://openaccess.thecvf.com/content/CVPR2021/papers/Yao_Non-Salient_Region_Object_Mining_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2021_paper.pdf)
+- CVPR 2021
+
+### [Affinity attention graph neural network for weakly
+supervised semantic segmentation](https://ora.ox.ac.uk/objects/uuid:6979ca15-94ad-42d5-b842-db28540f808d)
+- 2021 TPAMI
+- A2GNN
+
+### [Leveraging auxiliary tasks with affinity learning for weakly supervised semantic segmentation](https://openaccess.thecvf.com/content/ICCV2021/papers/Xu_Leveraging_Auxiliary_Tasks_With_Affinity_Learning_for_Weakly_Supervised_Semantic_ICCV_2021_paper.pdf)
+- 2021 ICCV
+- AugSegNet
+
+### [Embedded discriminative attention mechanism for weakly supervised semantic segmentation](https://openaccess.thecvf.com/content/CVPR2021/papers/Wu_Embedded_Discriminative_Attention_Mechanism_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2021_paper.pdf)
+- CVPR 2021
+- EDAM
+
+### [Antiadversarially manipulated attributions for weakly and semisupervised semantic segmentation](https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Anti-Adversarially_Manipulated_Attributions_for_Weakly_and_Semi-Supervised_Semantic_Segmentation_CVPR_2021_paper.pdf)
+- CVPR 2021
+- AdvCAM
+
+### [Unlocking the potential of ordinary classifier: Class-specific adversarial erasing framework for weakly supervised semantic segmentation](https://openaccess.thecvf.com/content/ICCV2021/papers/Kweon_Unlocking_the_Potential_of_Ordinary_Classifier_Class-Specific_Adversarial_Erasing_Framework_ICCV_2021_paper.pdf)
+－ ICCV 2021
+- CSE
+
+### [ Pseudo-mask matters in weakly-supervised semantic
+segmentation](https://openaccess.thecvf.com/content/ICCV2021/papers/Li_Pseudo-Mask_Matters_in_Weakly-Supervised_Semantic_Segmentation_ICCV_2021_paper.pdf)
+- ICCV 2021
+- PMM
+
+### [Weakly Supervised Semantic Segmentation using Out-of-Distribution Data](https://openaccess.thecvf.com/content/CVPR2022/papers/Lee_Weakly_Supervised_Semantic_Segmentation_Using_Out-of-Distribution_Data_CVPR_2022_paper.pdf)
+- 2022 CVPR
+- OoD
 
 _____________Ronan's recommmendation_________
 
