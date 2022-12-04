@@ -96,8 +96,7 @@
 ### [Non-salient region object mining for weakly supervised semantic segmentation](https://openaccess.thecvf.com/content/CVPR2021/papers/Yao_Non-Salient_Region_Object_Mining_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2021_paper.pdf)
 - CVPR 2021
 
-### [Affinity attention graph neural network for weakly
-supervised semantic segmentation](https://ora.ox.ac.uk/objects/uuid:6979ca15-94ad-42d5-b842-db28540f808d)
+### [Affinity attention graph neural network for weakly supervised semantic segmentation](https://ora.ox.ac.uk/objects/uuid:6979ca15-94ad-42d5-b842-db28540f808d)
 - 2021 TPAMI
 - A2GNN
 
