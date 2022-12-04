@@ -111,6 +111,7 @@
 ### [Antiadversarially manipulated attributions for weakly and semisupervised semantic segmentation](https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_Anti-Adversarially_Manipulated_Attributions_for_Weakly_and_Semi-Supervised_Semantic_Segmentation_CVPR_2021_paper.pdf)
 - CVPR 2021
 - AdvCAM
+![figures](figures/AdvCAM.png)
 
 ### [Unlocking the potential of ordinary classifier: Class-specific adversarial erasing framework for weakly supervised semantic segmentation](https://openaccess.thecvf.com/content/ICCV2021/papers/Kweon_Unlocking_the_Potential_of_Ordinary_Classifier_Class-Specific_Adversarial_Erasing_Framework_ICCV_2021_paper.pdf)
 － ICCV 2021
