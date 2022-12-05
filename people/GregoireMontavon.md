@@ -28,6 +28,7 @@
 
 ### [Evaluating the visualization of what a deep neural network has learned](https://arxiv.org/pdf/1509.06321.pdf)
 - 2016 IEEE TNNLS
+![Rand](figures/AOPC.png)
 
 ### [Explaining deep neural networks and beyond: a review of methods and applications](https://ieeexplore.ieee.org/iel7/5/9369414/09369420.pdf)
 - 2021 Proceedings of the IEEE
