@@ -8,6 +8,7 @@
 
 ### [From Clustering to Cluster Explanations via Neural Networks](https://arxiv.org/pdf/2202.07304.pdf)
 - 2022 IEEE TNNLS
+![Rand](figures/NEON.png)
 
 ### [Explaining the Predictions of Unsupervised Learning Models](https://link.springer.com/chapter/10.1007/978-3-031-04083-2_7)
 - 2022 International Workshop on Extending Explainable AI Beyond Deep Models and Classifiers
