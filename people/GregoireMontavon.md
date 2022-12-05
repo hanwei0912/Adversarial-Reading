@@ -2,6 +2,9 @@
 - 2022
 ![Rand](figures/RandomSanityCheeckNotGood.png)
 
+### [Toward explainable artificial intelligence for regression models: A methodological perspective](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=A979AbYAAAAJ&sortby=pubdate&citation_for_view=A979AbYAAAAJ:K3LRdlH-MEoC)
+- 2022 IEEE Signal Processing Magazine
+- Although such explainable artificial intelligence (XAI) techniques have reached significant popularity for classifiers, thus far, little attention has been devoted to XAI for regression models (XAIR). In this review, we clarify the fundamental conceptual differences of XAI for regression and classification tasks, establish novel theoretical insights and analysis for XAIR, provide demonstrations of XAIR on genuine practical regression problems, and finally, discuss challenges remaining for the field.
 
 ### [XAI for Transformers: Better Explanations through Conservative Propagation](https://arxiv.org/pdf/2202.07304.pdf)
 - 2022 conference on Machine Learning
