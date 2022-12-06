@@ -33,3 +33,22 @@ skew towards only either accuracy or robustness.
 - LiDAR-driven 3D sensing allows new generations of vehicles to achieve advanced levels of situation awareness. However, recent works have demonstrated that physical adversaries can spoof LiDAR return signals and deceive 3D object detectors to erroneously detect “ghost" objects. Existing defenses are either impractical or focus only on vehicles. Unfortunately, it is easier to spoof smaller objects such as pedestrians and cyclists, but harder to defend against and can have worse safety implications. To address this gap, we introduce Shadow-Catcher, a set of new techniques embodied in an end-to-end prototype to detect both large and small ghost object attacks on 3D detectors. We characterize a new semantically meaningful physical invariant (3D shadows) which Shadow-Catcher leverages for validating objects.
 
 ### [Universal adversarial robustness of texture and shape-biased models](https://arxiv.org/pdf/1911.10364.pdf)
+- 2021 ICANN
+
+### [Analyzing the Viability of UAV Missions Facing Cyber Attacks](https://spiral.imperial.ac.uk/bitstream/10044/1/92005/4/Analyzing_the_Viability_of_UAV_Missions_Facing_Cyber_Attacks.pdf)
+- 2021 IEEE EuroS&PW
+
+### [Regularization can help mitigate poisoning attacks... with the right hyperparameters](https://arxiv.org/pdf/2105.10948.pdf)
+- 2021 ICLR
+
+### [Real-time Detection of Practical Universal Adversarial Perturbations](https://arxiv.org/pdf/2105.07334.pdf)
+- 2021
+
+### [Object removal attacks on lidar-based 3d object detectors](https://arxiv.org/pdf/2102.03722.pdf)
+- 2021
+
+### [Real-time Detection of Practical Universal Adversarial Perturbations](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=e23mVyoAAAAJ&sortby=pubdate&citation_for_view=e23mVyoAAAAJ:ipSP0SfFaZ8C)
+- 2021
+
+### [Robustness and transferability of universal attacks on compressed models](https://arxiv.org/pdf/2012.06024.pdf)
+- 2020
