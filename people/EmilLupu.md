@@ -13,3 +13,23 @@ attacks against a virtualized system at the different layers—in particular, ha
 
 ### [Jacobian Ensembles Improve Robustness Trade-offs to Adversarial Attacks](https://arxiv.org/pdf/2204.08726.pdf)
 - 2022
+- UAPs are a class of perturbations that when applied to any input causes model misclassification.
+Although there is an ongoing effort to defend models against these adversarial attacks, it is often difficult to reconcile the trade-offs in model accuracy and robustness to adversarial attacks. Jacobian regularization has
+been shown to improve the robustness of models against UAPs, whilst
+model ensembles have been widely adopted to improve both predictive
+performance and model robustness. In this work, we propose a novel
+approach, Jacobian Ensembles – a combination of Jacobian regularization and model ensembles to significantly increase the robustness against
+UAPs whilst maintaining or improving model accuracy. Our results show
+that Jacobian Ensembles achieves previously unseen levels of accuracy
+and robustness, greatly improving over previous methods that tend to
+skew towards only either accuracy or robustness.
+
+### [Redundancy Planning for Cost Efficient Resilience to Cyber Attacks](https://spiral.imperial.ac.uk/bitstream/10044/1/94453/2/Redundancy_planning_ACCEPTED_MAIN.pdf)
+- 2022 IEEE TDSC
+- We investigate the extent to which redundancy (including with diversity) can help mitigate the impact of cyber attacks that aim to reduce system performance. Using analytical techniques, we estimate impacts, in terms of monetary costs, of penalties from breaching Service Level Agreements (SLAs), and find optimal resource allocations to minimize the overall costs arising from attacks. Our approach combines attack impact analysis, based on performance modeling using queueing networks, with an attack model based on attack graphs. We evaluate our approach using a case study of a website, and show how resource redundancy and diversity can improve the resilience of a system by reducing the likelihood of a fully disruptive attack. 
+
+### [Shadow-catcher: Looking into shadows to detect ghost objects in autonomous vehicle 3d sensing](https://arxiv.org/pdf/2008.12008.pdf)
+- 2021 ESRCS
+- LiDAR-driven 3D sensing allows new generations of vehicles to achieve advanced levels of situation awareness. However, recent works have demonstrated that physical adversaries can spoof LiDAR return signals and deceive 3D object detectors to erroneously detect “ghost" objects. Existing defenses are either impractical or focus only on vehicles. Unfortunately, it is easier to spoof smaller objects such as pedestrians and cyclists, but harder to defend against and can have worse safety implications. To address this gap, we introduce Shadow-Catcher, a set of new techniques embodied in an end-to-end prototype to detect both large and small ghost object attacks on 3D detectors. We characterize a new semantically meaningful physical invariant (3D shadows) which Shadow-Catcher leverages for validating objects.
+
+### [Universal adversarial robustness of texture and shape-biased models](https://arxiv.org/pdf/1911.10364.pdf)
