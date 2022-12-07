@@ -54,6 +54,7 @@
 - 2018 NIPS
 - SeeNet
 - saliency
+![figures](figures/SeeNet.png)
 
 ### [Weakly-supervised semantic segmentation network with deep seeded region growing](https://openaccess.thecvf.com/content_cvpr_2018/papers/Huang_Weakly-Supervised_Semantic_Segmentation_CVPR_2018_paper.pdf)
 - 2018 CVPR
