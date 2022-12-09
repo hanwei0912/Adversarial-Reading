@@ -49,7 +49,7 @@
 - 2018 CVPR
 - MCOF
 - saliency
-![figure](figures/affinityNet.png)
+![figure](figures/MCOF.png)
 
 ### [Self-erasing network for integral object attention](https://proceedings.neurips.cc/paper/2018/file/c042f4db68f23406c6cecf84a7ebb0fe-Paper.pdf)
 - 2018 NIPS
