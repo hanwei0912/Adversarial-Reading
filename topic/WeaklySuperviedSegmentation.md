@@ -127,6 +127,9 @@
 - 2022 CVPR
 - OoD
 
+### [Collaborative Global-Local Networks for Memory-Efficient Segmentation of Ultra-High Resolution Images]()
+![figures](figures/GLNet.png)
+
 _____________Ronan's recommmendation_________
 
 ### [Transformer based multiple instance learning for weakly supervised histopathology image segmentation](https://arxiv.org/pdf/2205.08878.pdf)
