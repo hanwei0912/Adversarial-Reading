@@ -119,6 +119,10 @@
 - 2020 ECCV
 - [code](https://github.com/ajhamdi/AdvPC)
 
+### [Isometric 3D Adversarial Examples in the Physical World](https://openreview.net/pdf?id=HOG-G4arLnU)
+
+![fg](figures/e-iso.png)
+
 ### [Nudge attacks on point-cloud dnns](https://arxiv.org/abs/2011.11637)
 - 2020
 
