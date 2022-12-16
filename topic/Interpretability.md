@@ -76,10 +76,12 @@ with respect to transformations of the input.
 
 #### [The Computational Complexity of Understanding Binary Classifier Decisions]()
 
+### [Debiased-CAM to mitigate image perturbations with faithful visual explanations of machine learning](http://www.iri.upc.edu/files/scidoc/2555-Debiased-CAM-to-mitigate-image-perturbations-with-faithful-visual-explanations-of-machine-learning-.pdf)
+- 2022 CHI Conference on Human Factors in Computing Systems
 
 ## Heuristic XAI
 
-#### [A Unified Approach to Interpreting Model Predic- tions]()
+#### [A Unified Approach to Interpreting Model Predictions]()
 
 
 #### [“Why should I Trust You?” Explaining the Predictions of any Classifier]()
