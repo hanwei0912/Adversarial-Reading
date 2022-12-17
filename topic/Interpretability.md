@@ -79,6 +79,8 @@ with respect to transformations of the input.
 ### [Debiased-CAM to mitigate image perturbations with faithful visual explanations of machine learning](http://www.iri.upc.edu/files/scidoc/2555-Debiased-CAM-to-mitigate-image-perturbations-with-faithful-visual-explanations-of-machine-learning-.pdf)
 - 2022 CHI Conference on Human Factors in Computing Systems
 
+![fi](figures/debiasedCAM.png)
+
 ## Heuristic XAI
 
 #### [A Unified Approach to Interpreting Model Predictions]()
