@@ -6,7 +6,7 @@
 
 ### [Benchmarking adversarial attacks and defenses for time-series data](https://arxiv.org/pdf/2008.13261.pdf)
 - 2020
-！[](figures/BAADTSD.png)
+![fff](figures/BAADTSD.png)
 
 ### [Adversarial Attacks on Deep Neural Networks for Time Series Classification](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8851936&casa_token=Zleksid02isAAAAA:GiTeZsLxEz0HytsGBDjQeCoRGKXEWLZOrXx4r64fwBHMUCICMPhUaLqLPyLRYU48wLSEUuScikft&tag=1)
 - 2019 IJCNN
