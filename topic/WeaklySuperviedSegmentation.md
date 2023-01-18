@@ -14,6 +14,7 @@
 - 2015 CVPR
 - MIL-Seq
 - no saliency
+![figure](figures/aggreg-LSE.png)
 
 ### [Seed, expand and constrain: Three principles for weakly-supervised image segmentation](https://arxiv.org/abs/1603.06098)
 - 2016 ECCV
