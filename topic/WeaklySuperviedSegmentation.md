@@ -8,6 +8,7 @@
 - 2015 ICCV
 - EM-Adapt
 - no saliency
+![figure](figures/deepLab.png)
 
 ### [From image-level to pixel-level labeling with convolutional networks](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Pinheiro_From_Image-Level_to_2015_CVPR_paper.pdf)
 - 2015 CVPR
