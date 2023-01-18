@@ -2,6 +2,7 @@
 - 2015 CVPR
 - CCNN
 - No Saliency
+![figure](figures/STC.png)
 
 ### [Weakly-and semi-supervised learning of a deep convolutional network for semantic image segmentation](https://ieeexplore.ieee.org/document/7410560)
 - 2015 ICCV
