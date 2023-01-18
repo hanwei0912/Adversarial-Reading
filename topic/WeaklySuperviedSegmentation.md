@@ -20,6 +20,8 @@
 - 2016 ECCV
 - SEC
 - no Saliency
+![figure](figures/SEC.png)
+![figure](figures/SEC1.png)
 
 ### [STC: A Simple to Complex Framework for Weakly-Supervised Semantic Segmentation](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7775087&casa_token=GVpLKpj5ph0AAAAA:v60Oe6aI3TbLmlvv3BvYG2LSTQ15Co823UC2pszc_6_I7fkbzHHzUALlzkl8jX_hccaAAj60i3OTkQ&tag=1)
 - 2017 IEEE TPAMI
