@@ -4,6 +4,7 @@
 
 ### [Remote attacks on automated vehicles sensors: Experiments on camera and lidar](https://www.blackhat.com/docs/eu-15/materials/eu-15-Petit-Self-Driving-And-Connected-Cars-Fooling-Sensors-And-Tracking-Drivers-wp1.pdf)
 - 2015 Black Hat Europe
+![figure](figures/remoteAttack.png)
 
 ### [Deepxplore: Automated Whitebox Testing of Deep Learning Systems](https://arxiv.org/abs/1705.06640)
 - 2017 SOSP
