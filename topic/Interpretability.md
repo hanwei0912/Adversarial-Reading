@@ -105,3 +105,12 @@ with respect to transformations of the input.
 
 
 #### [F-CAM: Full Resolution Class Activation Maps via Guided Parametric Upscaling](https://openaccess.thecvf.com/content/WACV2022/papers/Belharbi_F-CAM_Full_Resolution_Class_Activation_Maps_via_Guided_Parametric_Upscaling_WACV_2022_paper.pdf)
+
+### [Improving Interpretability by Information Bottleneck Saliency Guided Localization](https://bmvc2022.mpi-inf.mpg.de/0605.pdf)
+
+- saliency suppression mechanism: the saliency map of ground truth should be different from saliency map of other class (we can follow the same idea, instead of feeding masked images and make decision, we just check the overlap)
+- information bottleneck guided localization, check if the region of saliency maps contains information that is useful for classification (IBM)
+- they use ibm saliency map as ground truth for grad-cam saliency map, minimize the kl distance between current feature map to previous feature map
+
+### [Improving Deep Learning Interpretability by Saliency Guided Training](https://arxiv.org/pdf/2111.14338.pdf)
+- mask the image with top k pixel sorted by gradient, force masked images as similar as possible to original one
