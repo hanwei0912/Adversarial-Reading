@@ -1,5 +1,9 @@
 ### [Improving Deep Learning Interpretability by Saliency Guided Training](https://arxiv.org/pdf/2111.14338.pdf)
 NeurIPS 2021
+![](figures/SaliencyGuidedTraining.png)
+
+### [Improving Interpretability by Information Bottleneck Saliency Guided Localization](https://bmvc2022.mpi-inf.mpg.de/0605.pdf)
+![](figures/SaliencyGuidedLocalization.png)
 
 ### [VISFIS: Visual Feature Importance Supervision with Right-for-the-Right-Reason Objectives](https://arxiv.org/pdf/2206.11212.pdf)
 NeurIPS 2022
