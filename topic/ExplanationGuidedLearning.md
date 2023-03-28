@@ -7,12 +7,14 @@ NeurIPS 2021
 
 ### [VISFIS: Visual Feature Importance Supervision with Right-for-the-Right-Reason Objectives](https://arxiv.org/pdf/2206.11212.pdf)
 NeurIPS 2022
+![](figures/visfis.png)
 
 ### [Constructing Natural Language Explanations via Saliency Map Verbalization](https://arxiv.org/pdf/2210.07222.pdf)
-
+![](figures/CIDG.png)
 
 ### [Saliency Guided Adversarial Training for Learning Generalizable Features with Applications to Medical Imaging Classification System](https://arxiv.org/pdf/2209.04326.pdf)
 AdvML Frontiers worhshop ICML 2022
+![](figures/SaliencyGuidedAdversarialTraining.png)
 
 ### [A Generalized Explanation Framework for Visualization of Deep Learning Model Predictions](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10034989)
 IEEE PAMI
