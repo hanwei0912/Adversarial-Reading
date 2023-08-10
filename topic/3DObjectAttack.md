@@ -243,6 +243,13 @@
 ### [Seeing isn’t Believing: Practical Adversarial Attack Against Object Detectors](https://arxiv.org/abs/1812.10217)
 - 2019 ACM SIGSAC
 
+### [SENSOR ADVERSARIAL TRAITS: ANALYZING ROBUSTNESS OF 3D OBJECT DETECTION SENSOR FUSION MODELS](https://arxiv.org/pdf/2109.06363.pdf)
+
+### [Multi-view Correlation based Black-box Adversarial Attack for 3D Object Detection](https://dl.acm.org/doi/abs/10.1145/3447548.3467432?casa_token=ZPKkwkXfDbYAAAAA%3APLJ3lAwHGomQQraFmYmt8wTJp7HZssc1khWYdPJ0vGHjXU8_JA6GIensxqeNYN5Tig4pEqaQHNu9c9Y)
+-SIGKDD 2021
+
+
+
 ## Security of Autonomous Systems
 
 ### [Security of Autonomous Systems Employing Embedded Computing and Sensors](http://ieeexplore.ieee.org/document/6504448/)
@@ -251,12 +258,50 @@
 ### [The Security of Autonomous Driving: Threats, Defenses, and Future Directions](https://ieeexplore.ieee.org/document/8890622)
 - 2019 IEEE
 
+### [Adversarial Objects Against LiDAR-Based Autonomous Driving Systems](https://arxiv.org/pdf/1907.05418.pdf)
+
 ### [Making an Invisibility Cloak: Real World Adversarial Attacks on Object Detectors](https://arxiv.org/pdf/1910.14667.pdf)
 - 2020
 
 ### [Shape Matters: Deformable Patch Attack](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136640522.pdf)
 - 2022 ECCV
 ![figure](figures/shapePatch.png)
+
+### [Towards Robust LiDAR-based Perception in Autonomous Driving: General Black-box Adversarial Sensor Attack and Countermeasures](https://www.usenix.org/system/files/sec20-sun.pdf)
+
+### [Adversarial Attack and Defense of YOLO Detectors in Autonomous Driving Scenarios](https://arxiv.org/pdf/2202.04781.pdf)
+
+### [On Adversarial Robustness of Trajectory Prediction for Autonomous Vehicles](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_On_Adversarial_Robustness_of_Trajectory_Prediction_for_Autonomous_Vehicles_CVPR_2022_paper.pdf)
+-2022 cvpr
+
+### [Understanding the Robustness of 3D Object Detection with Bird’s-Eye-View Representations in Autonomous Driving](https://openaccess.thecvf.com/content/CVPR2023/papers/Zhu_Understanding_the_Robustness_of_3D_Object_Detection_With_Birds-Eye-View_Representations_CVPR_2023_paper.pdf)
+
+### [A survey on adversarial attacks and defenses for object detection and their applications in autonomous vehicles](https://link.springer.com/article/10.1007/s00371-022-02660-6)
+
+### [Towards Robust Sensing for Autonomous Vehicles: An adversarial perspective](https://arxiv.org/pdf/2007.10115.pdf)
+
+### [Evaluating Adversarial Attacks on Driving Safety in Vision-Based Autonomous Vehicles](https://arxiv.org/pdf/2108.02940.pdf)
+
+### [On the Real-World Adversarial Robustness of Real-Time Semantic Segmentation Models for Autonomous Driving](https://arxiv.org/pdf/2201.01850.pdf)
+
+### [Evaluating the Robustness of Semantic Segmentation for Autonomous Driving against Real-World Adversarial Patch Attacks](https://openaccess.thecvf.com/content/WACV2022/papers/Nesti_Evaluating_the_Robustness_of_Semantic_Segmentation_for_Autonomous_Driving_Against_WACV_2022_paper.pdf)
+
+### [Exploring Adversarial Robustness of Multi-sensor Perception Systems in Self Driving](https://arxiv.org/pdf/2101.06784.pdf)
+
+### [3D Object Detection for Autonomous Driving: A Comprehensive Survey](https://arxiv.org/pdf/2206.09474.pdf)
+2023
+
+### [Can We Use Arbitrary Objects to Attack LiDAR Perception in Autonomous Driving?](https://www.acsu.buffalo.edu/~yzhu39/Yi_Zhu_homepage_files/papers/CCS21_434.pdf)
+
+### [Adversarial Attacks against LiDAR Semantic Segmentation in Autonomous Driving](https://par.nsf.gov/servlets/purl/10352002)
+
+### [A Survey on Physical Adversarial Attack in Computer Vision](https://arxiv.org/pdf/2209.14262.pdf)
+
+### [ADVERSARIAL TRAINING OF SELF-SUPERVISED MONOCULAR DEPTH ESTIMATION AGAINST PHYSICAL-WORLD ATTACKS](https://arxiv.org/pdf/2301.13487.pdf)
+
+### [A Survey on Scenario-Based Testing for Automated Driving Systems in High-Fidelity Simulation](https://arxiv.org/pdf/2112.00964.pdf)
+
+### [Towards Autonomous Driving Model Resistant to Adversarial Attack](https://www.tandfonline.com/doi/full/10.1080/08839514.2023.2193461)
 
 ## NeRF attack
 
@@ -266,3 +311,5 @@
 
 
 ### [ViewFool: Evaluating the Robustness of Visual Recognition to Adversarial Viewpoints](https://arxiv.org/pdf/2210.03895.pdf)
+
+### [NeRFool: Uncovering the Vulnerability of Generalizable Neural Radiance Fields against Adversarial Perturbations](https://arxiv.org/abs/2306.06359)
