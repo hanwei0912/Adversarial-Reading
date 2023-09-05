@@ -116,11 +116,16 @@ with respect to transformations of the input.
 - mask the image with top k pixel sorted by gradient, force masked images as similar as possible to original one
 
 ### [Use HiResCAM instead of Grad-CAM for faithful explanations of convolutional neural networks](https://arxiv.org/pdf/2011.08891.pdf)
+- Instead of summing up the gradient for each channel, they directly multiply the gradient with a feature map element-wise
 
 ### [Libra-CAM: An Activation-Based Attribution Based on the Linear Approximation of Deep Neural Nets and Threshold Calibration](https://www.ijcai.org/proceedings/2022/0442.pdf)
 
 ### [LFI-CAM: Learning Feature Importance for Better Visual Explanation](https://openaccess.thecvf.com/content/ICCV2021/papers/Lee_LFI-CAM_Learning_Feature_Importance_for_Better_Visual_Explanation_ICCV_2021_paper.pdf)
+- ICCV 2021
+- Using an attention branch to learn feature importance (score) then use them to weigh the last feature maps to get attention maps; The adding an attention mechanism between feature maps and attention map.
+- Comment: The attention mechanism is better than using an attention map to mask features (problem of range of values). 
 
 ### [Explaining Local, Global, And Higher-Order Interactions In Deep Learning](https://openaccess.thecvf.com/content/ICCV2021/papers/Lerman_Explaining_Local_Global_and_Higher-Order_Interactions_in_Deep_Learning_ICCV_2021_paper.pdf)
-
+- ICCV 2021 Taylor-CAM
+- Interaction effects
 
