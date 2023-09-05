@@ -114,3 +114,13 @@ with respect to transformations of the input.
 
 ### [Improving Deep Learning Interpretability by Saliency Guided Training](https://arxiv.org/pdf/2111.14338.pdf)
 - mask the image with top k pixel sorted by gradient, force masked images as similar as possible to original one
+
+### [Use HiResCAM instead of Grad-CAM for faithful explanations of convolutional neural networks](https://arxiv.org/pdf/2011.08891.pdf)
+
+### [Libra-CAM: An Activation-Based Attribution Based on the Linear Approximation of Deep Neural Nets and Threshold Calibration](https://www.ijcai.org/proceedings/2022/0442.pdf)
+
+### [LFI-CAM: Learning Feature Importance for Better Visual Explanation](https://openaccess.thecvf.com/content/ICCV2021/papers/Lee_LFI-CAM_Learning_Feature_Importance_for_Better_Visual_Explanation_ICCV_2021_paper.pdf)
+
+### [Explaining Local, Global, And Higher-Order Interactions In Deep Learning](https://openaccess.thecvf.com/content/ICCV2021/papers/Lerman_Explaining_Local_Global_and_Higher-Order_Interactions_in_Deep_Learning_ICCV_2021_paper.pdf)
+
+
