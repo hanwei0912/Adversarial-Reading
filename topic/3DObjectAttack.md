@@ -309,7 +309,11 @@
 - CVPR 2022
 - [code](https://github.com/vita-group/aug-nerf)
 
-
 ### [ViewFool: Evaluating the Robustness of Visual Recognition to Adversarial Viewpoints](https://arxiv.org/pdf/2210.03895.pdf)
 
 ### [NeRFool: Uncovering the Vulnerability of Generalizable Neural Radiance Fields against Adversarial Perturbations](https://arxiv.org/abs/2306.06359)
+
+## Survey
+
+### [Adversarial Attacks and Defenses on 3D Point Cloud Classification: A Survey](https://arxiv.org/pdf/2307.00309.pdf)
+
