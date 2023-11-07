@@ -179,22 +179,10 @@
 
 ### [Adversarial Attacks Beyond the Image Space]()
 
-### [Realistic Adversarial Examples in 3D Meshes](https://www.researchgate.net/publication/328280648_Realistic_Adversarial_Examples_in_3D_Meshes)
-- 2018
-![Rmesh](figures/Rmesh.png)
-
-### [MeshAdv: Adversarial Meshes for Visual Recognition](https://arxiv.org/abs/1810.05206)
-- 2019 CVPR
-![figure](figures/meshAdv.png)
-
 ### [Strike (With) a Pose: Neural Networks Are Easily Fooled by Strange Poses of Familiar Objects](https://arxiv.org/abs/1811.11553）
 
 ### [Optical Adversarial Attack](https://openaccess.thecvf.com/content/ICCV2021W/AROW/html/Gnanasambandam_Optical_Adversarial_Attack_ICCVW_2021_paper.html)
 - 2021 ICCV
-
-### [Isometric 3D Adversarial Examples in the Physical World](https://deepai.org/publication/isometric-3d-adversarial-examples-in-the-physical-world)
-- 2022
-![figure](figures/e-isometric.png)
 
 ### [Boosting 3D Adversarial Attacks with Attacking On Frequency](https://www.researchgate.net/publication/358142659_Boosting_3D_Adversarial_Attacks_with_Attacking_On_Frequency)
 - 2022
@@ -215,6 +203,25 @@
 - Graph Spectral Domain Attack (GSDA)
 - [code](https://github.com/WoodwindHu/GSD)
 ![figure](figures/GSDA3D.png)
+
+
+## Mesh
+### [Realistic Adversarial Examples in 3D Meshes](https://www.researchgate.net/publication/328280648_Realistic_Adversarial_Examples_in_3D_Meshes)
+- 2018
+![Rmesh](figures/Rmesh.png)
+
+### [MeshAdv: Adversarial Meshes for Visual Recognition](https://arxiv.org/abs/1810.05206)
+- 2019 CVPR
+![figure](figures/meshAdv.png)
+
+### [Isometric 3D Adversarial Examples in the Physical World](https://deepai.org/publication/isometric-3d-adversarial-examples-in-the-physical-world)
+- 2022
+![figure](figures/e-isometric.png)
+
+### [SAGA: Spectral Adversarial Geometric Attack on 3D Meshes](https://openaccess.thecvf.com/content/ICCV2023/papers/Stolik_SAGA_Spectral_Adversarial_Geometric_Attack_on_3D_Meshes_ICCV_2023_paper.pdf)
+- 2023 CVPR
+
+### [Random Walks for Adversarial Meshes](https://dl.acm.org/doi/pdf/10.1145/3528233.3530710)
 
 ## Backdoor 3D point Cloud attack
 
