@@ -716,3 +716,18 @@ method to skin lesion diagnosis to determine the effect of artefacts, such as in
 model bias.
 
 **why interesting** Two metrics for globel saliency map
+
+### [Evaluation of post-hoc interpretability methods in time-series classification](https://www.nature.com/articles/s42256-023-00620-w)
+- 2023
+
+### [Evaluation of interpretability methods for multivariate time series forecasting](https://pubmed.ncbi.nlm.nih.gov/34764613/)
+-2022
+
+### [Interpretability and fairness evaluation of deep learning models on MIMIC‑IV dataset](https://www.nature.com/articles/s41598-022-11012-2)
+- 2022
+
+### [Eye into AI: Evaluating the Interpretability of Explainable AI Techniques through a Game With a Purpose](https://dl.acm.org/doi/pdf/10.1145/3610064)
+- 2023
+
+ ### [Exploring Evaluation Methods for Interpretable Machine Learning: A Survey](https://www.mdpi.com/2078-2489/14/8/469)
+ - 2023
