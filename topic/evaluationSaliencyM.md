@@ -733,3 +733,7 @@ model bias.
 
  ### [Exploring Evaluation Methods for Interpretable Machine Learning: A Survey](https://www.mdpi.com/2078-2489/14/8/469)
  - 2023
+ - 
+ ### [Evaluating Saliency Map Explanations for Convolutional Neural Networks: A User Study](https://dl.acm.org/doi/pdf/10.1145/3377325.3377519)
+
+
