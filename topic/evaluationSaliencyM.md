@@ -35,9 +35,11 @@ unifies diverse explanation methods, our work characterizes the behaviour of the
 methods and their relation to one another, guides the choice of explanation methods,
 and paves the way for the creation of new ones.
 
-**why interesting** provide mathmatical analysis
+**why interesting** provide mathmatical analysis；I would say the definition of LFA is more like the robustness/consistency of explanation methods
 
 ### [What Do Different Evaluation Metrics Tell Us About Saliency Models?](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8315047)
+**year** 2019
+They use eye tracking as ground truth!!!!!! Is it fair??
 
 ### [Convolutional Dynamic Alignment Networks for Interpretable Classifications](https://arxiv.org/pdf/2104.00032.pdf)
 
