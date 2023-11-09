@@ -738,4 +738,21 @@ model bias.
  - 
  ### [Evaluating Saliency Map Explanations for Convolutional Neural Networks: A User Study](https://dl.acm.org/doi/pdf/10.1145/3377325.3377519)
 
+ ### [HSI: Human Saliency Imitator for Benchmarking Saliency-Based Model Explanations](https://ojs.aaai.org/index.php/HCOMP/article/download/22002/21778)
+ - AAAI 2022
+
+### [Evaluating perceptual and semantic interoperability of saliency methods: A case study of melanoma](https://onlinelibrary.wiley.com/doi/pdf/10.1002/ail2.77)
+
+### [Detection defense against adversarial attacks with saliency map](https://onlinelibrary.wiley.com/doi/pdf/10.1002/int.22458)
+
+
+### [Overlooked Trustworthiness of Saliency Maps](https://link.springer.com/chapter/10.1007/978-3-031-16437-8_43)
+- 2022
+
+### [Evaluating the faithfulness of saliency maps in explaining deep learning models using realistic perturbations](https://www.sciencedirect.com/science/article/abs/pii/S0306457322003260)
+- 2023
+
+### [Shared Interest...Sometimes: Understanding the Alignment between Human Perception, Vision Architectures, and Saliency Map Techniques](https://openaccess.thecvf.com/content/CVPR2023W/XAI4CV/papers/Morrison_Shared_Interest...Sometimes_Understanding_the_Alignment_Between_Human_Perception_Vision_Architectures_CVPRW_2023_paper.pdf)
+- cvpr workshop 2023
+
 
