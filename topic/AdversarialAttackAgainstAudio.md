@@ -8,6 +8,7 @@
 
 ### [Audio adversarial examples: Targeted attacks on speech-to-text](https://ieeexplore.ieee.org/iel7/8420091/8424589/08424625.pdf)
 - 2018 SP
+![](figures/AAA-AAETAST.png)
 
 ### [Robust audio adversarial example for a physical attack](https://arxiv.org/pdf/1810.11793)
 - 2018 arxiv
