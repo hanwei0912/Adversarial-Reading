@@ -12,6 +12,7 @@
 
 ### [Robust audio adversarial example for a physical attack](https://arxiv.org/pdf/1810.11793)
 - 2018 arxiv
+![](figures/AAA-RAEPA.png)
 
 ### [Characterizing audio adversarial examples using temporal dependency](https://arxiv.org/pdf/1809.10875)
 - 2018 arxiv
