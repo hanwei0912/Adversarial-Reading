@@ -16,6 +16,7 @@
 
 ### [Characterizing audio adversarial examples using temporal dependency](https://arxiv.org/pdf/1809.10875)
 - 2018 arxiv
+![](figures/AAA-CAAEUTD.png)
 
 ### [Targeted adversarial examples for black box audio systems](https://ieeexplore.ieee.org/iel7/8834415/8844588/08844615.pdf)
 - 2019 SP
