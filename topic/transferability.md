@@ -48,6 +48,10 @@ Wp is a special uniform project kernel, it is to reuse the cut noise to alleviat
 
 **comments**
 - make since to use the gradient variance to make it more stable but why L1 norm???
+- 
+
+### [Towards Transferable Adversarial Attacks with Centralized Perturbation](https://arxiv.org/pdf/2312.06199.pdf)
+![1](figures/aa-ttaacp.png)
 
 ## Augmenting Image Data
 
@@ -76,6 +80,9 @@ Wp is a special uniform project kernel, it is to reuse the cut noise to alleviat
 ![1](figures/admix.png)
 ![1](figures/mixupVSadmix.png)
 ![1](figures/admix-eq.png)
+
+### [Rethinking Mixup for Improving the Adversarial Transferability](https://arxiv.org/pdf/2311.17087.pdf)
+![1](figures/aa-rmiat.png)
 
 ### [Nesterov Accelerated Gradient and Scale Invariance for Adversarial Attacks](https://arxiv.org/abs/1908.06281)
 
