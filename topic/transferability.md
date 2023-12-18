@@ -89,6 +89,9 @@ Wp is a special uniform project kernel, it is to reuse the cut noise to alleviat
 ![1](figures/sim.png)
 ![1](figures/si-ni-fgsm.png)
 
+
+### [Improving the transferability of adversarial samples with channel switching](https://link.springer.com/article/10.1007/s10489-023-05160-9)
+
 ## New loss functions
 
 ### [Feature space perturbations yield more transferable adversarial examples](https://openaccess.thecvf.com/content_CVPR_2019/papers/Inkawhich_Feature_Space_Perturbations_Yield_More_Transferable_Adversarial_Examples_CVPR_2019_paper.pdf)
