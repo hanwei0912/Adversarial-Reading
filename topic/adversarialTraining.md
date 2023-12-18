@@ -16,3 +16,6 @@ performance over the union
 - MART: Misclassification Aware adveRsarial Training (MART), which explicitly differentiates the misclassified and correctly classified examples during the training
 
 ### [Theoretically Principled Trade-off between Robustness and Accuracy](http://proceedings.mlr.press/v97/zhang19p/zhang19p.pdf)
+
+
+### [FASTEN: Fast Ensemble Learning For Improved Adversarial Robustness](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10329935)
