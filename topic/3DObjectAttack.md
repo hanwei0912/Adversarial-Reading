@@ -260,7 +260,7 @@
 ### [Multi-view Correlation based Black-box Adversarial Attack for 3D Object Detection](https://dl.acm.org/doi/abs/10.1145/3447548.3467432?casa_token=ZPKkwkXfDbYAAAAA%3APLJ3lAwHGomQQraFmYmt8wTJp7HZssc1khWYdPJ0vGHjXU8_JA6GIensxqeNYN5Tig4pEqaQHNu9c9Y)
 -SIGKDD 2021
 
-
+### [Generating Visually Realistic Adversarial Patch](https://arxiv.org/pdf/2312.03030.pdf)
 
 ## Security of Autonomous Systems
 
