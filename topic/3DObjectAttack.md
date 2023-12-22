@@ -22,6 +22,10 @@
 ### [Adversarial objects against lidar-based autonomous driving systems](https://arxiv.org/abs/1907.05418)
 -2019
 
+### [Simple Physical Adversarial Examples against End-to-End Autonomous Driving Models](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8782514)
+- 2019 IEEE
+![figures](figures/3DOA-spaeeeadm.png)
+
 ### [Adversarial Camera Stickers: A Physical Camera-based Attack on Deep Learning Systems](https://arxiv.org/abs/1904.00759)
 - 2019 ICML
 - [code](https://github.com/yoheikikuta/adversarial-camera-stickers)
