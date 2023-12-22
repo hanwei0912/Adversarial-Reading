@@ -94,6 +94,8 @@
 ### [Adversarial Attacks Beyond the Image Space](https://openaccess.thecvf.com/content_CVPR_2019/html/Zeng_Adversarial_Attacks_Beyond_the_Image_Space_CVPR_2019_paper.html)
 - 2019 CVPR
 
+### [Adversarial Attacks on Multi-task Visual Perception for Autonomous Driving](https://arxiv.org/pdf/2107.07449.pdf?trk=public_post_comment-text)
+- 2021
 
 ## 3D object attack
 
