@@ -43,6 +43,10 @@
 - 2020 CVPR
 ![figure](figures/LidarMesh.png)
 
+### [PhysGAN: Generating Physical-World-Resilient Adversarial Examples for Autonomous Driving](https://openaccess.thecvf.com/content_CVPR_2020/papers/Kong_PhysGAN_Generating_Physical-World-Resilient_Adversarial_Examples_for_Autonomous_Driving_CVPR_2020_paper.pdf)
+- 2020 CVPR
+![](figures/3DOA-physGan.png)
+
 ### [Towards Robust LiDAR-based Perception in Autonomous Driving: General Black-box Adversarial Sensor Attack and Countermeasures](https://www.usenix.org/system/files/sec20-sun.pdf)
 - 2020 Usenix Security
 
