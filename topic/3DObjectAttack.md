@@ -51,6 +51,9 @@
 ### [Towards Robust LiDAR-based Perception in Autonomous Driving: General Black-box Adversarial Sensor Attack and Countermeasures](https://www.usenix.org/system/files/sec20-sun.pdf)
 - 2020 Usenix Security
 
+### [An Analysis of Adversarial Attacks and Defenses on Autonomous Driving Models](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9127389)
+- 2020 IEEE PerCom
+
 ### [Counteracting adversarial attacks in autonomous driving](https://dl.acm.org/doi/pdf/10.1145/3400302.3415758?casa_token=aG42HApfp_sAAAAA:2gBYrj3yX7gxV4ZCGzfIhrGyLXxd2dAHJ5C8sNZ7MSeI2jfoS3MwxqRKQxGujFbaUyEy4HvFDshx)
 - 2020
 ![](figures/3DOA-CAAAD.png)
