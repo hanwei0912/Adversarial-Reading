@@ -129,3 +129,9 @@ with respect to transformations of the input.
 - ICCV 2021 Taylor-CAM
 - Interaction effects
 
+### [Evaluating XAI: A comparison of rule-based and example-based explanations](https://www.sciencedirect.com/science/article/pii/S0004370220301533?dgcid=raven_sd_recommender_email)
+
+### [Generating knowledge aware explanation for natural language inference](https://www.sciencedirect.com/science/article/pii/S0306457322003466?dgcid=raven_sd_recommender_email)
+
+### [Explaining Deep Learning using examples: Optimal feature weighting methods for twin systems using post-hoc, explanation-by-example in XAI](https://www.sciencedirect.com/science/article/pii/S0950705121007929?dgcid=raven_sd_recommender_email)
+
