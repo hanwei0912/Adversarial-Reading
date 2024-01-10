@@ -737,6 +737,7 @@ model bias.
  - 2023
  - 
  ### [Evaluating Saliency Map Explanations for Convolutional Neural Networks: A User Study](https://dl.acm.org/doi/pdf/10.1145/3377325.3377519)
+![](figures/EI-ESMECNN-US.png)
 
  ### [HSI: Human Saliency Imitator for Benchmarking Saliency-Based Model Explanations](https://ojs.aaai.org/index.php/HCOMP/article/download/22002/21778)
  - AAAI 2022
