@@ -303,22 +303,13 @@ provided feedback or received explanations.
 
 **why interesting** discuss the interpretablity and feedback
 
-### [Evaluating Saliency Map Explanations for Convolutional Neural Networks: A User Study](https://arxiv.org/pdf/2002.00772.pdf)
 
-**year** 2020 Feb
-
-**abstract** In this paper,
-we report on an online between-group user study designed to evaluate the performance of “saliency maps” - a popular explanation
-algorithm for image classification applications of CNNs. Our results
-indicate that saliency maps produced by the LRP algorithm helped
-participants to learn about some specific image features the system
-is sensitive to. However, the maps seem to provide very limited
-help for participants to anticipate the network’s output for new
-images. Drawing on our findings, we highlight implications for design and further research on explainable AI. In particular, we argue
-the HCI and AI communities should look beyond instance-level
-explanations.
 
 **why interesting** talking about the unalignment between saliency map and scores, it might explain why AI/AD work but visualization does not good
+
+### [Are Explanations Helpful? A Comparative Study of the Effects of Explanations in AI-Assisted Decision-Making](https://dl.acm.org/doi/pdf/10.1145/3397481.3450650)
+- In 26th International Conference on Intelligent User Interfaces (IUI ’21)
+![](figures/EI-AEACCSTTADM.png)
 
 ### [A SIMPLE TECHNIQUE TO ENABLE SALIENCY METHODS TO PASS THE SANITY CHECKS](https://openreview.net/pdf?id=BJeGZxrFvS)
 https://arxiv.org/pdf/1905.12152.pdf?ref=https://githubhelp.com
@@ -737,6 +728,20 @@ model bias.
  - 2023
  - 
  ### [Evaluating Saliency Map Explanations for Convolutional Neural Networks: A User Study](https://dl.acm.org/doi/pdf/10.1145/3377325.3377519)
+
+**year** 2020 Feb
+
+**abstract** In this paper,
+we report on an online between-group user study designed to evaluate the performance of “saliency maps” - a popular explanation
+algorithm for image classification applications of CNNs. Our results
+indicate that saliency maps produced by the LRP algorithm helped
+participants to learn about some specific image features the system
+is sensitive to. However, the maps seem to provide very limited
+help for participants to anticipate the network’s output for new
+images. Drawing on our findings, we highlight implications for design and further research on explainable AI. In particular, we argue
+the HCI and AI communities should look beyond instance-level
+explanations.
+
 ![](figures/EI-ESMECNN-US.png)
 
  ### [HSI: Human Saliency Imitator for Benchmarking Saliency-Based Model Explanations](https://ojs.aaai.org/index.php/HCOMP/article/download/22002/21778)
