@@ -135,3 +135,5 @@ with respect to transformations of the input.
 
 ### [Explaining Deep Learning using examples: Optimal feature weighting methods for twin systems using post-hoc, explanation-by-example in XAI](https://www.sciencedirect.com/science/article/pii/S0950705121007929?dgcid=raven_sd_recommender_email)
 
+### [Counterfactual-based Saliency Map: Towards Visual Contrastive Explanations for Neural Networks](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_Counterfactual-based_Saliency_Map_Towards_Visual_Contrastive_Explanations_for_Neural_Networks_ICCV_2023_paper.pdf)
+![](figures/I-CSMTVCENN.png)
