@@ -763,3 +763,7 @@ explanations.
 
 ###[Evaluating the Faithfulness of Saliency-based Explanations for Deep Learning Models for Temporal Colour Constancy](https://arxiv.org/pdf/2211.07982.pdf)
 - 2022
+
+### [Evaluating Explanation Without Ground Truth in Interpretable Machine Learning](https://arxiv.org/pdf/1907.06831.pdf)
+- 2019
+![](figures/EE-EEWGTIML.png)
