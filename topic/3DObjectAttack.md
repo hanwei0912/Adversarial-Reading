@@ -39,6 +39,7 @@
 
 ### [CAMOU: Learning A Vehicle Camouflage For Physical Adversarial Attack On Object Detections In The Wild](https://www.semanticscholar.org/paper/CAMOU%3A-Learning-Physical-Vehicle-Camouflages-to-in-Zhang-Foroosh/2ee77a5fa75717118b62833f4cf111cfd0293aec)
 - 2019 ICLR
+![figure](figures/3DOA-CAMOU.png)
 
 ### [Physically Realizable Adversarial Examples for LiDAR Object Detection](https://openaccess.thecvf.com/content_CVPR_2020/html/Tu_Physically_Realizable_Adversarial_Examples_for_LiDAR_Object_Detection_CVPR_2020_paper.html)
 - 2020 CVPR
