@@ -1,3 +1,13 @@
+### [Evaluating the Explainability of Attributes and Prototypes for a Medical Classification Model](https://arxiv.org/pdf/2404.09917v1)
+
+### [Survey on Explainable AI: Techniques, Challenges and Open Issues](https://www.sciencedirect.com/science/article/pii/S095741742401577X)
+
+### [Example or Prototype? Learning Concept-Based Explanations in Time-Series](https://proceedings.mlr.press/v189/obermair23a/obermair23a.pdf)
+
+### [Natural Example-Based Explainability: a Survey](https://arxiv.org/pdf/2309.03234)
+
+### []
+
 ### [Describe, Spot and Explain: Interpretable Representation Learning for Discriminative Visual Reasoning](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10106785)
 
 ### [Post-hoc Part-prototype Networks](https://arxiv.org/abs/2406.03421)
