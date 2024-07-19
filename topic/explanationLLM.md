@@ -22,6 +22,8 @@
 
 ## LLM for automorous driving
 
+### [EMPOWERING AUTONOMOUS DRIVING WITH LARGE LANGUAGE MODELS: A SAFETY PERSPECTIVE](https://arxiv.org/pdf/2312.00812v4)
+
 ### [LLM4Drive: A Survey of Large Language Models for Autonomous Driving](https://arxiv.org/pdf/2311.01043)
 
 ### [Vision-and-Language Navigation: A Survey of Tasks, Methods, and Future Directions](https://arxiv.org/pdf/2203.12667)
