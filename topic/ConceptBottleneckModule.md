@@ -1,5 +1,7 @@
 ## 2024
 
+### [Visual-TCAV: Concept-based Attribution and Saliency Maps for Post-hoc Explainability in Image Classification](https://arxiv.org/pdf/2411.05698?)
+
 ### [On the Concept Trustworthiness in Concept Bottleneck Models](https://arxiv.org/abs/2403.14349)
 - concept trustworthness score  **We need to check it**
 - three modules: cross-layer alignment, prediction alignment, cross-image alignment
