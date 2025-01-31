@@ -61,3 +61,4 @@ CUB: pcbm 63.5 this 81.2
 ## 2022
 
 ### [Concept Embedding Models: Beyond the Accuracy-Explainability Trade-Off](https://proceedings.neurips.cc/paper_files/paper/2022/file/867c06823281e506e8059f5c13a57f75-Paper-Conference.pdf)
+- concept alignment score: measures how much learnt concept representation can be trusted as faithful representations of their ground truth concept labels
