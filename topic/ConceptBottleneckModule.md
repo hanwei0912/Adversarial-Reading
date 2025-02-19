@@ -55,7 +55,15 @@ CUB: pcbm 63.5 this 81.2
 
 ### [A Closer Look at the Intervention Procedure of Concept Bottleneck Models](https://proceedings.mlr.press/v202/shin23a/shin23a.pdf)
 
+### [SURROCBM: CONCEPT BOTTLENECK SURROGATE MODELS FOR GENERATIVE POST-HOC EXPLANATION](https://arxiv.org/pdf/2310.07698)
+They addressing three challenges: 1) briding the gap between concepts for data and post-hoc explanations; 2) aligning the shared related concepts for multiple classifier; 3) ensuring high fidelity of surrogate models.
+
+They use SurroCBM to explain a source black-box model. They propose three loss for training: identifiability loss; fidelity loss; and explainability loss. In explainability loss, there are disentanglement of concept, sparsity of explanation mask, simplicity of decision trees.
+
 ### [Probabilistic Concept Bottleneck Models](https://arxiv.org/pdf/2306.01574)
+
+It attempts to provide a reliable interpretation against the ambiguous in the data by proposing ProbCBM and using probabilistic embedding module to learn a probabilistic concept embedding based on the backbone.
+
 
 ### [POST-HOC CONCEPT BOTTLENECK MODELS](https://arxiv.org/pdf/2205.15480)
 PRoblem: CBMs are restrictive in practice as they require dense concept
