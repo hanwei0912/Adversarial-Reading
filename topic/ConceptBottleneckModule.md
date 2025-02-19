@@ -57,6 +57,21 @@ CUB: pcbm 63.5 this 81.2
 
 ### [Probabilistic Concept Bottleneck Models](https://arxiv.org/pdf/2306.01574)
 
+### [POST-HOC CONCEPT BOTTLENECK MODELS](https://arxiv.org/pdf/2205.15480)
+PRoblem: CBMs are restrictive in practice as they require dense concept
+annotations in the training data to learn the bottleneck; CBMs often do not match the accuracy of an unrestricted neural network, reducing the incentive to deploy them in practice
+
+Solution: Post-hoc Concept Bottleneck models (PCBMs) 
+can turn any neural network into a PCBM without sacrificing model performance
+while still retaining the interpretability benefits. When concept annotations are
+not available on the training data, we show that PCBM can transfer concepts from
+other datasets or from natural language descriptions of concepts via multimodal
+models. A key benefit of PCBM is that it enables users to quickly debug and
+update the model to reduce spurious correlations and improve generalization to
+new distributions. PCBM allows for global model edits, which can be more
+efficient than previous works on local interventions that fix a specific prediction.
+Through a model-editing user study, we show that editing PCBMs via conceptlevel feedback can provide significant performance gains without using data from
+the target domain or model retraining.
 
 ## 2022
 
