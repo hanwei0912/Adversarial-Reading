@@ -55,6 +55,14 @@ CUB: pcbm 63.5 this 81.2
 
 ### [A Closer Look at the Intervention Procedure of Concept Bottleneck Models](https://proceedings.mlr.press/v202/shin23a/shin23a.pdf)
 
+### [LABEL-FREE CONCEPT BOTTLENECK MODELS](https://arxiv.org/pdf/2304.06129)
+Label-free CBM is a novel framework to transform any neural network
+into an interpretable CBM without labeled concept data, while retaining a high accuracy. Our Label-free CBM has many advantages, it is: scalable we present the first CBM scaled to ImageNet, efficient - creating a CBM takes only a few hours even for very large datasets, and automated - training it for a new dataset requires minimal human effort.
+
+Advantages: scalable, efficient, automated
+
+Using GPT to generate and filter concept set, then learn concept bottleneck layer (sim dis) and sparse final layer
+
 ### [SURROCBM: CONCEPT BOTTLENECK SURROGATE MODELS FOR GENERATIVE POST-HOC EXPLANATION](https://arxiv.org/pdf/2310.07698)
 They addressing three challenges: 1) briding the gap between concepts for data and post-hoc explanations; 2) aligning the shared related concepts for multiple classifier; 3) ensuring high fidelity of surrogate models.
 
