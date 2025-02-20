@@ -64,6 +64,9 @@ combining concept prediction uncertainty and influence of the
 concept on the final prediction achieves strong performance
 and outperforms static approaches as well as active feature
 acquisition methods proposed in the literature
+- concept prediction uncertainty
+- concept importance sore
+- acquisition cost
 
 ### [Language in a Bottle: Language Model Guided Concept Bottlenecks for Interpretable Image Classification](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_Language_in_a_Bottle_Language_Model_Guided_Concept_Bottlenecks_for_CVPR_2023_paper.pdf)
 They address these shortcomings and
