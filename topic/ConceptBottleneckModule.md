@@ -55,9 +55,13 @@ CUB: pcbm 63.5 this 81.2
 
 ### [A Closer Look at the Intervention Procedure of Concept Bottleneck Models](https://proceedings.mlr.press/v202/shin23a/shin23a.pdf)
 
+### [Towards a Deeper Understanding of Concept Bottleneck Models Through End-to-End Explanation](https://arxiv.org/pdf/2302.03578)
+- checking the relevance both from the input to the concept vector, confirming the relevance is distributed among the input feature, and from the concept vector to the final prediction.
+- quatitivative evaluation to measure the distance between the maximum input feature relevance and the ground truthe location (LRP,IG)
+- propotion of relevance as a measurement for explaining concept importance 
+
 ### [Interpreting Pretrained Language Models via Concept Bottlenecks](https://arxiv.org/pdf/2311.05014)
 - ChatGPT-guided Concept augmentation with concept-level mixup
-- 
 
 ### [Interactive Concept Bottleneck Models](https://ojs.aaai.org/index.php/AAAI/article/view/25736/25508)
 We extend CBMs
