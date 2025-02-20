@@ -54,6 +54,22 @@ CUB: pcbm 63.5 this 81.2
 ## 2023
 
 ### [A Closer Look at the Intervention Procedure of Concept Bottleneck Models](https://proceedings.mlr.press/v202/shin23a/shin23a.pdf)
+In this work,
+we develop various ways of selecting intervening
+concepts to improve the intervention effectiveness and conduct an array of in-depth analyses as
+to how they evolve under different circumstances.
+Specifically, we find that an informed intervention
+strategy can reduce the task error more than ten
+times compared to the current baseline under the
+same amount of intervention counts in realistic
+settings, and yet, this can vary quite significantly
+when taking into account different intervention
+granularity. We verify our findings through comprehensive evaluations, not only on the standard
+real datasets, but also on synthetic datasets that we
+generate based on a set of different causal graphs.
+We further discover some major pitfalls of the current practices which, without a proper addressing,
+raise concerns on reliability and fairness of the
+intervention procedure.
 
 ### [Towards a Deeper Understanding of Concept Bottleneck Models Through End-to-End Explanation](https://arxiv.org/pdf/2302.03578)
 - checking the relevance both from the input to the concept vector, confirming the relevance is distributed among the input feature, and from the concept vector to the final prediction.
