@@ -55,6 +55,11 @@ CUB: pcbm 63.5 this 81.2
 
 ### [A Closer Look at the Intervention Procedure of Concept Bottleneck Models](https://proceedings.mlr.press/v202/shin23a/shin23a.pdf)
 
+### [Learning Bottleneck Concepts in Image Classification](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Learning_Bottleneck_Concepts_in_Image_Classification_CVPR_2023_paper.pdf)
+Combine the bottleneck concept learner in self-supervision, (mixture the prototype network with concept, instead of learning prototype, learning concept feature)
+they have a feature aggregation to map attention output to concept feature
+they have reconstruction loss, contrastive loss; for the concept regularizer, they introduce individual consistency
+
 ### [Do Concept Bottleneck Models Obey Locality?](https://openreview.net/pdf?id=F6RPYDUIZr)
  Recent work, however, strongly suggests
 that this assumption may fail to hold in Concept Bottleneck Models (CBMs),
