@@ -20,6 +20,9 @@ is consistent with the ground-truth
 - sparse-CBM （Gumbel-max trick） **We need to check it**
 https://github.com/Andron00e/SparseCBM
 CUB: pcbm 63.92 this 80.02
+- concepts preparation
+- performance
+- editing model
 
 ### [Interpreting Pretrained Language Models via Concept Bottlenecks](https://arxiv.org/pdf/2311.05014)
 - Concept-Bottleneck-Enabled Pretrained Language Models
@@ -55,11 +58,85 @@ impact on computational resources
 
 ### [Incremental Residual Concept Bottleneck Models](https://openaccess.thecvf.com/content/CVPR2024/papers/Shang_Incremental_Residual_Concept_Bottleneck_Models_CVPR_2024_paper.pdf)
 
+### [FAITHFUL VISION-LANGUAGE INTERPRETATION VIA CONCEPT BOTTLENECK MODELS](https://openreview.net/pdf?id=rp0EdI8X4e)
+Labelfree CBMs have emerged to address this, but they remain unstable, affecting their
+faithfulness as explanatory tools. To address this issue of inherent instability, we
+introduce a formal definition for an alternative concept called the Faithful VisionLanguage Concept (FVLC) model. We present a methodology for constructing
+an FVLC that satisfies four critical properties. Our extensive experiments on four
+benchmark datasets using Label-free CBM model architectures demonstrate that
+our FVLC outperforms other baselines regarding stability against input and concept set perturbations. Our approach incurs minimal accuracy degradation compared to the vanilla CBM, making it a promising solution for reliable and faithful
+model interpretation.
+
 ### [Beyond Concept Bottleneck Models:How to Make Black Boxes Intervenable?](https://arxiv.org/pdf/2401.13544)
+An advantage of this model class is the user’s ability to intervene on predicted concept values, affecting the downstream output. In this work,
+we introduce a method to perform such concept-based interventions on pretrained
+neural networks, which are not interpretable by design, only given a small validation set with concept labels. Furthermore, we formalise the notion of intervenability
+as a measure of the effectiveness of concept-based interventions and leverage this
+definition to fine-tune black boxes. Empirically, we explore the intervenability of
+black-box classifiers on synthetic tabular and natural image benchmarks. We focus
+on backbone architectures of varying complexity, from simple, fully connected
+neural nets to Stable Diffusion. We demonstrate that the proposed fine-tuning improves intervention effectiveness and often yields better-calibrated predictions
 
 ### [ENERGY-BASED CONCEPT BOTTLENECK MODELS: UNIFYING PREDICTION, CONCEPT INTERVENTION, AND PROBABILISTIC INTERPRETATIONS](https://arxiv.org/pdf/2401.14142)
 https://github.com/xmed-lab/ECBM
 CUB: pcbm 63.5 this 81.2
+
+### [CONCEPT BOTTLENECK LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2412.07992)
+We introduce the Concept Bottleneck Large Language Model (CB-LLM), a pioneering approach to creating inherently interpretable Large Language Models (LLMs).
+Unlike traditional black-box LLMs that rely on post-hoc interpretation methods
+with limited neuron function insights, CB-LLM sets a new standard with its built-in
+interpretability, scalability, and ability to provide clear, accurate explanations. We
+investigate two essential tasks in the NLP domain: text classification and text
+generation. In text classification, CB-LLM narrows the performance gap with traditional black-box models and provides clear interpretability. In text generation, we
+show how interpretable neurons in CB-LLM can be used for concept detection and
+steering text generation. Our CB-LLMs enable greater interaction between humans
+and LLMs across a variety of tasks — a feature notably absent in existing LLMs.
+
+### [Learning to Intervene on Concept Bottlenecks](https://arxiv.org/pdf/2308.13453)
+ they allow users to perform interventional interactions on these concepts
+by updating the concept values and thus correcting the predictive output of the model. Up to this
+point, these interventions were typically applied
+to the model just once and then discarded. To
+rectify this, we present concept bottleneck memory models (CB2Ms), which keep a memory of past interventions. Specifically, CB2Ms leverage
+a two-fold memory to generalize interventions to
+appropriate novel situations, enabling the model
+to identify errors and reapply previous interventions. This way, a CB2M learns to automatically improve model performance from a few initially
+obtained interventions.
+
+### [Adaptive Concept Bottleneck for Foundation Models Under Distribution Shifts](https://arxiv.org/pdf/2412.14097?)
+we focus on the test-time deployment of such an interpretable CBM pipeline “in the wild”,
+where the input distribution often shifts from the original training distribution. We first
+identify the potential failure modes of such a pipeline under different types of distribution
+shifts. Then we propose an adaptive concept bottleneck framework to address these failure
+modes, that dynamically adapts the concept-vector bank and the prediction layer based
+solely on unlabeled data from the target domain, without access to the source (training)
+dataset.
+
+### [Relational Concept Bottleneck Models]()
+relational deep learning models, such as Graph Neural Networks (GNNs), are
+not as interpretable as CBMs. To overcome these limitations, we propose Relational Concept Bottleneck Models (R-CBMs), a family of relational deep learning
+methods providing interpretable task predictions. As special cases, we show that
+R-CBMs are capable of both representing standard CBMs and message-passing
+GNNs. To evaluate the effectiveness and versatility of these models, we designed a
+class of experimental problems, ranging from image classification to link prediction
+in knowledge graphs. In particular we show that R-CBMs (i) match generalization performance of existing relational black-boxes, (ii) support the generation
+of quantified concept-based explanations, (iii) effectively respond to test-time interventions, and (iv) withstand demanding settings including out-of-distribution
+scenarios, limited training data regimes, and scarce concept supervisions.
+
+### [Semi-supervised Concept Bottleneck Models](https://arxiv.org/pdf/2406.18992)
+These concept labels are typically provided by
+experts, which can be costly and require significant resources and effort. Additionally, concept saliency maps frequently misalign with input saliency maps, causing
+concept predictions to correspond to irrelevant input features - an issue related to
+annotation alignment. To address these limitations, we propose a new framework
+called SSCBM (Semi-supervised Concept Bottleneck Model). Our SSCBM is
+suitable for practical situations where annotated data is scarce. By leveraging joint
+training on both labeled and unlabeled data and aligning the unlabeled data at the
+concept level, we effectively solve these issues. We proposed a strategy to generate
+pseudo labels and an alignment loss.
+
+### [A Theoretical design of Concept Sets: improving the predictability of concept bottleneck models](https://openreview.net/pdf?id=oTv6Qa12G0)
+In this work, we define concepts within the machine learning context, highlighting their core properties: expressiveness and model-aware inductive bias, and
+we make explicit the underlying assumption of CBMs
 
 ### [Stochastic Concept Bottleneck Models](https://arxiv.org/pdf/2406.19272)
 We propose Stochastic Concept Bottleneck Models (SCBMs),
