@@ -55,6 +55,20 @@ CUB: pcbm 63.5 this 81.2
 
 ### [A Closer Look at the Intervention Procedure of Concept Bottleneck Models](https://proceedings.mlr.press/v202/shin23a/shin23a.pdf)
 
+### [Do Concept Bottleneck Models Obey Locality?](https://openreview.net/pdf?id=F6RPYDUIZr)
+ Recent work, however, strongly suggests
+that this assumption may fail to hold in Concept Bottleneck Models (CBMs),
+a quintessential family of concept-based interpretable architectures. In this
+paper, we investigate whether CBMs correctly capture the degree of conditional
+independence across concepts when such concepts are localised both spatially, by
+having their values entirely defined by a fixed subset of features, and semantically,
+by having their values correlated with only a fixed subset of predefined concepts.
+To understand locality, we analyse how changes to features outside of a concept’s
+spatial or semantic locality impact concept predictions. Our results suggest that
+even in well-defined scenarios where the presence of a concept is localised to a
+fixed feature subspace, or whose semantics are correlated to a small subset of
+other concepts, CBMs fail to learn this locality
+
 ### [LABEL-FREE CONCEPT BOTTLENECK MODELS](https://arxiv.org/pdf/2304.06129)
 Label-free CBM is a novel framework to transform any neural network
 into an interpretable CBM without labeled concept data, while retaining a high accuracy. Our Label-free CBM has many advantages, it is: scalable we present the first CBM scaled to ImageNet, efficient - creating a CBM takes only a few hours even for very large datasets, and automated - training it for a new dataset requires minimal human effort.
