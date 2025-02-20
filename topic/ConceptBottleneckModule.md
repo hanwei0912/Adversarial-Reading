@@ -61,6 +61,32 @@ impact on computational resources
 https://github.com/xmed-lab/ECBM
 CUB: pcbm 63.5 this 81.2
 
+### [Stochastic Concept Bottleneck Models](https://arxiv.org/pdf/2406.19272)
+We propose Stochastic Concept Bottleneck Models (SCBMs),
+a novel approach that models concept dependencies. In SCBMs, a single-concept
+intervention affects all correlated concepts, thereby improving intervention effectiveness. Unlike previous approaches that model the concept relations via an
+autoregressive structure, we introduce an explicit, distributional parameterization
+that allows SCBMs to retain the CBMs’ efficient training and inference procedure.
+Additionally, we leverage the parameterization to derive an effective intervention
+strategy based on the confidence region. 
+
+### [Explain via Any Concept: Concept Bottleneck Model with Open Vocabulary Concepts](https://arxiv.org/pdf/2408.02265)
+ (1) Aligning the feature space of a trainable image feature
+extractor with that of a CLIP’s image encoder via a prototype based
+feature alignment; (2) Simultaneously training an image classifier on the
+downstream dataset; (3) Reconstructing the trained classification head
+via any set of user-desired textual concepts encoded by CLIP’s text encoder. To reveal potentially missing concepts from users, we further propose to iteratively find the closest concept embedding to the residual
+parameters during the reconstruction until the residual is small enough.
+To the best of our knowledge, our “OpenCBM” is the first CBM with
+concepts of open vocabularies, providing users the unique benefit such
+as removing, adding, or replacing any desired concept to explain the
+model’s prediction even after a model is trained.
+
+- obtaining the importance of any desired concept
+- the discovery of missing concepts
+- concept removal from an unknown concept set
+- concept adding, removal and replacement in a known concept set
+
 ### [Improving Concept Alignment in Vision-Language Concept Bottleneck Models](https://arxiv.org/pdf/2405.01825)
  it is desired to build CBMs with concepts defined by human
 experts rather than LLM-generated ones to make them
