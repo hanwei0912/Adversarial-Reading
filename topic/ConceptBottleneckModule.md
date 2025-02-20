@@ -7,6 +7,12 @@
 - three modules: cross-layer alignment, prediction alignment, cross-image alignment
 https://github.com/hqhQAQ/ProtoCBM
 CUB: pcbm 58.8 this 68.3
+ (First step) To calculate this evaluation
+metric, our work first generates the corresponding region
+of each concept on the input image (i.e., the image region
+that the concept is predicted from). (Second step) Next, this
+evaluation metric estimates the concept trustworthiness according to whether the corresponding region of the concept
+is consistent with the ground-truth
 
 ### [Sparse Concept Bottleneck Models: Gumbel Tricks in Contrastive Learning](https://arxiv.org/pdf/2404.03323)
 - concept matrix search algorithm: define image-concept matrix, and class-concept matrix
@@ -28,6 +34,10 @@ CUB: pcbm 63.92 this 80.02
 
 ### [AnyCBMs: How to Turn Any Black Box into a Concept Bottleneck Model](https://arxiv.org/pdf/2405.16508)
 - **we might need to use this**
+- necessitate training a new model from the beginning, consuming significant resources
+and failing to utilize already trained large models. To address this issue, we introduce “AnyCBM”, a
+method that transforms any existing trained model into a Concept Bottleneck Model with minimal
+impact on computational resources
 
 ### [Driving through the Concept Gridlock: Unraveling Explainability Bottlenecks in Automated Driving](https://openaccess.thecvf.com/content/WACV2024/papers/Echterhoff_Driving_Through_the_Concept_Gridlock_Unraveling_Explainability_Bottlenecks_in_Automated_WACV_2024_paper.pdf)
 
@@ -50,6 +60,32 @@ CUB: pcbm 63.92 this 80.02
 ### [ENERGY-BASED CONCEPT BOTTLENECK MODELS: UNIFYING PREDICTION, CONCEPT INTERVENTION, AND PROBABILISTIC INTERPRETATIONS](https://arxiv.org/pdf/2401.14142)
 https://github.com/xmed-lab/ECBM
 CUB: pcbm 63.5 this 81.2
+
+### [Improving Concept Alignment in Vision-Language Concept Bottleneck Models](https://arxiv.org/pdf/2405.01825)
+ it is desired to build CBMs with concepts defined by human
+experts rather than LLM-generated ones to make them
+more trustworthy. In this work, we closely examine the
+faithfulness of VLM concept scores for such expert-defined
+concepts in domains like fine-grained bird species and animal
+classification. Our investigations reveal that VLMs like CLIP
+often struggle to correctly associate a concept with the
+corresponding visual input, despite achieving a high classification performance. This misalignment renders the resulting
+models difficult to interpret and less reliable. To address
+this issue, we propose a novel Contrastive Semi-Supervised
+(CSS) learning method that leverages a few labeled concept
+samples to activate truthful visual concepts and improve
+concept alignment in the CLIP model.
+- they addressed the locality faithfulness as limitations
+
+
+### [CONCEPT BOTTLENECK GENERATIVE MODELS](https://openreview.net/pdf?id=L9U5MJJleF)
+The concept bottleneck layer partitions the generative model into three
+parts: the pre-concept bottleneck portion, the CB layer, and the post-concept bottleneck portion. To train CB generative models, we complement the traditional
+task-based loss function for training generative models with a concept loss and an
+orthogonality loss. The CB layer and these loss terms are model agnostic, which
+we demonstrate by applying the CB layer to three different families of generative
+models: generative adversarial networks, variational autoencoders, and diffusion
+models.
 
 ## 2023
 
