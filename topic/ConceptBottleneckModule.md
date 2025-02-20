@@ -1,3 +1,71 @@
+## 2025
+
+### [VLG-CBM: Training Concept Bottleneck Models with Vision-Language Guidance](https://arxiv.org/pdf/2408.01432)
+First, the concepts predicted
+by CBL often mismatch the input image, raising doubts about the faithfulness of
+interpretation. Second, it has been shown that concept values encode unintended
+information: even a set of random concepts could achieve comparable test accuracy
+to state-of-the-art CBMs. To address these critical limitations, in this work, we
+propose a novel framework called Vision-Language-Guided Concept Bottleneck
+Model (VLG-CBM) to enable faithful interpretability with the benefits of boosted
+performance. Our method leverages off-the-shelf open-domain grounded object detectors to provide visually grounded concept annotation, which largely enhances the
+faithfulness of concept prediction while further improving the model performance.
+In addition, we propose a new metric called Number of Effective Concepts (NEC)
+to control the information leakage and provide better interpretability. 
+
+### [Zero-shot Concept Bottleneck Models](https://arxiv.org/pdf/2502.09018)
+However, they require target task training to learn input-to-concept
+and concept-to-label mappings, incurring target
+dataset collections and training resources. In this
+paper, we present zero-shot concept bottleneck
+models (Z-CBMs), which predict concepts and
+labels in a fully zero-shot manner without training neural networks. Z-CBMs utilize a largescale concept bank, which is composed of millions of vocabulary extracted from the web, to
+describe arbitrary input in various domains. For
+the input-to-concept mapping, we introduce concept retrieval, which dynamically finds inputrelated concepts by the cross-modal search on
+the concept bank. In the concept-to-label inference, we apply concept regression to select essential concepts from the retrieved concepts by
+sparse linear regression. Through extensive experiments, we confirm that our Z-CBMs provide
+interpretable and intervenable concepts without
+any additional training.
+
+### [Coarse-to-Fine Concept Bottleneck Models](https://proceedings.neurips.cc/paper_files/paper/2024/file/bdeab378efe6eb289714e2a5abc6ed42-Paper-Conference.pdf)
+This work targets ante hoc interpretability, and specifically Concept Bottleneck Models (CBMs). Our goal is to design a framework that admits a highly
+interpretable decision making process with respect to human understandable concepts, on two levels of granularity. To this end, we propose a novel two-level
+concept discovery formulation leveraging: (i) recent advances in vision-language
+models, and (ii) an innovative formulation for coarse-to-fine concept selection via
+data-driven and sparsity-inducing Bayesian arguments. Within this framework,
+concept information does not solely rely on the similarity between the whole image
+and general unstructured concepts; instead, we introduce the notion of concept
+hierarchy to uncover and exploit more granular concept information residing in
+patch-specific regions of the image scene.
+
+### [The Decoupling Concept Bottleneck Model](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10740789)
+This paper proves that insufficient concept information
+can lead to an inherent dilemma of concept and label distortions
+in CBM. To address this challenge, we propose the Decoupling
+Concept Bottleneck Model (DCBM), which comprises two phases:
+1) DCBM for prediction and interpretation, which decouples heterogeneous information into explicit and implicit concepts while
+maintaining high label and concept accuracy, and 2) DCBM for
+human-machine interaction, which automatically corrects labels
+and traces wrong concepts via mutual information estimation. The
+construction of the interaction system can be formulated as a light
+min-max optimization problem. Extensive experiments expose the
+success of alleviating concept/label distortions, especially when concepts are insufficient. In particular, we propose the Concept Contribution Score (CCS) to quantify the interpretability of DCBM.
+Numerical results demonstrate that CCS can be guaranteed by
+the Jensen-Shannon divergence constraint in DCBM. Moreover,
+DCBM expresses two effective human-machine interactions, including forward intervention and backward rectification, to further promote concept/label accuracy via interaction with human
+experts.
+
+### [Editable Concept Bottleneck Models](https://arxiv.org/pdf/2405.15476)
+In many scenarios, we often need to remove/insert some training data or new concepts from trained CBMs
+for reasons such as privacy concerns, data mislabelling, spurious concepts, and concept annotation errors. Thus, deriving efficient editable
+CBMs without retraining from scratch remains a
+challenge, particularly in large-scale applications.
+To address these challenges, we propose Editable
+Concept Bottleneck Models (ECBMs). Specifically, ECBMs support three different levels of
+data removal: concept-label-level, concept-level,
+and data-level. ECBMs enjoy mathematically rigorous closed-form approximations derived from
+influence functions that obviate the need for retraining. 
+
 ## 2024
 
 ### [Visual-TCAV: Concept-based Attribution and Saliency Maps for Post-hoc Explainability in Image Classification](https://arxiv.org/pdf/2411.05698?)
@@ -43,6 +111,12 @@ method that transforms any existing trained model into a Concept Bottleneck Mode
 impact on computational resources
 
 ### [Driving through the Concept Gridlock: Unraveling Explainability Bottlenecks in Automated Driving](https://openaccess.thecvf.com/content/WACV2024/papers/Echterhoff_Driving_Through_the_Concept_Gridlock_Unraveling_Explainability_Bottlenecks_in_Automated_WACV_2024_paper.pdf)
+We propose a new approach using concept
+bottlenecks as visual features for control command predictions and explanations of user and vehicle behavior. We
+learn a human-understandable concept layer that we use
+to explain sequential driving scenes while learning vehicle control commands. This approach can then be used to
+determine whether a change in a preferred gap or steering commands from a human (or autonomous vehicle) is
+led by an external stimulus or change in preferences.
 
 ### [Interpretable Concept Bottlenecks to Align Reinforcement Learning Agents](https://arxiv.org/pdf/2401.05821)
 
@@ -57,6 +131,43 @@ impact on computational resources
 ### [BREAKING THE ATTENTION BOTTLENECK](https://arxiv.org/pdf/2406.10906)
 
 ### [Incremental Residual Concept Bottleneck Models](https://openaccess.thecvf.com/content/CVPR2024/papers/Shang_Incremental_Residual_Concept_Bottleneck_Models_CVPR_2024_paper.pdf)
+
+
+### [CONCEPT BOTTLENECK MODELS WITHOUT PREDEFINED CONCEPTS](https://arxiv.org/pdf/2407.03921)
+There has been considerable recent interest in interpretable concept-based models such as Concept
+Bottleneck Models (CBMs), which first predict human-interpretable concepts and then map them
+to output classes. To reduce reliance on human-annotated concepts, recent works have converted
+pretrained black-box models into interpretable CBMs post-hoc. However, these approaches predefine
+a set of concepts, assuming which concepts a black-box model encodes in its representations. In this
+work, we eliminate this assumption by leveraging unsupervised concept discovery to automatically
+extract concepts without human annotations or a predefined set of concepts. We further introduce an
+input-dependent concept selection mechanism that ensures only a small subset of concepts is used
+across all classes.
+
+### [Improving Intervention Efficacy via Concept Realignment in Concept Bottleneck Models](https://arxiv.org/pdf/2405.01531?)
+existing approaches often require
+numerous human interventions per image to achieve strong performances, posing practical challenges in
+scenarios where obtaining human feedback is expensive. In this paper, we find that this is noticeably
+driven by an independent treatment of concepts during intervention, wherein a change of one concept
+does not influence the use of other ones in the model’s final decision. To address this issue, we introduce
+a trainable concept intervention realignment module, which leverages concept relations to realign concept
+assignments post-intervention. Across standard, real-world benchmarks, we find that concept realignment
+can significantly improve intervention efficacy; significantly reducing the number of interventions needed
+to reach a target classification performance or concept prediction accuracy. In addition, it easily integrates
+into existing concept-based architectures without requiring changes to the models themselves.
+
+### [Diverse Concept Proposals for Concept Bottleneck Models](https://arxiv.org/pdf/2412.18059)
+They identify a small number of humaninterpretable concepts in the data, which they then
+use to make predictions. Learning relevant concepts from data proves to be a challenging task.
+The most predictive concepts may not align with
+expert intuition, thus, failing interpretability with
+no recourse. Our proposed approach identifies
+a number of predictive concepts that explain the
+data. By offering multiple alternative explanations, we allow the human expert to choose the
+one that best aligns with their expectation. To
+demonstrate our method, we show that it is able
+discover all possible concept representations on a
+synthetic dataset.
 
 ### [FAITHFUL VISION-LANGUAGE INTERPRETATION VIA CONCEPT BOTTLENECK MODELS](https://openreview.net/pdf?id=rp0EdI8X4e)
 Labelfree CBMs have emerged to address this, but they remain unstable, affecting their
@@ -80,6 +191,25 @@ neural nets to Stable Diffusion. We demonstrate that the proposed fine-tuning im
 ### [ENERGY-BASED CONCEPT BOTTLENECK MODELS: UNIFYING PREDICTION, CONCEPT INTERVENTION, AND PROBABILISTIC INTERPRETATIONS](https://arxiv.org/pdf/2401.14142)
 https://github.com/xmed-lab/ECBM
 CUB: pcbm 63.5 this 81.2
+(1) they often fail to capture the high-order, nonlinear interaction between concepts, e.g., correcting a predicted concept (e.g., “yellow breast”) does not help correct highly correlated concepts (e.g., “yellow belly”), leading to suboptimal final accuracy; (2) they cannot
+naturally quantify the complex conditional dependencies between different concepts and class labels (e.g., for an image with the class label “Kentucky Warbler”
+and a concept “black bill”, what is the probability that the model correctly predicts another concept “black crown”), therefore failing to provide deeper insight
+into how a black-box model works. In response to these limitations, we propose
+Energy-based Concept Bottleneck Models (ECBMs). Our ECBMs use a set
+of neural networks to define the joint energy of candidate (input, concept, class)
+tuples. 
+
+### [CLIP-QDA: An Explainable Concept Bottleneck Model](https://arxiv.org/pdf/2312.00110)
+In this paper, we introduce an explainable algorithm designed from a multi-modal foundation
+model, that performs fast and explainable image classification. Drawing inspiration from
+CLIP-based Concept Bottleneck Models (CBMs), our method creates a latent space where
+each neuron is linked to a specific word. Observing that this latent space can be modeled
+with simple distributions, we use a Mixture of Gaussians (MoG) formalism to enhance the
+interpretability of this latent space. Then, we introduce CLIP-QDA, a classifier that only
+uses statistical values to infer labels from the concepts. In addition, this formalism allows for
+both sample-wise and dataset-wise explanations. These explanations come from the inner
+design of our architecture, our work is part of a new family of greybox models, combining
+performances of opaque foundation models and the interpretability of transparent models.
 
 ### [CONCEPT BOTTLENECK LARGE LANGUAGE MODELS](https://arxiv.org/pdf/2412.07992)
 We introduce the Concept Bottleneck Large Language Model (CB-LLM), a pioneering approach to creating inherently interpretable Large Language Models (LLMs).
