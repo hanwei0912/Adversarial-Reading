@@ -55,10 +55,30 @@ CUB: pcbm 63.5 this 81.2
 
 ### [A Closer Look at the Intervention Procedure of Concept Bottleneck Models](https://proceedings.mlr.press/v202/shin23a/shin23a.pdf)
 
+### [Language in a Bottle: Language Model Guided Concept Bottlenecks for Interpretable Image Classification](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_Language_in_a_Bottle_Language_Model_Guided_Concept_Bottlenecks_for_CVPR_2023_paper.pdf)
+They address these shortcomings and
+are first to show how to construct high-performance CBMs
+without manual specification of similar accuracy to black
+box models. 
+
+
 ### [Learning Bottleneck Concepts in Image Classification](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_Learning_Bottleneck_Concepts_in_Image_Classification_CVPR_2023_paper.pdf)
 Combine the bottleneck concept learner in self-supervision, (mixture the prototype network with concept, instead of learning prototype, learning concept feature)
 they have a feature aggregation to map attention output to concept feature
 they have reconstruction loss, contrastive loss; for the concept regularizer, they introduce individual consistency
+
+This paper proposes Bottleneck Concept Learner (BotCL), which represents an image solely by the presence/absence of concepts learned
+through training over the target task without explicit supervision over the concepts. It uses self-supervision and tailored regularizers so that learned concepts can be humanunderstandable. 
+- concept regularization: individual consistency, min-batch concept vector distance should be different from each other; mutual distinctiveness, the average concept vector from different min-batch should be differrent
+- quantization loss: less concept should be selected
+Evaluation:
+- coverage
+- completeness
+- purity
+- distinctiveness
+- concept discovery rate
+- concept consistency
+- mutual information between concept
 
 ### [Do Concept Bottleneck Models Obey Locality?](https://openreview.net/pdf?id=F6RPYDUIZr)
  Recent work, however, strongly suggests
