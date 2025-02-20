@@ -55,6 +55,16 @@ CUB: pcbm 63.5 this 81.2
 
 ### [A Closer Look at the Intervention Procedure of Concept Bottleneck Models](https://proceedings.mlr.press/v202/shin23a/shin23a.pdf)
 
+### [Interactive Concept Bottleneck Models](https://ojs.aaai.org/index.php/AAAI/article/view/25736/25508)
+We extend CBMs
+to interactive prediction settings where the model can query
+a human collaborator for the label to some concepts. We develop an interaction policy that, at prediction time, chooses
+which concepts to request a label for so as to maximally improve the final prediction. We demonstrate that a simple policy
+combining concept prediction uncertainty and influence of the
+concept on the final prediction achieves strong performance
+and outperforms static approaches as well as active feature
+acquisition methods proposed in the literature
+
 ### [Language in a Bottle: Language Model Guided Concept Bottlenecks for Interpretable Image Classification](https://openaccess.thecvf.com/content/CVPR2023/papers/Yang_Language_in_a_Bottle_Language_Model_Guided_Concept_Bottlenecks_for_CVPR_2023_paper.pdf)
 They address these shortcomings and
 are first to show how to construct high-performance CBMs
