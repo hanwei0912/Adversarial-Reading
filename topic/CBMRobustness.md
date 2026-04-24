@@ -30,3 +30,16 @@ Yu et al. (CVPR 2025) introduce Language‑Guided Concept Bottleneck Model
 1. Vanilla CBMs and SENNs are more vulnerable to adversarial attacks than comparable end‑to‑end models;
 2. Concept bottlenecks create new attack surfaces;
 3. Attackers can: flip concepts while preserving labels, or preserve labels while corrupting explanations.
+
+### [Flexible Concept Bottleneck Model (FCBM)](https://zhaoyang97.github.io/Paper-Notes/AAAI2026/interpretability/flexible_concept_bottleneck_model/)
+
+Du et al. (AAAI 2026) propose the Flexible Concept Bottleneck Model, which enables dynamic adaptation to changing concept sets via a hypernetwork‑based concept‑to‑label mapping and sparse concept selection. Their results demonstrate that CBMs can achieve strong accuracy while supporting concept replacement with minimal retraining. However, the robustness of such flexible concept representations remains unexplored, highlighting a critical open challenge at the intersection of interpretability, adaptability, and robustness.
+
+### [Concept Bottleneck Models for Explainable Decision Making: A Survey](https://www.researchgate.net/publication/399898851_Concept_Bottleneck_Models_for_Explainable_Decision_Making_A_Survey_of_Progress_Taxonomy_and_Future_Directions)
+
+The survey by Wang et al. (2026) provides a unified taxonomy of concept bottleneck models across concept acquisition, decision making, intervention, and evaluation. Importantly, it highlights robustness and semantic stability as emerging but unresolved challenges, positioning concept reliability—not merely interpretability—as a foundational requirement for trustworthy decision making.
+
+### [Explainable AI: A Review of Machine Learning Interpretability Methods](https://pmc.ncbi.nlm.nih.gov/articles/PMC7824368/)
+
+Linardatos et al. (Entropy 2021) present a comprehensive taxonomy of machine learning interpretability methods, categorizing approaches by timing, scope, and model dependence. The survey highlights fundamental limitations of post‑hoc explanations, including instability, approximation error, and the risk of over‑trust, thereby motivating the need for intrinsically interpretable and more faithful decision‑making frameworks. These observations lay the conceptual groundwork for later concept‑based and robustness‑oriented interpretability research.
+
