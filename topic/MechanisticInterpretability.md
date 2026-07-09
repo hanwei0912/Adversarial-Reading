@@ -33,6 +33,11 @@ Model output can be decomposed into:
 - Meaning: relationships are not complex nonlinear objects; they live in linear subspaces
 - Many high-level concepts are surprisingly linearly structured.
 
+### [Jump to Conclusions: Short-Cutting Transformers with Linear Transformations](https://arxiv.org/pdf/2303.09435)
+- 2023
+- Main idea: You can approximate LLM behavior by: applying simple linear transformations; skipping layers
+- Interpretation: much of computation is already decided early, later layers just refine
+
 ## “Lens” methods: peek into hidden states
 Goal: decode what the model “believes” at each layer
 
@@ -64,18 +69,43 @@ Goal: decode what the model “believes” at each layer
 ## Internal cognition / high-level structure
 Goal: identify global structures of reasoning 
 
+### [Progress Update #1 from the GDM Mech Interp Team](https://www.alignmentforum.org/posts/HpAr8k74mW4ivCvCu/summary-progress-update-1-from-the-gdm-mech-interp-team)
+- This is not a technical paper — it gives: research agenda, open problems, experimental directions
+- Key themes: circuit discovery, scaling interpretability, automated methods
+- Field is transitioning from manual analysis → scalable science.
 
 ### [Verbalizable Representations Form a Global Workspace in Language Models](https://transformer-circuits.pub/2026/workspace/index.html)
+- 2026
+- Main idea: LLMs develop a special subspace (J-space):small set of representations; accessible, controllable, reportable
+- Properties: These representations, correspond to concepts, can be verbalized, are used in reasoning, can be intentionally controlled
+
+
+## Others
+
+### [In-context Learning and Induction Heads](https://transformer-circuits.pub/2022/in-context-learning-and-induction-heads/index.html)
+- Identifies induction heads: attention heads implementing pattern copying
+- Mechanism: detect pattern [A] ... [A] → predict next token after previous A
+- Provides strong evidence they explain in-context learning (ICL)
+
+### [Toy Models of Superposition](https://transformer-circuits.pub/2022/toy_model/index.html)
+- Explains polysemantic neurons
+- Introduces superposition: many features stored in same dimension; causes neurons to be “messy”
+- Shows phase transitions and geometry effects
+
+### [Sparse Autoencoders Can Interpret Randomly Initialized Transformers](https://arxiv.org/abs/2501.17727)
+### [A Survey on Sparse Autoencoders: Interpreting the Internal Mechanisms of LLMs](https://aclanthology.org/2025.findings-emnlp.89/)
+### [How to use and interpret activation patching](https://arxiv.org/abs/2404.15255)
+### [Interpretability in the Wild: a Circuit for Indirect Object Identification in GPT-2 small](https://arxiv.org/abs/2211.00593)
+### [Understanding Scaling Laws with Statistical and Approximation Theory for Transformer Neural Networks](https://arxiv.org/abs/2411.06646)
 
 
 
-### [Progress Update #1 from the GDM Mech Interp Team](https://www.alignmentforum.org/posts/HpAr8k74mW4ivCvCu/summary-progress-update-1-from-the-gdm-mech-interp-team)
 
 
 
 
 
-### [Jump to Conclusions: Short-Cutting Transformers with Linear Transformations](https://arxiv.org/pdf/2303.09435)
+
 
 
 
